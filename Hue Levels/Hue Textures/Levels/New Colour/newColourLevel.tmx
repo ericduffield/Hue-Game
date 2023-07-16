@@ -1,0 +1,4351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="1" nextlayerid="7" nextobjectid="1">
+ <tileset firstgid="1" name="HueTileset" tilewidth="1920" tileheight="1832" tilecount="968" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="57">
+   <image width="256" height="256" source="../../1bitplatformerpack/Sprite/BlackFill.png"/>
+  </tile>
+  <tile id="136">
+   <image width="441" height="481" source="../../1bitplatformerpack/Sprite/Bricks1.png"/>
+  </tile>
+  <tile id="137">
+   <image width="521" height="280" source="../../1bitplatformerpack/Sprite/Bricks2.png"/>
+  </tile>
+  <tile id="138">
+   <image width="160" height="199" source="../../1bitplatformerpack/Sprite/Bricks3.png"/>
+  </tile>
+  <tile id="139">
+   <image width="438" height="401" source="../../1bitplatformerpack/Sprite/Bricks4.png"/>
+  </tile>
+  <tile id="140">
+   <image width="240" height="403" source="../../1bitplatformerpack/Sprite/Bricks5.png"/>
+  </tile>
+  <tile id="366">
+   <image width="123" height="78" source="../../1bitplatformerpack/Sprite/GroundShrooms1.png"/>
+  </tile>
+  <tile id="367">
+   <image width="64" height="70" source="../../1bitplatformerpack/Sprite/GroundShrooms2.png"/>
+  </tile>
+  <tile id="368">
+   <image width="65" height="75" source="../../1bitplatformerpack/Sprite/GroundShrooms3.png"/>
+  </tile>
+  <tile id="369">
+   <image width="26" height="62" source="../../1bitplatformerpack/Sprite/GroundShrooms4.png"/>
+  </tile>
+  <tile id="370">
+   <image width="101" height="69" source="../../1bitplatformerpack/Sprite/GroundShrooms5.png"/>
+  </tile>
+  <tile id="371">
+   <image width="92" height="42" source="../../1bitplatformerpack/Sprite/GroundShrooms6.png"/>
+  </tile>
+  <tile id="372">
+   <image width="57" height="55" source="../../1bitplatformerpack/Sprite/GroundShrooms7.png"/>
+  </tile>
+  <tile id="763">
+   <image width="119" height="169" source="../../1bitplatformerpack/Sprite/SpikesTop1.png"/>
+  </tile>
+  <tile id="764">
+   <image width="175" height="179" source="../../1bitplatformerpack/Sprite/SpikesTop2.png"/>
+  </tile>
+  <tile id="765">
+   <image width="359" height="115" source="../../1bitplatformerpack/Sprite/SpikesTop3.png"/>
+  </tile>
+  <tile id="766">
+   <image width="635" height="347" source="../../1bitplatformerpack/Sprite/SpikeyRock1.png"/>
+  </tile>
+  <tile id="767">
+   <image width="521" height="314" source="../../1bitplatformerpack/Sprite/SpikeyRock2.png"/>
+  </tile>
+  <tile id="768">
+   <image width="486" height="265" source="../../1bitplatformerpack/Sprite/SpikeyRock3.png"/>
+  </tile>
+  <tile id="769">
+   <image width="512" height="369" source="../../1bitplatformerpack/Sprite/SpikeyRock4.png"/>
+  </tile>
+  <tile id="575">
+   <image width="139" height="92" source="../../1bitplatformerpack/Sprite/MushroomSpindly1.png"/>
+  </tile>
+  <tile id="576">
+   <image width="94" height="70" source="../../1bitplatformerpack/Sprite/MushroomSpindly2.png"/>
+  </tile>
+  <tile id="577">
+   <image width="95" height="102" source="../../1bitplatformerpack/Sprite/MushroomSpindly3.png"/>
+  </tile>
+  <tile id="578">
+   <image width="161" height="120" source="../../1bitplatformerpack/Sprite/MushroomSpindly4.png"/>
+  </tile>
+  <tile id="579">
+   <image width="87" height="98" source="../../1bitplatformerpack/Sprite/MushroomSpindly5.png"/>
+  </tile>
+  <tile id="580">
+   <image width="172" height="216" source="../../1bitplatformerpack/Sprite/MushroomSpottyBig.png"/>
+  </tile>
+  <tile id="581">
+   <image width="81" height="156" source="../../1bitplatformerpack/Sprite/MushroomSpottyMedium.png"/>
+  </tile>
+  <tile id="582">
+   <image width="69" height="60" source="../../1bitplatformerpack/Sprite/MushroomSpottySmall.png"/>
+  </tile>
+  <tile id="583">
+   <image width="236" height="207" source="../../1bitplatformerpack/Sprite/MushroomThickBig.png"/>
+  </tile>
+  <tile id="584">
+   <image width="172" height="200" source="../../1bitplatformerpack/Sprite/MushroomThickMedium.png"/>
+  </tile>
+  <tile id="585">
+   <image width="77" height="103" source="../../1bitplatformerpack/Sprite/MushroomThickSmall.png"/>
+  </tile>
+  <tile id="774">
+   <image width="374" height="484" source="../../1bitplatformerpack/Sprite/StairRails.png"/>
+  </tile>
+  <tile id="775">
+   <image width="403" height="472" source="../../1bitplatformerpack/Sprite/Stairs.png"/>
+  </tile>
+  <tile id="526">
+   <image width="80" height="62" source="../../1bitplatformerpack/Sprite/Letter.png"/>
+  </tile>
+  <tile id="944">
+   <image width="369" height="249" source="../../1bitplatformerpack/Sprite/WireScenery1-mask.png"/>
+  </tile>
+  <tile id="945">
+   <image width="327" height="163" source="../../1bitplatformerpack/Sprite/WireScenery2-mask.png"/>
+  </tile>
+  <tile id="946">
+   <image width="360" height="241" source="../../1bitplatformerpack/Sprite/WireScenery3-mask.png"/>
+  </tile>
+  <tile id="947">
+   <image width="528" height="288" source="../../1bitplatformerpack/Sprite/WireScenery4-mask.png"/>
+  </tile>
+  <tile id="948">
+   <image width="410" height="164" source="../../1bitplatformerpack/Sprite/WireScenery5-mask.png"/>
+  </tile>
+  <tile id="949">
+   <image width="139" height="566" source="../../1bitplatformerpack/Sprite/WireScenery6-mask.png"/>
+  </tile>
+  <tile id="950">
+   <image width="324" height="279" source="../../1bitplatformerpack/Sprite/WireScenery7-mask.png"/>
+  </tile>
+  <tile id="934">
+   <image width="322" height="29" source="../../1bitplatformerpack/Sprite/WaterRocksLine.png"/>
+  </tile>
+  <tile id="935">
+   <image width="301" height="39" source="../../1bitplatformerpack/Sprite/WaterRocksLine2.png"/>
+  </tile>
+  <tile id="936">
+   <image width="321" height="31" source="../../1bitplatformerpack/Sprite/WaterRocksLine3.png"/>
+  </tile>
+  <tile id="792">
+   <image width="69" height="104" source="../../1bitplatformerpack/Sprite/TallGrass1.png"/>
+  </tile>
+  <tile id="793">
+   <image width="60" height="83" source="../../1bitplatformerpack/Sprite/TallGrass2.png"/>
+  </tile>
+  <tile id="794">
+   <image width="82" height="115" source="../../1bitplatformerpack/Sprite/TallGrass3.png"/>
+  </tile>
+  <tile id="795">
+   <image width="99" height="124" source="../../1bitplatformerpack/Sprite/TallGrass4.png"/>
+  </tile>
+  <tile id="796">
+   <image width="137" height="166" source="../../1bitplatformerpack/Sprite/TallGrass5.png"/>
+  </tile>
+  <tile id="797">
+   <image width="88" height="123" source="../../1bitplatformerpack/Sprite/TallGrass6.png"/>
+  </tile>
+  <tile id="798">
+   <image width="120" height="96" source="../../1bitplatformerpack/Sprite/TallGrass7.png"/>
+  </tile>
+  <tile id="951">
+   <image width="42" height="46" source="../../1bitplatformerpack/Sprite/WireSceneryDetail1-mask.png"/>
+  </tile>
+  <tile id="952">
+   <image width="54" height="33" source="../../1bitplatformerpack/Sprite/WireSceneryDetail2-mask.png"/>
+  </tile>
+  <tile id="953">
+   <image width="59" height="41" source="../../1bitplatformerpack/Sprite/WireSceneryDetail3-mask.png"/>
+  </tile>
+  <tile id="916">
+   <image width="136" height="33" source="../../1bitplatformerpack/Sprite/Vines1.png"/>
+  </tile>
+  <tile id="917">
+   <image width="105" height="189" source="../../1bitplatformerpack/Sprite/Vines3.png"/>
+  </tile>
+  <tile id="918">
+   <image width="103" height="69" source="../../1bitplatformerpack/Sprite/Vines5.png"/>
+  </tile>
+  <tile id="919">
+   <image width="128" height="126" source="../../1bitplatformerpack/Sprite/Vines6.png"/>
+  </tile>
+  <tile id="0">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/A.png"/>
+  </tile>
+  <tile id="1">
+   <image width="112" height="43" source="../../1bitplatformerpack/Sprite/action3-pc.png"/>
+  </tile>
+  <tile id="2">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/action3-xb.png"/>
+  </tile>
+  <tile id="3">
+   <image width="112" height="148" source="../../1bitplatformerpack/Sprite/AnchorSign.png"/>
+  </tile>
+  <tile id="4">
+   <image width="60" height="65" source="../../1bitplatformerpack/Sprite/AquaSymbol.png"/>
+  </tile>
+  <tile id="5">
+   <image width="677" height="311" source="../../1bitplatformerpack/Sprite/Arch.png"/>
+  </tile>
+  <tile id="6">
+   <image width="470" height="384" source="../../1bitplatformerpack/Sprite/ArchDecorationEdge2-mask.png"/>
+  </tile>
+  <tile id="7">
+   <image width="289" height="336" source="../../1bitplatformerpack/Sprite/ArchDecorationEdge-mask.png"/>
+  </tile>
+  <tile id="8">
+   <image width="15" height="255" source="../../1bitplatformerpack/Sprite/ArchDecorationEnd-mask.png"/>
+  </tile>
+  <tile id="9">
+   <image width="573" height="255" source="../../1bitplatformerpack/Sprite/ArchDecorationTile-mask.png"/>
+  </tile>
+  <tile id="10">
+   <image width="144" height="255" source="../../1bitplatformerpack/Sprite/ArchDecorationTileNarrow-mask.png"/>
+  </tile>
+  <tile id="11">
+   <image width="51" height="89" source="../../1bitplatformerpack/Sprite/Arm #580220.png"/>
+  </tile>
+  <tile id="12">
+   <image width="88" height="49" source="../../1bitplatformerpack/Sprite/Arm.png"/>
+  </tile>
+  <tile id="13">
+   <image width="23" height="45" source="../../1bitplatformerpack/Sprite/ArmBottom.png"/>
+  </tile>
+  <tile id="14">
+   <image width="70" height="128" source="../../1bitplatformerpack/Sprite/ArmLeft.png"/>
+  </tile>
+  <tile id="15">
+   <image width="39" height="46" source="../../1bitplatformerpack/Sprite/ArmLeftBottom.png"/>
+  </tile>
+  <tile id="16">
+   <image width="24" height="67" source="../../1bitplatformerpack/Sprite/ArmLeftTop.png"/>
+  </tile>
+  <tile id="17">
+   <image width="50" height="58" source="../../1bitplatformerpack/Sprite/ArmLeftTop-mask.png"/>
+  </tile>
+  <tile id="18">
+   <image width="16" height="54" source="../../1bitplatformerpack/Sprite/ArmLower.png"/>
+  </tile>
+  <tile id="19">
+   <image width="24" height="62" source="../../1bitplatformerpack/Sprite/ArmLower-mask.png"/>
+  </tile>
+  <tile id="20">
+   <image width="59" height="97" source="../../1bitplatformerpack/Sprite/Arm-mask.png"/>
+  </tile>
+  <tile id="21">
+   <image width="68" height="22" source="../../1bitplatformerpack/Sprite/ArmRightBottom.png"/>
+  </tile>
+  <tile id="22">
+   <image width="76" height="30" source="../../1bitplatformerpack/Sprite/ArmRightBottom-mask.png"/>
+  </tile>
+  <tile id="23">
+   <image width="42" height="66" source="../../1bitplatformerpack/Sprite/ArmRightTop.png"/>
+  </tile>
+  <tile id="24">
+   <image width="37" height="40" source="../../1bitplatformerpack/Sprite/ArmTop.png"/>
+  </tile>
+  <tile id="25">
+   <image width="27" height="53" source="../../1bitplatformerpack/Sprite/ArmUpper.png"/>
+  </tile>
+  <tile id="26">
+   <image width="35" height="61" source="../../1bitplatformerpack/Sprite/ArmUpper-mask.png"/>
+  </tile>
+  <tile id="27">
+   <image width="27" height="23" source="../../1bitplatformerpack/Sprite/Arrow-left.png"/>
+  </tile>
+  <tile id="28">
+   <image width="26" height="21" source="../../1bitplatformerpack/Sprite/Arrow-right.png"/>
+  </tile>
+  <tile id="29">
+   <image width="56" height="246" source="../../1bitplatformerpack/Sprite/Axe.png"/>
+  </tile>
+  <tile id="30">
+   <image width="64" height="254" source="../../1bitplatformerpack/Sprite/AxeMask.png"/>
+  </tile>
+  <tile id="31">
+   <image width="25" height="175" source="../../1bitplatformerpack/Sprite/AztecPatternEnd-mask.png"/>
+  </tile>
+  <tile id="32">
+   <image width="171" height="175" source="../../1bitplatformerpack/Sprite/AztecPattern-mask.png"/>
+  </tile>
+  <tile id="33">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/B.png"/>
+  </tile>
+  <tile id="34">
+   <image width="32" height="32" source="../../1bitplatformerpack/Sprite/Background #575807.png"/>
+  </tile>
+  <tile id="35">
+   <image width="1920" height="1080" source="../../1bitplatformerpack/Sprite/Background #579851.png"/>
+  </tile>
+  <tile id="36">
+   <image width="180" height="79" source="../../1bitplatformerpack/Sprite/Background.png"/>
+  </tile>
+  <tile id="37">
+   <image width="1920" height="1080" source="../../1bitplatformerpack/Sprite/Background-colour.png"/>
+  </tile>
+  <tile id="38">
+   <image width="812" height="495" source="../../1bitplatformerpack/Sprite/BackgroundObjects.png"/>
+  </tile>
+  <tile id="39">
+   <image width="310" height="158" source="../../1bitplatformerpack/Sprite/Balcony.png"/>
+  </tile>
+  <tile id="40">
+   <image width="168" height="107" source="../../1bitplatformerpack/Sprite/BalconyInside.png"/>
+  </tile>
+  <tile id="41">
+   <image width="170" height="193" source="../../1bitplatformerpack/Sprite/Balloon2.png"/>
+  </tile>
+  <tile id="42">
+   <image width="9" height="306" source="../../1bitplatformerpack/Sprite/Bar.png"/>
+  </tile>
+  <tile id="43">
+   <image width="27" height="30" source="../../1bitplatformerpack/Sprite/BeakerIcon #575841.png"/>
+  </tile>
+  <tile id="44">
+   <image width="45" height="50" source="../../1bitplatformerpack/Sprite/BeakerIcon.png"/>
+  </tile>
+  <tile id="45">
+   <image width="87" height="80" source="../../1bitplatformerpack/Sprite/Beard.png"/>
+  </tile>
+  <tile id="46">
+   <image width="89" height="37" source="../../1bitplatformerpack/Sprite/Beard-mask.png"/>
+  </tile>
+  <tile id="47">
+   <image width="203" height="170" source="../../1bitplatformerpack/Sprite/BedBack.png"/>
+  </tile>
+  <tile id="48">
+   <image width="120" height="61" source="../../1bitplatformerpack/Sprite/BedDetail-mask.png"/>
+  </tile>
+  <tile id="49">
+   <image width="238" height="105" source="../../1bitplatformerpack/Sprite/BedFront.png"/>
+  </tile>
+  <tile id="50">
+   <image width="246" height="113" source="../../1bitplatformerpack/Sprite/BedFront-mask.png"/>
+  </tile>
+  <tile id="51">
+   <image width="97" height="39" source="../../1bitplatformerpack/Sprite/BedPillow-mask.png"/>
+  </tile>
+  <tile id="52">
+   <image width="405" height="206" source="../../1bitplatformerpack/Sprite/Bench.png"/>
+  </tile>
+  <tile id="53">
+   <image width="223" height="143" source="../../1bitplatformerpack/Sprite/Bike2.png"/>
+  </tile>
+  <tile id="54">
+   <image width="223" height="131" source="../../1bitplatformerpack/Sprite/BikeFrame.png"/>
+  </tile>
+  <tile id="55">
+   <image width="163" height="164" source="../../1bitplatformerpack/Sprite/BikeWheel.png"/>
+  </tile>
+  <tile id="56">
+   <image width="103" height="163" source="../../1bitplatformerpack/Sprite/BirdCage.png"/>
+  </tile>
+  <tile id="58">
+   <image width="62" height="62" source="../../1bitplatformerpack/Sprite/BlueSymbol.png"/>
+  </tile>
+  <tile id="59">
+   <image width="883" height="693" source="../../1bitplatformerpack/Sprite/BoatEnterable.png"/>
+  </tile>
+  <tile id="60">
+   <image width="818" height="656" source="../../1bitplatformerpack/Sprite/BoatSmall.png"/>
+  </tile>
+  <tile id="61">
+   <image width="122" height="213" source="../../1bitplatformerpack/Sprite/Body #580219.png"/>
+  </tile>
+  <tile id="62">
+   <image width="50" height="67" source="../../1bitplatformerpack/Sprite/Body #580231.png"/>
+  </tile>
+  <tile id="63">
+   <image width="62" height="53" source="../../1bitplatformerpack/Sprite/Body #580532.png"/>
+  </tile>
+  <tile id="64">
+   <image width="132" height="141" source="../../1bitplatformerpack/Sprite/Body #580599.png"/>
+  </tile>
+  <tile id="65">
+   <image width="88" height="99" source="../../1bitplatformerpack/Sprite/Body #580633.png"/>
+  </tile>
+  <tile id="66">
+   <image width="81" height="120" source="../../1bitplatformerpack/Sprite/Body #581079.png"/>
+  </tile>
+  <tile id="67">
+   <image width="96" height="151" source="../../1bitplatformerpack/Sprite/Body #581284.png"/>
+  </tile>
+  <tile id="68">
+   <image width="55" height="124" source="../../1bitplatformerpack/Sprite/Body.png"/>
+  </tile>
+  <tile id="69">
+   <image width="89" height="51" source="../../1bitplatformerpack/Sprite/BodyDetail-mask.png"/>
+  </tile>
+  <tile id="70">
+   <image width="130" height="221" source="../../1bitplatformerpack/Sprite/Body-mask #580246.png"/>
+  </tile>
+  <tile id="71">
+   <image width="70" height="61" source="../../1bitplatformerpack/Sprite/BodyMask #580486.png"/>
+  </tile>
+  <tile id="72">
+   <image width="89" height="128" source="../../1bitplatformerpack/Sprite/BodyMask #581081.png"/>
+  </tile>
+  <tile id="73">
+   <image width="104" height="159" source="../../1bitplatformerpack/Sprite/Body-mask #581298.png"/>
+  </tile>
+  <tile id="74">
+   <image width="63" height="132" source="../../1bitplatformerpack/Sprite/BodyMask.png"/>
+  </tile>
+  <tile id="75">
+   <image width="96" height="107" source="../../1bitplatformerpack/Sprite/Body-mask.png"/>
+  </tile>
+  <tile id="76">
+   <image width="172" height="320" source="../../1bitplatformerpack/Sprite/BodyRing-mask.png"/>
+  </tile>
+  <tile id="77">
+   <image width="223" height="400" source="../../1bitplatformerpack/Sprite/Boiler1.png"/>
+  </tile>
+  <tile id="78">
+   <image width="57" height="34" source="../../1bitplatformerpack/Sprite/Bone.png"/>
+  </tile>
+  <tile id="79">
+   <image width="101" height="883" source="../../1bitplatformerpack/Sprite/BoneJoint.png"/>
+  </tile>
+  <tile id="80">
+   <image width="60" height="59" source="../../1bitplatformerpack/Sprite/BoneNoJoint.png"/>
+  </tile>
+  <tile id="81">
+   <image width="114" height="114" source="../../1bitplatformerpack/Sprite/BoneScaled.png"/>
+  </tile>
+  <tile id="82">
+   <image width="114" height="26" source="../../1bitplatformerpack/Sprite/book.png"/>
+  </tile>
+  <tile id="83">
+   <image width="108" height="24" source="../../1bitplatformerpack/Sprite/book-02.png"/>
+  </tile>
+  <tile id="84">
+   <image width="113" height="26" source="../../1bitplatformerpack/Sprite/book-03.png"/>
+  </tile>
+  <tile id="85">
+   <image width="95" height="23" source="../../1bitplatformerpack/Sprite/book-04.png"/>
+  </tile>
+  <tile id="86">
+   <image width="88" height="25" source="../../1bitplatformerpack/Sprite/book-05.png"/>
+  </tile>
+  <tile id="87">
+   <image width="118" height="26" source="../../1bitplatformerpack/Sprite/book-06.png"/>
+  </tile>
+  <tile id="88">
+   <image width="129" height="20" source="../../1bitplatformerpack/Sprite/book-07.png"/>
+  </tile>
+  <tile id="89">
+   <image width="113" height="20" source="../../1bitplatformerpack/Sprite/book-08.png"/>
+  </tile>
+  <tile id="90">
+   <image width="109" height="31" source="../../1bitplatformerpack/Sprite/book-09.png"/>
+  </tile>
+  <tile id="91">
+   <image width="90" height="31" source="../../1bitplatformerpack/Sprite/book-11.png"/>
+  </tile>
+  <tile id="92">
+   <image width="124" height="19" source="../../1bitplatformerpack/Sprite/book-14.png"/>
+  </tile>
+  <tile id="93">
+   <image width="89" height="15" source="../../1bitplatformerpack/Sprite/book-19.png"/>
+  </tile>
+  <tile id="94">
+   <image width="62" height="19" source="../../1bitplatformerpack/Sprite/book-20.png"/>
+  </tile>
+  <tile id="95">
+   <image width="67" height="15" source="../../1bitplatformerpack/Sprite/book-21.png"/>
+  </tile>
+  <tile id="96">
+   <image width="139" height="31" source="../../1bitplatformerpack/Sprite/book-25.png"/>
+  </tile>
+  <tile id="97">
+   <image width="67" height="27" source="../../1bitplatformerpack/Sprite/book-27.png"/>
+  </tile>
+  <tile id="98">
+   <image width="379" height="418" source="../../1bitplatformerpack/Sprite/Bookcase1.png"/>
+  </tile>
+  <tile id="99">
+   <image width="537" height="232" source="../../1bitplatformerpack/Sprite/Bookcase-mask.png"/>
+  </tile>
+  <tile id="100">
+   <image width="180" height="145" source="../../1bitplatformerpack/Sprite/Book-colour.png"/>
+  </tile>
+  <tile id="101">
+   <image width="230" height="183" source="../../1bitplatformerpack/Sprite/Book-fill.png"/>
+  </tile>
+  <tile id="102">
+   <image width="231" height="184" source="../../1bitplatformerpack/Sprite/Book-lines.png"/>
+  </tile>
+  <tile id="103">
+   <image width="46" height="35" source="../../1bitplatformerpack/Sprite/BootLeft-mask.png"/>
+  </tile>
+  <tile id="104">
+   <image width="53" height="45" source="../../1bitplatformerpack/Sprite/BootRight.png"/>
+  </tile>
+  <tile id="105">
+   <image width="40" height="29" source="../../1bitplatformerpack/Sprite/BootRight-mask.png"/>
+  </tile>
+  <tile id="106">
+   <image width="253" height="266" source="../../1bitplatformerpack/Sprite/Boulder1.png"/>
+  </tile>
+  <tile id="107">
+   <image width="256" height="268" source="../../1bitplatformerpack/Sprite/Boulder1-mask.png"/>
+  </tile>
+  <tile id="108">
+   <image width="257" height="271" source="../../1bitplatformerpack/Sprite/Boulder2.png"/>
+  </tile>
+  <tile id="109">
+   <image width="257" height="271" source="../../1bitplatformerpack/Sprite/Boulder2-mask.png"/>
+  </tile>
+  <tile id="110">
+   <image width="272" height="280" source="../../1bitplatformerpack/Sprite/Boulder3.png"/>
+  </tile>
+  <tile id="111">
+   <image width="272" height="280" source="../../1bitplatformerpack/Sprite/Boulder3-mask.png"/>
+  </tile>
+  <tile id="112">
+   <image width="252" height="252" source="../../1bitplatformerpack/Sprite/BounceBlock.png"/>
+  </tile>
+  <tile id="113">
+   <image width="55" height="34" source="../../1bitplatformerpack/Sprite/Box1.png"/>
+  </tile>
+  <tile id="114">
+   <image width="66" height="41" source="../../1bitplatformerpack/Sprite/BoxesStack.png"/>
+  </tile>
+  <tile id="115">
+   <image width="81" height="35" source="../../1bitplatformerpack/Sprite/BoxFunky.png"/>
+  </tile>
+  <tile id="116">
+   <image width="36" height="23" source="../../1bitplatformerpack/Sprite/BoxLittle.png"/>
+  </tile>
+  <tile id="117">
+   <image width="212" height="105" source="../../1bitplatformerpack/Sprite/Branch1.png"/>
+  </tile>
+  <tile id="118">
+   <image width="188" height="77" source="../../1bitplatformerpack/Sprite/Branch1snow.png"/>
+  </tile>
+  <tile id="119">
+   <image width="121" height="78" source="../../1bitplatformerpack/Sprite/Branch2.png"/>
+  </tile>
+  <tile id="120">
+   <image width="44" height="58" source="../../1bitplatformerpack/Sprite/Branch2snow.png"/>
+  </tile>
+  <tile id="121">
+   <image width="276" height="178" source="../../1bitplatformerpack/Sprite/Branch3.png"/>
+  </tile>
+  <tile id="122">
+   <image width="231" height="75" source="../../1bitplatformerpack/Sprite/Branch3snow.png"/>
+  </tile>
+  <tile id="123">
+   <image width="193" height="118" source="../../1bitplatformerpack/Sprite/Branch5.png"/>
+  </tile>
+  <tile id="124">
+   <image width="132" height="76" source="../../1bitplatformerpack/Sprite/Branch5snow.png"/>
+  </tile>
+  <tile id="125">
+   <image width="118" height="60" source="../../1bitplatformerpack/Sprite/Branch7.png"/>
+  </tile>
+  <tile id="126">
+   <image width="50" height="24" source="../../1bitplatformerpack/Sprite/Branch7snow.png"/>
+  </tile>
+  <tile id="127">
+   <image width="132" height="136" source="../../1bitplatformerpack/Sprite/Branch8.png"/>
+  </tile>
+  <tile id="128">
+   <image width="83" height="57" source="../../1bitplatformerpack/Sprite/Branch8snow.png"/>
+  </tile>
+  <tile id="129">
+   <image width="209" height="140" source="../../1bitplatformerpack/Sprite/Branch9.png"/>
+  </tile>
+  <tile id="130">
+   <image width="93" height="72" source="../../1bitplatformerpack/Sprite/Branch9snow.png"/>
+  </tile>
+  <tile id="131">
+   <image width="97" height="96" source="../../1bitplatformerpack/Sprite/Brick1.png"/>
+  </tile>
+  <tile id="132">
+   <image width="97" height="96" source="../../1bitplatformerpack/Sprite/Brick2.png"/>
+  </tile>
+  <tile id="133">
+   <image width="115" height="68" source="../../1bitplatformerpack/Sprite/Brick3.png"/>
+  </tile>
+  <tile id="134">
+   <image width="114" height="67" source="../../1bitplatformerpack/Sprite/Brick4.png"/>
+  </tile>
+  <tile id="135">
+   <image width="115" height="49" source="../../1bitplatformerpack/Sprite/Brick5.png"/>
+  </tile>
+  <tile id="141">
+   <image width="230" height="250" source="../../1bitplatformerpack/Sprite/BricksColoured.png"/>
+  </tile>
+  <tile id="142">
+   <image width="230" height="250" source="../../1bitplatformerpack/Sprite/BricksColouredLeftEdge.png"/>
+  </tile>
+  <tile id="143">
+   <image width="230" height="250" source="../../1bitplatformerpack/Sprite/BricksColouredNoEdge.png"/>
+  </tile>
+  <tile id="144">
+   <image width="230" height="250" source="../../1bitplatformerpack/Sprite/BricksColouredRightEdge.png"/>
+  </tile>
+  <tile id="145">
+   <image width="140" height="142" source="../../1bitplatformerpack/Sprite/BricksSquare1.png"/>
+  </tile>
+  <tile id="146">
+   <image width="65" height="68" source="../../1bitplatformerpack/Sprite/BricksSquare2.png"/>
+  </tile>
+  <tile id="147">
+   <image width="140" height="68" source="../../1bitplatformerpack/Sprite/BricksSquare3.png"/>
+  </tile>
+  <tile id="148">
+   <image width="1119" height="608" source="../../1bitplatformerpack/Sprite/Bridge #580034.png"/>
+  </tile>
+  <tile id="149">
+   <image width="313" height="255" source="../../1bitplatformerpack/Sprite/Bridge.png"/>
+  </tile>
+  <tile id="150">
+   <image width="597" height="353" source="../../1bitplatformerpack/Sprite/Bridge-diffuse.png"/>
+  </tile>
+  <tile id="151">
+   <image width="62" height="238" source="../../1bitplatformerpack/Sprite/BridgePost.png"/>
+  </tile>
+  <tile id="152">
+   <image width="300" height="26" source="../../1bitplatformerpack/Sprite/BridgeRope.png"/>
+  </tile>
+  <tile id="153">
+   <image width="29" height="29" source="../../1bitplatformerpack/Sprite/Bubble.png"/>
+  </tile>
+  <tile id="154">
+   <image width="64" height="57" source="../../1bitplatformerpack/Sprite/Bucket #581441.png"/>
+  </tile>
+  <tile id="155">
+   <image width="56" height="76" source="../../1bitplatformerpack/Sprite/Bucket.png"/>
+  </tile>
+  <tile id="156">
+   <image width="66" height="32" source="../../1bitplatformerpack/Sprite/BucketBack.png"/>
+  </tile>
+  <tile id="157">
+   <image width="72" height="66" source="../../1bitplatformerpack/Sprite/Bucket-mask #581421.png"/>
+  </tile>
+  <tile id="158">
+   <image width="64" height="84" source="../../1bitplatformerpack/Sprite/Bucket-mask.png"/>
+  </tile>
+  <tile id="159">
+   <image width="204" height="343" source="../../1bitplatformerpack/Sprite/Buoy1.png"/>
+  </tile>
+  <tile id="160">
+   <image width="119" height="150" source="../../1bitplatformerpack/Sprite/Buoy2.png"/>
+  </tile>
+  <tile id="161">
+   <image width="175" height="287" source="../../1bitplatformerpack/Sprite/Buoy3.png"/>
+  </tile>
+  <tile id="162">
+   <image width="107" height="278" source="../../1bitplatformerpack/Sprite/Bust1.png"/>
+  </tile>
+  <tile id="163">
+   <image width="107" height="276" source="../../1bitplatformerpack/Sprite/Bust2.png"/>
+  </tile>
+  <tile id="164">
+   <image width="518" height="593" source="../../1bitplatformerpack/Sprite/CableCar.png"/>
+  </tile>
+  <tile id="165">
+   <image width="526" height="601" source="../../1bitplatformerpack/Sprite/CableCar-mask.png"/>
+  </tile>
+  <tile id="166">
+   <image width="55" height="73" source="../../1bitplatformerpack/Sprite/Candle1.png"/>
+  </tile>
+  <tile id="167">
+   <image width="64" height="82" source="../../1bitplatformerpack/Sprite/Candle1-mask.png"/>
+  </tile>
+  <tile id="168">
+   <image width="94" height="159" source="../../1bitplatformerpack/Sprite/Candle2.png"/>
+  </tile>
+  <tile id="169">
+   <image width="102" height="167" source="../../1bitplatformerpack/Sprite/Candle2-mask.png"/>
+  </tile>
+  <tile id="170">
+   <image width="38" height="123" source="../../1bitplatformerpack/Sprite/Candle3.png"/>
+  </tile>
+  <tile id="171">
+   <image width="46" height="131" source="../../1bitplatformerpack/Sprite/Candle3-mask.png"/>
+  </tile>
+  <tile id="172">
+   <image width="26" height="139" source="../../1bitplatformerpack/Sprite/Candle4.png"/>
+  </tile>
+  <tile id="173">
+   <image width="34" height="147" source="../../1bitplatformerpack/Sprite/Candle4-mask.png"/>
+  </tile>
+  <tile id="174">
+   <image width="20" height="59" source="../../1bitplatformerpack/Sprite/CandleFlame.png"/>
+  </tile>
+  <tile id="175">
+   <image width="140" height="136" source="../../1bitplatformerpack/Sprite/Cave1-mask.png"/>
+  </tile>
+  <tile id="176">
+   <image width="64" height="58" source="../../1bitplatformerpack/Sprite/Cave2-mask.png"/>
+  </tile>
+  <tile id="177">
+   <image width="320" height="230" source="../../1bitplatformerpack/Sprite/Cave3-mask.png"/>
+  </tile>
+  <tile id="178">
+   <image width="200" height="166" source="../../1bitplatformerpack/Sprite/Cave4-mask.png"/>
+  </tile>
+  <tile id="179">
+   <image width="128" height="109" source="../../1bitplatformerpack/Sprite/Caves.png"/>
+  </tile>
+  <tile id="180">
+   <image width="139" height="165" source="../../1bitplatformerpack/Sprite/CaveTorch.png"/>
+  </tile>
+  <tile id="181">
+   <image width="256" height="42" source="../../1bitplatformerpack/Sprite/Ceiling.png"/>
+  </tile>
+  <tile id="182">
+   <image width="255" height="47" source="../../1bitplatformerpack/Sprite/Ceiling2.png"/>
+  </tile>
+  <tile id="183">
+   <image width="534" height="43" source="../../1bitplatformerpack/Sprite/CeilingDetailing.png"/>
+  </tile>
+  <tile id="184">
+   <image width="344" height="96" source="../../1bitplatformerpack/Sprite/CeilingDetailing2.png"/>
+  </tile>
+  <tile id="185">
+   <image width="85" height="201" source="../../1bitplatformerpack/Sprite/Certificate.png"/>
+  </tile>
+  <tile id="186">
+   <image width="41" height="66" source="../../1bitplatformerpack/Sprite/ChainFront.png"/>
+  </tile>
+  <tile id="187">
+   <image width="18" height="62" source="../../1bitplatformerpack/Sprite/ChainSide.png"/>
+  </tile>
+  <tile id="188">
+   <image width="83" height="172" source="../../1bitplatformerpack/Sprite/Chair #580210.png"/>
+  </tile>
+  <tile id="189">
+   <image width="120" height="236" source="../../1bitplatformerpack/Sprite/Chair.png"/>
+  </tile>
+  <tile id="190">
+   <image width="219" height="341" source="../../1bitplatformerpack/Sprite/Chair1.png"/>
+  </tile>
+  <tile id="191">
+   <image width="280" height="281" source="../../1bitplatformerpack/Sprite/Chair2.png"/>
+  </tile>
+  <tile id="192">
+   <image width="528" height="450" source="../../1bitplatformerpack/Sprite/Chalkboard.png"/>
+  </tile>
+  <tile id="193">
+   <image width="339" height="286" source="../../1bitplatformerpack/Sprite/Chandelier.png"/>
+  </tile>
+  <tile id="194">
+   <image width="40" height="36" source="../../1bitplatformerpack/Sprite/checkbox.png"/>
+  </tile>
+  <tile id="195">
+   <image width="41" height="35" source="../../1bitplatformerpack/Sprite/checkmark #575811.png"/>
+  </tile>
+  <tile id="196">
+   <image width="27" height="23" source="../../1bitplatformerpack/Sprite/Checkmark.png"/>
+  </tile>
+  <tile id="197">
+   <image width="49" height="61" source="../../1bitplatformerpack/Sprite/Chest.png"/>
+  </tile>
+  <tile id="198">
+   <image width="57" height="69" source="../../1bitplatformerpack/Sprite/ChestMask.png"/>
+  </tile>
+  <tile id="199">
+   <image width="76" height="321" source="../../1bitplatformerpack/Sprite/Chimney1 #581141.png"/>
+  </tile>
+  <tile id="200">
+   <image width="138" height="191" source="../../1bitplatformerpack/Sprite/Chimney1.png"/>
+  </tile>
+  <tile id="201">
+   <image width="101" height="210" source="../../1bitplatformerpack/Sprite/Chimney2.png"/>
+  </tile>
+  <tile id="202">
+   <image width="100" height="85" source="../../1bitplatformerpack/Sprite/Chimney3.png"/>
+  </tile>
+  <tile id="203">
+   <image width="104" height="159" source="../../1bitplatformerpack/Sprite/Chimney4.png"/>
+  </tile>
+  <tile id="204">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/Circle.png"/>
+  </tile>
+  <tile id="205">
+   <image width="1024" height="1024" source="../../1bitplatformerpack/Sprite/CircleMask.png"/>
+  </tile>
+  <tile id="206">
+   <image width="181" height="64" source="../../1bitplatformerpack/Sprite/CircleSmall.png"/>
+  </tile>
+  <tile id="207">
+   <image width="182" height="67" source="../../1bitplatformerpack/Sprite/CircleSmall-mask.png"/>
+  </tile>
+  <tile id="208">
+   <image width="215" height="236" source="../../1bitplatformerpack/Sprite/CircleWindowOuter.png"/>
+  </tile>
+  <tile id="209">
+   <image width="92" height="91" source="../../1bitplatformerpack/Sprite/CircularWindow #580528.png"/>
+  </tile>
+  <tile id="210">
+   <image width="129" height="130" source="../../1bitplatformerpack/Sprite/CircularWindow.png"/>
+  </tile>
+  <tile id="211">
+   <image width="185" height="1832" source="../../1bitplatformerpack/Sprite/Cliff21-mask.png"/>
+  </tile>
+  <tile id="212">
+   <image width="206" height="1734" source="../../1bitplatformerpack/Sprite/Cliff22-mask.png"/>
+  </tile>
+  <tile id="213">
+   <image width="90" height="619" source="../../1bitplatformerpack/Sprite/CliffLedge.png"/>
+  </tile>
+  <tile id="214">
+   <image width="91" height="314" source="../../1bitplatformerpack/Sprite/ClothesRack.png"/>
+  </tile>
+  <tile id="215">
+   <image width="270" height="220" source="../../1bitplatformerpack/Sprite/Cloud1.png"/>
+  </tile>
+  <tile id="216">
+   <image width="483" height="170" source="../../1bitplatformerpack/Sprite/Cloud2.png"/>
+  </tile>
+  <tile id="217">
+   <image width="171" height="170" source="../../1bitplatformerpack/Sprite/Cloud3.png"/>
+  </tile>
+  <tile id="218">
+   <image width="459" height="246" source="../../1bitplatformerpack/Sprite/Cloud4.png"/>
+  </tile>
+  <tile id="219">
+   <image width="189" height="130" source="../../1bitplatformerpack/Sprite/Cloud5.png"/>
+  </tile>
+  <tile id="220">
+   <image width="331" height="174" source="../../1bitplatformerpack/Sprite/Cloud6.png"/>
+  </tile>
+  <tile id="221">
+   <image width="274" height="224" source="../../1bitplatformerpack/Sprite/Cloud7.png"/>
+  </tile>
+  <tile id="222">
+   <image width="210" height="114" source="../../1bitplatformerpack/Sprite/Cloud8.png"/>
+  </tile>
+  <tile id="223">
+   <image width="358" height="137" source="../../1bitplatformerpack/Sprite/Cloud9.png"/>
+  </tile>
+  <tile id="224">
+   <image width="284" height="171" source="../../1bitplatformerpack/Sprite/Cloud10.png"/>
+  </tile>
+  <tile id="225">
+   <image width="1645" height="677" source="../../1bitplatformerpack/Sprite/Clouds.png"/>
+  </tile>
+  <tile id="226">
+   <image width="23" height="74" source="../../1bitplatformerpack/Sprite/CoatGapLower-mask.png"/>
+  </tile>
+  <tile id="227">
+   <image width="18" height="92" source="../../1bitplatformerpack/Sprite/CoatGapUpper-mask.png"/>
+  </tile>
+  <tile id="228">
+   <image width="54" height="32" source="../../1bitplatformerpack/Sprite/Cobbles1.png"/>
+  </tile>
+  <tile id="229">
+   <image width="52" height="30" source="../../1bitplatformerpack/Sprite/Cobbles2.png"/>
+  </tile>
+  <tile id="230">
+   <image width="37" height="32" source="../../1bitplatformerpack/Sprite/Cobbles3.png"/>
+  </tile>
+  <tile id="231">
+   <image width="38" height="26" source="../../1bitplatformerpack/Sprite/Cobbles4.png"/>
+  </tile>
+  <tile id="232">
+   <image width="38" height="21" source="../../1bitplatformerpack/Sprite/Cobbles5.png"/>
+  </tile>
+  <tile id="233">
+   <image width="38" height="39" source="../../1bitplatformerpack/Sprite/Cobbles6.png"/>
+  </tile>
+  <tile id="234">
+   <image width="33" height="13" source="../../1bitplatformerpack/Sprite/Cobbles7.png"/>
+  </tile>
+  <tile id="235">
+   <image width="48" height="28" source="../../1bitplatformerpack/Sprite/Cobbles8.png"/>
+  </tile>
+  <tile id="236">
+   <image width="33" height="31" source="../../1bitplatformerpack/Sprite/CogBig.png"/>
+  </tile>
+  <tile id="237">
+   <image width="291" height="90" source="../../1bitplatformerpack/Sprite/Cogs.png"/>
+  </tile>
+  <tile id="238">
+   <image width="25" height="24" source="../../1bitplatformerpack/Sprite/CogSmall.png"/>
+  </tile>
+  <tile id="239">
+   <image width="22" height="45" source="../../1bitplatformerpack/Sprite/CollarLeft.png"/>
+  </tile>
+  <tile id="240">
+   <image width="27" height="56" source="../../1bitplatformerpack/Sprite/CollarLeft-mask.png"/>
+  </tile>
+  <tile id="241">
+   <image width="25" height="43" source="../../1bitplatformerpack/Sprite/CollarRight.png"/>
+  </tile>
+  <tile id="242">
+   <image width="29" height="59" source="../../1bitplatformerpack/Sprite/CollarRight-mask.png"/>
+  </tile>
+  <tile id="243">
+   <image width="77" height="78" source="../../1bitplatformerpack/Sprite/ColourblindSymbolBg.png"/>
+  </tile>
+  <tile id="244">
+   <image width="209" height="108" source="../../1bitplatformerpack/Sprite/ColourChunk.png"/>
+  </tile>
+  <tile id="245">
+   <image width="320" height="63" source="../../1bitplatformerpack/Sprite/ColouredNarrowBricks.png"/>
+  </tile>
+  <tile id="246">
+   <image width="120" height="584" source="../../1bitplatformerpack/Sprite/Column1 #581057.png"/>
+  </tile>
+  <tile id="247">
+   <image width="155" height="537" source="../../1bitplatformerpack/Sprite/Column1.png"/>
+  </tile>
+  <tile id="248">
+   <image width="128" height="587" source="../../1bitplatformerpack/Sprite/Column1-mask #581056.png"/>
+  </tile>
+  <tile id="249">
+   <image width="163" height="548" source="../../1bitplatformerpack/Sprite/Column1-mask.png"/>
+  </tile>
+  <tile id="250">
+   <image width="169" height="581" source="../../1bitplatformerpack/Sprite/Column2.png"/>
+  </tile>
+  <tile id="251">
+   <image width="177" height="587" source="../../1bitplatformerpack/Sprite/Column2-mask.png"/>
+  </tile>
+  <tile id="252">
+   <image width="93" height="537" source="../../1bitplatformerpack/Sprite/Column6.png"/>
+  </tile>
+  <tile id="253">
+   <image width="573" height="388" source="../../1bitplatformerpack/Sprite/Controller.png"/>
+  </tile>
+  <tile id="254">
+   <image width="46" height="44" source="../../1bitplatformerpack/Sprite/ConveyerbeltEnd-mask.png"/>
+  </tile>
+  <tile id="255">
+   <image width="235" height="247" source="../../1bitplatformerpack/Sprite/Crate.png"/>
+  </tile>
+  <tile id="256">
+   <image width="235" height="247" source="../../1bitplatformerpack/Sprite/CrateFill.png"/>
+  </tile>
+  <tile id="257">
+   <image width="531" height="554" source="../../1bitplatformerpack/Sprite/CrateLarge.png"/>
+  </tile>
+  <tile id="258">
+   <image width="228" height="794" source="../../1bitplatformerpack/Sprite/CrateTallerNarrow.png"/>
+  </tile>
+  <tile id="259">
+   <image width="235" height="488" source="../../1bitplatformerpack/Sprite/CrateTallNarrow.png"/>
+  </tile>
+  <tile id="260">
+   <image width="177" height="323" source="../../1bitplatformerpack/Sprite/CrissCrossMetal.png"/>
+  </tile>
+  <tile id="261">
+   <image width="271" height="743" source="../../1bitplatformerpack/Sprite/CurtainsSide.png"/>
+  </tile>
+  <tile id="262">
+   <image width="565" height="224" source="../../1bitplatformerpack/Sprite/CurtainStatic.png"/>
+  </tile>
+  <tile id="263">
+   <image width="54" height="90" source="../../1bitplatformerpack/Sprite/CurtainTassle.png"/>
+  </tile>
+  <tile id="264">
+   <image width="568" height="333" source="../../1bitplatformerpack/Sprite/CurvedRocks.png"/>
+  </tile>
+  <tile id="265">
+   <image width="370" height="316" source="../../1bitplatformerpack/Sprite/CurvedRocks2.png"/>
+  </tile>
+  <tile id="266">
+   <image width="100" height="193" source="../../1bitplatformerpack/Sprite/CurvedTopWindow.png"/>
+  </tile>
+  <tile id="267">
+   <image width="242" height="236" source="../../1bitplatformerpack/Sprite/CurvedTopWindowOuter.png"/>
+  </tile>
+  <tile id="268">
+   <image width="100" height="295" source="../../1bitplatformerpack/Sprite/CurvedTopWindowTall.png"/>
+  </tile>
+  <tile id="269">
+   <image width="767" height="316" source="../../1bitplatformerpack/Sprite/Curve-logo.png"/>
+  </tile>
+  <tile id="270">
+   <image width="76" height="117" source="../../1bitplatformerpack/Sprite/DanglingPlant.png"/>
+  </tile>
+  <tile id="271">
+   <image width="791" height="236" source="../../1bitplatformerpack/Sprite/DecorativeArch-mask.png"/>
+  </tile>
+  <tile id="272">
+   <image width="523" height="47" source="../../1bitplatformerpack/Sprite/DecorativeCeiling.png"/>
+  </tile>
+  <tile id="273">
+   <image width="519" height="89" source="../../1bitplatformerpack/Sprite/DetailedCeilingBrackets.png"/>
+  </tile>
+  <tile id="274">
+   <image width="1016" height="417" source="../../1bitplatformerpack/Sprite/DiagonalBricks-mask.png"/>
+  </tile>
+  <tile id="275">
+   <image width="168" height="307" source="../../1bitplatformerpack/Sprite/Door.png"/>
+  </tile>
+  <tile id="276">
+   <image width="200" height="76" source="../../1bitplatformerpack/Sprite/DoorArchHorizontal.png"/>
+  </tile>
+  <tile id="277">
+   <image width="152" height="54" source="../../1bitplatformerpack/Sprite/DoorCapMask.png"/>
+  </tile>
+  <tile id="278">
+   <image width="239" height="308" source="../../1bitplatformerpack/Sprite/DoorOutline.png"/>
+  </tile>
+  <tile id="279">
+   <image width="148" height="183" source="../../1bitplatformerpack/Sprite/DoorShutters.png"/>
+  </tile>
+  <tile id="280">
+   <image width="168" height="461" source="../../1bitplatformerpack/Sprite/DoorTall.png"/>
+  </tile>
+  <tile id="281">
+   <image width="378" height="461" source="../../1bitplatformerpack/Sprite/DoorTall-mask.png"/>
+  </tile>
+  <tile id="282">
+   <image width="13" height="13" source="../../1bitplatformerpack/Sprite/Dot.png"/>
+  </tile>
+  <tile id="283">
+   <image width="14" height="16" source="../../1bitplatformerpack/Sprite/Dot2.png"/>
+  </tile>
+  <tile id="284">
+   <image width="13" height="13" source="../../1bitplatformerpack/Sprite/DotFill.png"/>
+  </tile>
+  <tile id="285">
+   <image width="32" height="32" source="../../1bitplatformerpack/Sprite/DotParticle.png"/>
+  </tile>
+  <tile id="286">
+   <image width="330" height="469" source="../../1bitplatformerpack/Sprite/DrGrey.png"/>
+  </tile>
+  <tile id="287">
+   <image width="24" height="16" source="../../1bitplatformerpack/Sprite/DropdownArrow.png"/>
+  </tile>
+  <tile id="288">
+   <image width="34" height="29" source="../../1bitplatformerpack/Sprite/Ear.png"/>
+  </tile>
+  <tile id="289">
+   <image width="9" height="10" source="../../1bitplatformerpack/Sprite/Earing.png"/>
+  </tile>
+  <tile id="290">
+   <image width="153" height="472" source="../../1bitplatformerpack/Sprite/EntranceDecorativeHalf.png"/>
+  </tile>
+  <tile id="291">
+   <image width="13" height="41" source="../../1bitplatformerpack/Sprite/Eye #580278.png"/>
+  </tile>
+  <tile id="292">
+   <image width="12" height="24" source="../../1bitplatformerpack/Sprite/Eye #580617.png"/>
+  </tile>
+  <tile id="293">
+   <image width="11" height="26" source="../../1bitplatformerpack/Sprite/Eye #581320.png"/>
+  </tile>
+  <tile id="294">
+   <image width="13" height="22" source="../../1bitplatformerpack/Sprite/Eye #581444.png"/>
+  </tile>
+  <tile id="295">
+   <image width="10" height="11" source="../../1bitplatformerpack/Sprite/Eye.png"/>
+  </tile>
+  <tile id="296">
+   <image width="12" height="29" source="../../1bitplatformerpack/Sprite/EyeLeft.png"/>
+  </tile>
+  <tile id="297">
+   <image width="19" height="30" source="../../1bitplatformerpack/Sprite/EyeLid.png"/>
+  </tile>
+  <tile id="298">
+   <image width="56" height="40" source="../../1bitplatformerpack/Sprite/EyeLids.png"/>
+  </tile>
+  <tile id="299">
+   <image width="12" height="29" source="../../1bitplatformerpack/Sprite/EyeRight.png"/>
+  </tile>
+  <tile id="300">
+   <image width="40" height="26" source="../../1bitplatformerpack/Sprite/Eyes #581104.png"/>
+  </tile>
+  <tile id="301">
+   <image width="38" height="29" source="../../1bitplatformerpack/Sprite/Eyes.png"/>
+  </tile>
+  <tile id="302">
+   <image width="58" height="27" source="../../1bitplatformerpack/Sprite/EyesUncovered.png"/>
+  </tile>
+  <tile id="303">
+   <image width="582" height="361" source="../../1bitplatformerpack/Sprite/FallenHead.png"/>
+  </tile>
+  <tile id="304">
+   <image width="1232" height="416" source="../../1bitplatformerpack/Sprite/FallenRocks.png"/>
+  </tile>
+  <tile id="305">
+   <image width="50" height="44" source="../../1bitplatformerpack/Sprite/fallingRock_1.png"/>
+  </tile>
+  <tile id="306">
+   <image width="65" height="74" source="../../1bitplatformerpack/Sprite/fallingRock_2.png"/>
+  </tile>
+  <tile id="307">
+   <image width="68" height="46" source="../../1bitplatformerpack/Sprite/fallingRock_3.png"/>
+  </tile>
+  <tile id="308">
+   <image width="74" height="140" source="../../1bitplatformerpack/Sprite/fallingRock_4.png"/>
+  </tile>
+  <tile id="309">
+   <image width="53" height="41" source="../../1bitplatformerpack/Sprite/fallingRock_5.png"/>
+  </tile>
+  <tile id="310">
+   <image width="58" height="131" source="../../1bitplatformerpack/Sprite/fallingRock_6.png"/>
+  </tile>
+  <tile id="311">
+   <image width="57" height="72" source="../../1bitplatformerpack/Sprite/fallingRock_7.png"/>
+  </tile>
+  <tile id="312">
+   <image width="58" height="73" source="../../1bitplatformerpack/Sprite/fallingRock_8.png"/>
+  </tile>
+  <tile id="313">
+   <image width="65" height="70" source="../../1bitplatformerpack/Sprite/fallingRock_9.png"/>
+  </tile>
+  <tile id="314">
+   <image width="83" height="70" source="../../1bitplatformerpack/Sprite/fallingRock_10.png"/>
+  </tile>
+  <tile id="315">
+   <image width="70" height="80" source="../../1bitplatformerpack/Sprite/fallingRock_11.png"/>
+  </tile>
+  <tile id="316">
+   <image width="54" height="69" source="../../1bitplatformerpack/Sprite/fallingRock_12.png"/>
+  </tile>
+  <tile id="317">
+   <image width="54" height="104" source="../../1bitplatformerpack/Sprite/fallingRock_13.png"/>
+  </tile>
+  <tile id="318">
+   <image width="61" height="133" source="../../1bitplatformerpack/Sprite/fallingRock_14.png"/>
+  </tile>
+  <tile id="319">
+   <image width="64" height="63" source="../../1bitplatformerpack/Sprite/fallingRock_15.png"/>
+  </tile>
+  <tile id="320">
+   <image width="64" height="56" source="../../1bitplatformerpack/Sprite/fallingRock_16.png"/>
+  </tile>
+  <tile id="321">
+   <image width="77" height="74" source="../../1bitplatformerpack/Sprite/fallingRock_17.png"/>
+  </tile>
+  <tile id="322">
+   <image width="59" height="100" source="../../1bitplatformerpack/Sprite/fallingRock_18.png"/>
+  </tile>
+  <tile id="323">
+   <image width="176" height="304" source="../../1bitplatformerpack/Sprite/FallingSpikeWhole.png"/>
+  </tile>
+  <tile id="324">
+   <image width="186" height="317" source="../../1bitplatformerpack/Sprite/FallingSpikeWhole-mask.png"/>
+  </tile>
+  <tile id="325">
+   <image width="423" height="185" source="../../1bitplatformerpack/Sprite/Fence.png"/>
+  </tile>
+  <tile id="326">
+   <image width="784" height="135" source="../../1bitplatformerpack/Sprite/Fiddlesticks-logo.png"/>
+  </tile>
+  <tile id="327">
+   <image width="11" height="11" source="../../1bitplatformerpack/Sprite/Finger.png"/>
+  </tile>
+  <tile id="328">
+   <image width="110" height="139" source="../../1bitplatformerpack/Sprite/Fire.png"/>
+  </tile>
+  <tile id="329">
+   <image width="270" height="340" source="../../1bitplatformerpack/Sprite/FirePot1.png"/>
+  </tile>
+  <tile id="330">
+   <image width="150" height="58" source="../../1bitplatformerpack/Sprite/FirePot2.png"/>
+  </tile>
+  <tile id="331">
+   <image width="248" height="58" source="../../1bitplatformerpack/Sprite/FirePot3.png"/>
+  </tile>
+  <tile id="332">
+   <image width="280" height="113" source="../../1bitplatformerpack/Sprite/FirePot4.png"/>
+  </tile>
+  <tile id="333">
+   <image width="624" height="578" source="../../1bitplatformerpack/Sprite/FireStatue.png"/>
+  </tile>
+  <tile id="334">
+   <image width="41" height="45" source="../../1bitplatformerpack/Sprite/FishingBait.png"/>
+  </tile>
+  <tile id="335">
+   <image width="49" height="53" source="../../1bitplatformerpack/Sprite/FishingBait-mask.png"/>
+  </tile>
+  <tile id="336">
+   <image width="82" height="64" source="../../1bitplatformerpack/Sprite/FishingBucket.png"/>
+  </tile>
+  <tile id="337">
+   <image width="103" height="89" source="../../1bitplatformerpack/Sprite/FishingCage.png"/>
+  </tile>
+  <tile id="338">
+   <image width="98" height="127" source="../../1bitplatformerpack/Sprite/FishingCageRound.png"/>
+  </tile>
+  <tile id="339">
+   <image width="58" height="53" source="../../1bitplatformerpack/Sprite/FishingCageSmall.png"/>
+  </tile>
+  <tile id="340">
+   <image width="30" height="434" source="../../1bitplatformerpack/Sprite/FishingRod.png"/>
+  </tile>
+  <tile id="341">
+   <image width="38" height="442" source="../../1bitplatformerpack/Sprite/FishingRod-mask.png"/>
+  </tile>
+  <tile id="342">
+   <image width="40" height="64" source="../../1bitplatformerpack/Sprite/Flask.png"/>
+  </tile>
+  <tile id="343">
+   <image width="36" height="26" source="../../1bitplatformerpack/Sprite/FlaskWater.png"/>
+  </tile>
+  <tile id="344">
+   <image width="33" height="25" source="../../1bitplatformerpack/Sprite/Foot #580241.png"/>
+  </tile>
+  <tile id="345">
+   <image width="35" height="17" source="../../1bitplatformerpack/Sprite/Foot #580280.png"/>
+  </tile>
+  <tile id="346">
+   <image width="16" height="16" source="../../1bitplatformerpack/Sprite/Foot.png"/>
+  </tile>
+  <tile id="347">
+   <image width="41" height="25" source="../../1bitplatformerpack/Sprite/FootLeft.png"/>
+  </tile>
+  <tile id="348">
+   <image width="43" height="25" source="../../1bitplatformerpack/Sprite/Foot-mask.png"/>
+  </tile>
+  <tile id="349">
+   <image width="32" height="30" source="../../1bitplatformerpack/Sprite/FootRight.png"/>
+  </tile>
+  <tile id="350">
+   <image width="181" height="376" source="../../1bitplatformerpack/Sprite/Fountain2.png"/>
+  </tile>
+  <tile id="351">
+   <image width="239" height="48" source="../../1bitplatformerpack/Sprite/FountainBowl.png"/>
+  </tile>
+  <tile id="352">
+   <image width="172" height="311" source="../../1bitplatformerpack/Sprite/Frame.png"/>
+  </tile>
+  <tile id="353">
+   <image width="400" height="506" source="../../1bitplatformerpack/Sprite/Frame-mask.png"/>
+  </tile>
+  <tile id="354">
+   <image width="263" height="263" source="../../1bitplatformerpack/Sprite/Globe.png"/>
+  </tile>
+  <tile id="355">
+   <image width="297" height="456" source="../../1bitplatformerpack/Sprite/GlobeStand.png"/>
+  </tile>
+  <tile id="356">
+   <image width="524" height="521" source="../../1bitplatformerpack/Sprite/Glow.png"/>
+  </tile>
+  <tile id="357">
+   <image width="204" height="162" source="../../1bitplatformerpack/Sprite/GoBackBubble.png"/>
+  </tile>
+  <tile id="358">
+   <image width="57" height="19" source="../../1bitplatformerpack/Sprite/Goggles #580248.png"/>
+  </tile>
+  <tile id="359">
+   <image width="63" height="21" source="../../1bitplatformerpack/Sprite/Goggles.png"/>
+  </tile>
+  <tile id="360">
+   <image width="108" height="155" source="../../1bitplatformerpack/Sprite/GooCanon.png"/>
+  </tile>
+  <tile id="361">
+   <image width="171" height="183" source="../../1bitplatformerpack/Sprite/GooCanon-mask.png"/>
+  </tile>
+  <tile id="362">
+   <image width="146" height="163" source="../../1bitplatformerpack/Sprite/GooCanonNoDots-mask.png"/>
+  </tile>
+  <tile id="363">
+   <image width="1120" height="49" source="../../1bitplatformerpack/Sprite/GrassTile.png"/>
+  </tile>
+  <tile id="364">
+   <image width="53" height="46" source="../../1bitplatformerpack/Sprite/Groin.png"/>
+  </tile>
+  <tile id="365">
+   <image width="61" height="54" source="../../1bitplatformerpack/Sprite/Groin-mask.png"/>
+  </tile>
+  <tile id="373">
+   <image width="86" height="44" source="../../1bitplatformerpack/Sprite/Hair #580233.png"/>
+  </tile>
+  <tile id="374">
+   <image width="99" height="65" source="../../1bitplatformerpack/Sprite/Hair #580283.png"/>
+  </tile>
+  <tile id="375">
+   <image width="50" height="38" source="../../1bitplatformerpack/Sprite/Hair.png"/>
+  </tile>
+  <tile id="376">
+   <image width="31" height="39" source="../../1bitplatformerpack/Sprite/HairBun #580211.png"/>
+  </tile>
+  <tile id="377">
+   <image width="38" height="40" source="../../1bitplatformerpack/Sprite/HairBun #580582.png"/>
+  </tile>
+  <tile id="378">
+   <image width="48" height="55" source="../../1bitplatformerpack/Sprite/HairBun.png"/>
+  </tile>
+  <tile id="379">
+   <image width="39" height="47" source="../../1bitplatformerpack/Sprite/HairBun-mask #580236.png"/>
+  </tile>
+  <tile id="380">
+   <image width="56" height="63" source="../../1bitplatformerpack/Sprite/HairBunMask.png"/>
+  </tile>
+  <tile id="381">
+   <image width="24" height="42" source="../../1bitplatformerpack/Sprite/HairBun-mask.png"/>
+  </tile>
+  <tile id="382">
+   <image width="79" height="54" source="../../1bitplatformerpack/Sprite/HairLine-mask #580247.png"/>
+  </tile>
+  <tile id="383">
+   <image width="98" height="24" source="../../1bitplatformerpack/Sprite/Hairline-mask.png"/>
+  </tile>
+  <tile id="384">
+   <image width="107" height="73" source="../../1bitplatformerpack/Sprite/Hair-mask #580261.png"/>
+  </tile>
+  <tile id="385">
+   <image width="53" height="28" source="../../1bitplatformerpack/Sprite/Hair-mask.png"/>
+  </tile>
+  <tile id="386">
+   <image width="82" height="37" source="../../1bitplatformerpack/Sprite/HairTop.png"/>
+  </tile>
+  <tile id="387">
+   <image width="90" height="45" source="../../1bitplatformerpack/Sprite/HairTopMask.png"/>
+  </tile>
+  <tile id="388">
+   <image width="21" height="32" source="../../1bitplatformerpack/Sprite/Hand #580200.png"/>
+  </tile>
+  <tile id="389">
+   <image width="26" height="29" source="../../1bitplatformerpack/Sprite/Hand #580263.png"/>
+  </tile>
+  <tile id="390">
+   <image width="18" height="18" source="../../1bitplatformerpack/Sprite/Hand.png"/>
+  </tile>
+  <tile id="391">
+   <image width="24" height="24" source="../../1bitplatformerpack/Sprite/HandLeft.png"/>
+  </tile>
+  <tile id="392">
+   <image width="29" height="40" source="../../1bitplatformerpack/Sprite/Hand-mask.png"/>
+  </tile>
+  <tile id="393">
+   <image width="33" height="20" source="../../1bitplatformerpack/Sprite/HandRight #581412.png"/>
+  </tile>
+  <tile id="394">
+   <image width="50" height="57" source="../../1bitplatformerpack/Sprite/HandRight.png"/>
+  </tile>
+  <tile id="395">
+   <image width="58" height="65" source="../../1bitplatformerpack/Sprite/HandRight-mask.png"/>
+  </tile>
+  <tile id="396">
+   <image width="171" height="146" source="../../1bitplatformerpack/Sprite/HangingBasket1.png"/>
+  </tile>
+  <tile id="397">
+   <image width="100" height="132" source="../../1bitplatformerpack/Sprite/HangingBasket2.png"/>
+  </tile>
+  <tile id="398">
+   <image width="84" height="52" source="../../1bitplatformerpack/Sprite/Hat #580607.png"/>
+  </tile>
+  <tile id="399">
+   <image width="96" height="49" source="../../1bitplatformerpack/Sprite/Hat #581100.png"/>
+  </tile>
+  <tile id="400">
+   <image width="87" height="53" source="../../1bitplatformerpack/Sprite/Hat #581325.png"/>
+  </tile>
+  <tile id="401">
+   <image width="92" height="54" source="../../1bitplatformerpack/Sprite/Hat #581429.png"/>
+  </tile>
+  <tile id="402">
+   <image width="106" height="82" source="../../1bitplatformerpack/Sprite/Hat.png"/>
+  </tile>
+  <tile id="403">
+   <image width="21" height="24" source="../../1bitplatformerpack/Sprite/HatLight.png"/>
+  </tile>
+  <tile id="404">
+   <image width="83" height="25" source="../../1bitplatformerpack/Sprite/Hat-mask #581259.png"/>
+  </tile>
+  <tile id="405">
+   <image width="85" height="55" source="../../1bitplatformerpack/Sprite/Hat-mask #581433.png"/>
+  </tile>
+  <tile id="406">
+   <image width="104" height="57" source="../../1bitplatformerpack/Sprite/HatMask.png"/>
+  </tile>
+  <tile id="407">
+   <image width="92" height="60" source="../../1bitplatformerpack/Sprite/Hat-mask.png"/>
+  </tile>
+  <tile id="408">
+   <image width="80" height="80" source="../../1bitplatformerpack/Sprite/Head #580222.png"/>
+  </tile>
+  <tile id="409">
+   <image width="82" height="89" source="../../1bitplatformerpack/Sprite/Head #580227.png"/>
+  </tile>
+  <tile id="410">
+   <image width="82" height="161" source="../../1bitplatformerpack/Sprite/Head #580235.png"/>
+  </tile>
+  <tile id="411">
+   <image width="85" height="100" source="../../1bitplatformerpack/Sprite/Head #580516.png"/>
+  </tile>
+  <tile id="412">
+   <image width="72" height="80" source="../../1bitplatformerpack/Sprite/Head #580553.png"/>
+  </tile>
+  <tile id="413">
+   <image width="92" height="89" source="../../1bitplatformerpack/Sprite/Head #580557.png"/>
+  </tile>
+  <tile id="414">
+   <image width="44" height="42" source="../../1bitplatformerpack/Sprite/Head #580635.png"/>
+  </tile>
+  <tile id="415">
+   <image width="85" height="85" source="../../1bitplatformerpack/Sprite/Head #580970.png"/>
+  </tile>
+  <tile id="416">
+   <image width="89" height="111" source="../../1bitplatformerpack/Sprite/Head #581276.png"/>
+  </tile>
+  <tile id="417">
+   <image width="72" height="83" source="../../1bitplatformerpack/Sprite/Head #581449.png"/>
+  </tile>
+  <tile id="418">
+   <image width="95" height="84" source="../../1bitplatformerpack/Sprite/Head.png"/>
+  </tile>
+  <tile id="419">
+   <image width="90" height="97" source="../../1bitplatformerpack/Sprite/Head-mask #580255.png"/>
+  </tile>
+  <tile id="420">
+   <image width="52" height="50" source="../../1bitplatformerpack/Sprite/HeadMask #580654.png"/>
+  </tile>
+  <tile id="421">
+   <image width="97" height="119" source="../../1bitplatformerpack/Sprite/Head-mask #581258.png"/>
+  </tile>
+  <tile id="422">
+   <image width="93" height="93" source="../../1bitplatformerpack/Sprite/HeadMask.png"/>
+  </tile>
+  <tile id="423">
+   <image width="93" height="108" source="../../1bitplatformerpack/Sprite/Head-mask.png"/>
+  </tile>
+  <tile id="424">
+   <image width="91" height="172" source="../../1bitplatformerpack/Sprite/HeadRing-mask.png"/>
+  </tile>
+  <tile id="425">
+   <image width="101" height="28" source="../../1bitplatformerpack/Sprite/HeadTopMask.png"/>
+  </tile>
+  <tile id="426">
+   <image width="103" height="127" source="../../1bitplatformerpack/Sprite/HeadUncovered.png"/>
+  </tile>
+  <tile id="427">
+   <image width="85" height="56" source="../../1bitplatformerpack/Sprite/HeadUncoveredHair-mask.png"/>
+  </tile>
+  <tile id="428">
+   <image width="111" height="135" source="../../1bitplatformerpack/Sprite/HeadUncovered-mask.png"/>
+  </tile>
+  <tile id="429">
+   <image width="22" height="30" source="../../1bitplatformerpack/Sprite/HideHairLine.png"/>
+  </tile>
+  <tile id="430">
+   <image width="245" height="362" source="../../1bitplatformerpack/Sprite/hieroglyph1-mask.png"/>
+  </tile>
+  <tile id="431">
+   <image width="226" height="369" source="../../1bitplatformerpack/Sprite/hieroglyph2-mask.png"/>
+  </tile>
+  <tile id="432">
+   <image width="193" height="374" source="../../1bitplatformerpack/Sprite/hieroglyph3-mask.png"/>
+  </tile>
+  <tile id="433">
+   <image width="50" height="57" source="../../1bitplatformerpack/Sprite/HieroglyphMini2-mask.png"/>
+  </tile>
+  <tile id="434">
+   <image width="65" height="64" source="../../1bitplatformerpack/Sprite/HieroglyphMini3-mask.png"/>
+  </tile>
+  <tile id="435">
+   <image width="54" height="51" source="../../1bitplatformerpack/Sprite/HieroglyphMini4-mask.png"/>
+  </tile>
+  <tile id="436">
+   <image width="48" height="45" source="../../1bitplatformerpack/Sprite/HieroglyphMini5-mask.png"/>
+  </tile>
+  <tile id="437">
+   <image width="180" height="60" source="../../1bitplatformerpack/Sprite/HieroglyphMini6-mask.png"/>
+  </tile>
+  <tile id="438">
+   <image width="64" height="59" source="../../1bitplatformerpack/Sprite/HieroglyphMini7-mask.png"/>
+  </tile>
+  <tile id="439">
+   <image width="64" height="30" source="../../1bitplatformerpack/Sprite/HieroglyphMini8-mask.png"/>
+  </tile>
+  <tile id="440">
+   <image width="75" height="71" source="../../1bitplatformerpack/Sprite/HieroglyphMini9-mask.png"/>
+  </tile>
+  <tile id="441">
+   <image width="46" height="46" source="../../1bitplatformerpack/Sprite/HieroglyphMini-mask.png"/>
+  </tile>
+  <tile id="442">
+   <image width="163" height="276" source="../../1bitplatformerpack/Sprite/HoleInWall-mask.png"/>
+  </tile>
+  <tile id="443">
+   <image width="87" height="86" source="../../1bitplatformerpack/Sprite/HoodDown.png"/>
+  </tile>
+  <tile id="444">
+   <image width="95" height="94" source="../../1bitplatformerpack/Sprite/HoodDown-mask.png"/>
+  </tile>
+  <tile id="445">
+   <image width="117" height="202" source="../../1bitplatformerpack/Sprite/HoodUp.png"/>
+  </tile>
+  <tile id="446">
+   <image width="125" height="210" source="../../1bitplatformerpack/Sprite/HoodUp-mask.png"/>
+  </tile>
+  <tile id="447">
+   <image width="256" height="9" source="../../1bitplatformerpack/Sprite/HorizontalLine.png"/>
+  </tile>
+  <tile id="448">
+   <image width="64" height="9" source="../../1bitplatformerpack/Sprite/HorizontalLineShort.png"/>
+  </tile>
+  <tile id="449">
+   <image width="78" height="143" source="../../1bitplatformerpack/Sprite/Hue-colourBehind.png"/>
+  </tile>
+  <tile id="450">
+   <image width="248" height="379" source="../../1bitplatformerpack/Sprite/Hue-colourInfront.png"/>
+  </tile>
+  <tile id="451">
+   <image width="446" height="519" source="../../1bitplatformerpack/Sprite/Hue-fill.png"/>
+  </tile>
+  <tile id="452">
+   <image width="465" height="527" source="../../1bitplatformerpack/Sprite/Hue-lines.png"/>
+  </tile>
+  <tile id="453">
+   <image width="93" height="68" source="../../1bitplatformerpack/Sprite/Icon-controller.png"/>
+  </tile>
+  <tile id="454">
+   <image width="120" height="89" source="../../1bitplatformerpack/Sprite/Icon-keyboard.png"/>
+  </tile>
+  <tile id="455">
+   <image width="114" height="114" source="../../1bitplatformerpack/Sprite/IKControl.png"/>
+  </tile>
+  <tile id="456">
+   <image width="51" height="95" source="../../1bitplatformerpack/Sprite/InnerBodyMask.png"/>
+  </tile>
+  <tile id="457">
+   <image width="532" height="31" source="../../1bitplatformerpack/Sprite/InteriorPlatform.png"/>
+  </tile>
+  <tile id="458">
+   <image width="256" height="31" source="../../1bitplatformerpack/Sprite/InteriorPlatformEdge.png"/>
+  </tile>
+  <tile id="459">
+   <image width="198" height="152" source="../../1bitplatformerpack/Sprite/Island.png"/>
+  </tile>
+  <tile id="460">
+   <image width="101" height="88" source="../../1bitplatformerpack/Sprite/Kettle.png"/>
+  </tile>
+  <tile id="461">
+   <image width="108" height="50" source="../../1bitplatformerpack/Sprite/Key4.png"/>
+  </tile>
+  <tile id="462">
+   <image width="18" height="37" source="../../1bitplatformerpack/Sprite/KeyHole-mask.png"/>
+  </tile>
+  <tile id="463">
+   <image width="37" height="143" source="../../1bitplatformerpack/Sprite/LabCoatLeft.png"/>
+  </tile>
+  <tile id="464">
+   <image width="45" height="151" source="../../1bitplatformerpack/Sprite/LabCoatLeftMask.png"/>
+  </tile>
+  <tile id="465">
+   <image width="36" height="142" source="../../1bitplatformerpack/Sprite/LabCoatRight.png"/>
+  </tile>
+  <tile id="466">
+   <image width="44" height="150" source="../../1bitplatformerpack/Sprite/LabCoatRightMask.png"/>
+  </tile>
+  <tile id="467">
+   <image width="96" height="319" source="../../1bitplatformerpack/Sprite/Lamp.png"/>
+  </tile>
+  <tile id="468">
+   <image width="96" height="20" source="../../1bitplatformerpack/Sprite/LampBottom.png"/>
+  </tile>
+  <tile id="469">
+   <image width="61" height="97" source="../../1bitplatformerpack/Sprite/Lantern.png"/>
+  </tile>
+  <tile id="470">
+   <image width="194" height="154" source="../../1bitplatformerpack/Sprite/Lantern1 #581200.png"/>
+  </tile>
+  <tile id="471">
+   <image width="117" height="291" source="../../1bitplatformerpack/Sprite/Lantern1.png"/>
+  </tile>
+  <tile id="472">
+   <image width="140" height="308" source="../../1bitplatformerpack/Sprite/Lantern2 #581170.png"/>
+  </tile>
+  <tile id="473">
+   <image width="167" height="117" source="../../1bitplatformerpack/Sprite/Lantern2.png"/>
+  </tile>
+  <tile id="474">
+   <image width="93" height="261" source="../../1bitplatformerpack/Sprite/Lantern3.png"/>
+  </tile>
+  <tile id="475">
+   <image width="119" height="254" source="../../1bitplatformerpack/Sprite/Lantern4.png"/>
+  </tile>
+  <tile id="476">
+   <image width="247" height="182" source="../../1bitplatformerpack/Sprite/Lantern5.png"/>
+  </tile>
+  <tile id="477">
+   <image width="149" height="254" source="../../1bitplatformerpack/Sprite/Lantern6.png"/>
+  </tile>
+  <tile id="478">
+   <image width="180" height="90" source="../../1bitplatformerpack/Sprite/Lantern7.png"/>
+  </tile>
+  <tile id="479">
+   <image width="95" height="141" source="../../1bitplatformerpack/Sprite/LaserCanon.png"/>
+  </tile>
+  <tile id="480">
+   <image width="103" height="149" source="../../1bitplatformerpack/Sprite/LaserCanon-mask.png"/>
+  </tile>
+  <tile id="481">
+   <image width="94" height="63" source="../../1bitplatformerpack/Sprite/LaserGun.png"/>
+  </tile>
+  <tile id="482">
+   <image width="64" height="115" source="../../1bitplatformerpack/Sprite/LeftArm #581088.png"/>
+  </tile>
+  <tile id="483">
+   <image width="83" height="66" source="../../1bitplatformerpack/Sprite/LeftArm.png"/>
+  </tile>
+  <tile id="484">
+   <image width="30" height="54" source="../../1bitplatformerpack/Sprite/LeftArmBottom.png"/>
+  </tile>
+  <tile id="485">
+   <image width="72" height="123" source="../../1bitplatformerpack/Sprite/LeftArmMask.png"/>
+  </tile>
+  <tile id="486">
+   <image width="91" height="74" source="../../1bitplatformerpack/Sprite/LeftArm-mask.png"/>
+  </tile>
+  <tile id="487">
+   <image width="35" height="56" source="../../1bitplatformerpack/Sprite/LeftArmTop.png"/>
+  </tile>
+  <tile id="488">
+   <image width="53" height="46" source="../../1bitplatformerpack/Sprite/LeftBoot #581102.png"/>
+  </tile>
+  <tile id="489">
+   <image width="73" height="48" source="../../1bitplatformerpack/Sprite/LeftBoot #581262.png"/>
+  </tile>
+  <tile id="490">
+   <image width="31" height="37" source="../../1bitplatformerpack/Sprite/LeftBoot.png"/>
+  </tile>
+  <tile id="491">
+   <image width="61" height="54" source="../../1bitplatformerpack/Sprite/LeftBootMask #581107.png"/>
+  </tile>
+  <tile id="492">
+   <image width="39" height="45" source="../../1bitplatformerpack/Sprite/LeftBootMask.png"/>
+  </tile>
+  <tile id="493">
+   <image width="34" height="86" source="../../1bitplatformerpack/Sprite/LeftCoatTail.png"/>
+  </tile>
+  <tile id="494">
+   <image width="42" height="94" source="../../1bitplatformerpack/Sprite/LeftCoatTail-mask.png"/>
+  </tile>
+  <tile id="495">
+   <image width="12" height="24" source="../../1bitplatformerpack/Sprite/LeftEye.png"/>
+  </tile>
+  <tile id="496">
+   <image width="72" height="77" source="../../1bitplatformerpack/Sprite/LeftFoot.png"/>
+  </tile>
+  <tile id="497">
+   <image width="30" height="21" source="../../1bitplatformerpack/Sprite/LeftHand #580622.png"/>
+  </tile>
+  <tile id="498">
+   <image width="36" height="54" source="../../1bitplatformerpack/Sprite/LeftHand #581096.png"/>
+  </tile>
+  <tile id="499">
+   <image width="36" height="44" source="../../1bitplatformerpack/Sprite/LeftHand #581286.png"/>
+  </tile>
+  <tile id="500">
+   <image width="30" height="33" source="../../1bitplatformerpack/Sprite/LeftHand.png"/>
+  </tile>
+  <tile id="501">
+   <image width="44" height="62" source="../../1bitplatformerpack/Sprite/LeftHandMask.png"/>
+  </tile>
+  <tile id="502">
+   <image width="38" height="41" source="../../1bitplatformerpack/Sprite/LeftHand-mask.png"/>
+  </tile>
+  <tile id="503">
+   <image width="18" height="43" source="../../1bitplatformerpack/Sprite/LeftLeg.png"/>
+  </tile>
+  <tile id="504">
+   <image width="105" height="105" source="../../1bitplatformerpack/Sprite/LeftWheel.png"/>
+  </tile>
+  <tile id="505">
+   <image width="15" height="14" source="../../1bitplatformerpack/Sprite/LeftWrist-mask.png"/>
+  </tile>
+  <tile id="506">
+   <image width="16" height="64" source="../../1bitplatformerpack/Sprite/Leg #580238.png"/>
+  </tile>
+  <tile id="507">
+   <image width="11" height="37" source="../../1bitplatformerpack/Sprite/Leg #580258.png"/>
+  </tile>
+  <tile id="508">
+   <image width="23" height="25" source="../../1bitplatformerpack/Sprite/Leg.png"/>
+  </tile>
+  <tile id="509">
+   <image width="19" height="30" source="../../1bitplatformerpack/Sprite/LegBottom #580277.png"/>
+  </tile>
+  <tile id="510">
+   <image width="19" height="64" source="../../1bitplatformerpack/Sprite/LegBottom #581106.png"/>
+  </tile>
+  <tile id="511">
+   <image width="17" height="46" source="../../1bitplatformerpack/Sprite/LegBottom #581431.png"/>
+  </tile>
+  <tile id="512">
+   <image width="16" height="38" source="../../1bitplatformerpack/Sprite/LegBottom.png"/>
+  </tile>
+  <tile id="513">
+   <image width="27" height="72" source="../../1bitplatformerpack/Sprite/LegBottomMask #581109.png"/>
+  </tile>
+  <tile id="514">
+   <image width="24" height="46" source="../../1bitplatformerpack/Sprite/LegBottomMask.png"/>
+  </tile>
+  <tile id="515">
+   <image width="27" height="106" source="../../1bitplatformerpack/Sprite/LegLeft.png"/>
+  </tile>
+  <tile id="516">
+   <image width="24" height="72" source="../../1bitplatformerpack/Sprite/Leg-mask #580232.png"/>
+  </tile>
+  <tile id="517">
+   <image width="19" height="45" source="../../1bitplatformerpack/Sprite/Leg-mask.png"/>
+  </tile>
+  <tile id="518">
+   <image width="129" height="135" source="../../1bitplatformerpack/Sprite/Legs.png"/>
+  </tile>
+  <tile id="519">
+   <image width="137" height="143" source="../../1bitplatformerpack/Sprite/Legs-mask.png"/>
+  </tile>
+  <tile id="520">
+   <image width="19" height="30" source="../../1bitplatformerpack/Sprite/LegTop #580243.png"/>
+  </tile>
+  <tile id="521">
+   <image width="19" height="42" source="../../1bitplatformerpack/Sprite/LegTop #581080.png"/>
+  </tile>
+  <tile id="522">
+   <image width="17" height="58" source="../../1bitplatformerpack/Sprite/LegTop #581415.png"/>
+  </tile>
+  <tile id="523">
+   <image width="16" height="38" source="../../1bitplatformerpack/Sprite/LegTop.png"/>
+  </tile>
+  <tile id="524">
+   <image width="27" height="50" source="../../1bitplatformerpack/Sprite/LegTopMask #581094.png"/>
+  </tile>
+  <tile id="525">
+   <image width="24" height="46" source="../../1bitplatformerpack/Sprite/LegTopMask.png"/>
+  </tile>
+  <tile id="527">
+   <image width="81" height="62" source="../../1bitplatformerpack/Sprite/LetterInverted.png"/>
+  </tile>
+  <tile id="528">
+   <image width="80" height="64" source="../../1bitplatformerpack/Sprite/LeverBase.png"/>
+  </tile>
+  <tile id="529">
+   <image width="41" height="187" source="../../1bitplatformerpack/Sprite/LeverHandle.png"/>
+  </tile>
+  <tile id="530">
+   <image width="99" height="99" source="../../1bitplatformerpack/Sprite/LifeRing2.png"/>
+  </tile>
+  <tile id="531">
+   <image width="77" height="97" source="../../1bitplatformerpack/Sprite/Light1Bulb.png"/>
+  </tile>
+  <tile id="532">
+   <image width="77" height="97" source="../../1bitplatformerpack/Sprite/Light1BulbOff.png"/>
+  </tile>
+  <tile id="533">
+   <image width="39" height="112" source="../../1bitplatformerpack/Sprite/Light1Filament.png"/>
+  </tile>
+  <tile id="534">
+   <image width="41" height="80" source="../../1bitplatformerpack/Sprite/Light2Bulb.png"/>
+  </tile>
+  <tile id="535">
+   <image width="41" height="80" source="../../1bitplatformerpack/Sprite/Light2BulbOff.png"/>
+  </tile>
+  <tile id="536">
+   <image width="23" height="84" source="../../1bitplatformerpack/Sprite/Light2Filament.png"/>
+  </tile>
+  <tile id="537">
+   <image width="64" height="73" source="../../1bitplatformerpack/Sprite/Light3Bulb.png"/>
+  </tile>
+  <tile id="538">
+   <image width="64" height="73" source="../../1bitplatformerpack/Sprite/Light3BulbOff.png"/>
+  </tile>
+  <tile id="539">
+   <image width="33" height="62" source="../../1bitplatformerpack/Sprite/Light3Filament.png"/>
+  </tile>
+  <tile id="540">
+   <image width="48" height="85" source="../../1bitplatformerpack/Sprite/Light4Bulb.png"/>
+  </tile>
+  <tile id="541">
+   <image width="48" height="85" source="../../1bitplatformerpack/Sprite/Light4BulbOff.png"/>
+  </tile>
+  <tile id="542">
+   <image width="25" height="75" source="../../1bitplatformerpack/Sprite/Light4Filament.png"/>
+  </tile>
+  <tile id="543">
+   <image width="55" height="73" source="../../1bitplatformerpack/Sprite/Light5Bulb.png"/>
+  </tile>
+  <tile id="544">
+   <image width="55" height="73" source="../../1bitplatformerpack/Sprite/Light5BulbOff.png"/>
+  </tile>
+  <tile id="545">
+   <image width="27" height="70" source="../../1bitplatformerpack/Sprite/Light5Filament.png"/>
+  </tile>
+  <tile id="546">
+   <image width="447" height="1036" source="../../1bitplatformerpack/Sprite/Lighthouse.png"/>
+  </tile>
+  <tile id="547">
+   <image width="65" height="91" source="../../1bitplatformerpack/Sprite/LighthouseBulb.png"/>
+  </tile>
+  <tile id="548">
+   <image width="62" height="105" source="../../1bitplatformerpack/Sprite/LighthouseBulbFilament.png"/>
+  </tile>
+  <tile id="549">
+   <image width="65" height="91" source="../../1bitplatformerpack/Sprite/LighthouseBulbOff.png"/>
+  </tile>
+  <tile id="550">
+   <image width="158" height="129" source="../../1bitplatformerpack/Sprite/LighthouseLight.png"/>
+  </tile>
+  <tile id="551">
+   <image width="106" height="239" source="../../1bitplatformerpack/Sprite/LighthouseSign.png"/>
+  </tile>
+  <tile id="552">
+   <image width="64" height="49" source="../../1bitplatformerpack/Sprite/LimeSymbol.png"/>
+  </tile>
+  <tile id="553">
+   <image width="500" height="11" source="../../1bitplatformerpack/Sprite/LineMask.png"/>
+  </tile>
+  <tile id="554">
+   <image width="41" height="64" source="../../1bitplatformerpack/Sprite/Lock.png"/>
+  </tile>
+  <tile id="555">
+   <image width="413" height="143" source="../../1bitplatformerpack/Sprite/Logo.png"/>
+  </tile>
+  <tile id="556">
+   <image width="415" height="152" source="../../1bitplatformerpack/Sprite/Logo-colour.png"/>
+  </tile>
+  <tile id="557">
+   <image width="234" height="120" source="../../1bitplatformerpack/Sprite/Logs.png"/>
+  </tile>
+  <tile id="558">
+   <image width="573" height="7" source="../../1bitplatformerpack/Sprite/LongHorizontalLine-mask.png"/>
+  </tile>
+  <tile id="559">
+   <image width="19" height="34" source="../../1bitplatformerpack/Sprite/LowerArm.png"/>
+  </tile>
+  <tile id="560">
+   <image width="90" height="46" source="../../1bitplatformerpack/Sprite/LowerArmRight.png"/>
+  </tile>
+  <tile id="561">
+   <image width="100" height="54" source="../../1bitplatformerpack/Sprite/LowerArmRight-mask.png"/>
+  </tile>
+  <tile id="562">
+   <image width="21" height="38" source="../../1bitplatformerpack/Sprite/LowerLeg.png"/>
+  </tile>
+  <tile id="563">
+   <image width="74" height="67" source="../../1bitplatformerpack/Sprite/LowerLegs.png"/>
+  </tile>
+  <tile id="564">
+   <image width="181" height="240" source="../../1bitplatformerpack/Sprite/Machine.png"/>
+  </tile>
+  <tile id="565">
+   <image width="175" height="394" source="../../1bitplatformerpack/Sprite/MetalCage.png"/>
+  </tile>
+  <tile id="566">
+   <image width="23" height="148" source="../../1bitplatformerpack/Sprite/Mop.png"/>
+  </tile>
+  <tile id="567">
+   <image width="33" height="59" source="../../1bitplatformerpack/Sprite/MopBottom.png"/>
+  </tile>
+  <tile id="568">
+   <image width="45" height="22" source="../../1bitplatformerpack/Sprite/Moustache-mask #581426.png"/>
+  </tile>
+  <tile id="569">
+   <image width="30" height="13" source="../../1bitplatformerpack/Sprite/Moustache-mask.png"/>
+  </tile>
+  <tile id="570">
+   <image width="237" height="82" source="../../1bitplatformerpack/Sprite/MovingPlatform.png"/>
+  </tile>
+  <tile id="571">
+   <image width="42" height="42" source="../../1bitplatformerpack/Sprite/MovingPlatformCog.png"/>
+  </tile>
+  <tile id="572">
+   <image width="307" height="458" source="../../1bitplatformerpack/Sprite/Mum-colour.png"/>
+  </tile>
+  <tile id="573">
+   <image width="407" height="560" source="../../1bitplatformerpack/Sprite/Mum-fill.png"/>
+  </tile>
+  <tile id="574">
+   <image width="414" height="566" source="../../1bitplatformerpack/Sprite/Mum-lines.png"/>
+  </tile>
+  <tile id="586">
+   <image width="62" height="62" source="../../1bitplatformerpack/Sprite/NavySymbol.png"/>
+  </tile>
+  <tile id="587">
+   <image width="11" height="23" source="../../1bitplatformerpack/Sprite/Neck.png"/>
+  </tile>
+  <tile id="588">
+   <image width="15" height="15" source="../../1bitplatformerpack/Sprite/Necklace.png"/>
+  </tile>
+  <tile id="589">
+   <image width="33" height="33" source="../../1bitplatformerpack/Sprite/Necklace-mask.png"/>
+  </tile>
+  <tile id="590">
+   <image width="67" height="45" source="../../1bitplatformerpack/Sprite/NewBeakerFill.png"/>
+  </tile>
+  <tile id="591">
+   <image width="71" height="81" source="../../1bitplatformerpack/Sprite/NewBeakerOutline.png"/>
+  </tile>
+  <tile id="592">
+   <image width="251" height="252" source="../../1bitplatformerpack/Sprite/OldMachine.png"/>
+  </tile>
+  <tile id="593">
+   <image width="103" height="103" source="../../1bitplatformerpack/Sprite/OldMachineWheel.png"/>
+  </tile>
+  <tile id="594">
+   <image width="59" height="61" source="../../1bitplatformerpack/Sprite/OrangeSymbol.png"/>
+  </tile>
+  <tile id="595">
+   <image width="116" height="116" source="../../1bitplatformerpack/Sprite/orientControl.png"/>
+  </tile>
+  <tile id="596">
+   <image width="212" height="401" source="../../1bitplatformerpack/Sprite/OuterRing-mask.png"/>
+  </tile>
+  <tile id="597">
+   <image width="1024" height="683" source="../../1bitplatformerpack/Sprite/Overlay.png"/>
+  </tile>
+  <tile id="598">
+   <image width="116" height="116" source="../../1bitplatformerpack/Sprite/parentControl.png"/>
+  </tile>
+  <tile id="599">
+   <image width="26" height="26" source="../../1bitplatformerpack/Sprite/Patch-mask.png"/>
+  </tile>
+  <tile id="600">
+   <image width="53" height="35" source="../../1bitplatformerpack/Sprite/Pelvis.png"/>
+  </tile>
+  <tile id="601">
+   <image width="68" height="112" source="../../1bitplatformerpack/Sprite/PickaxeHead.png"/>
+  </tile>
+  <tile id="602">
+   <image width="76" height="120" source="../../1bitplatformerpack/Sprite/PickaxeHeadMask.png"/>
+  </tile>
+  <tile id="603">
+   <image width="185" height="73" source="../../1bitplatformerpack/Sprite/PickaxeShaft.png"/>
+  </tile>
+  <tile id="604">
+   <image width="193" height="81" source="../../1bitplatformerpack/Sprite/PickaxeShaftMask.png"/>
+  </tile>
+  <tile id="605">
+   <image width="95" height="259" source="../../1bitplatformerpack/Sprite/PictureFlower.png"/>
+  </tile>
+  <tile id="606">
+   <image width="422" height="206" source="../../1bitplatformerpack/Sprite/Pier.png"/>
+  </tile>
+  <tile id="607">
+   <image width="257" height="143" source="../../1bitplatformerpack/Sprite/PillarBottom.png"/>
+  </tile>
+  <tile id="608">
+   <image width="259" height="142" source="../../1bitplatformerpack/Sprite/PillarBottom-mask.png"/>
+  </tile>
+  <tile id="609">
+   <image width="198" height="77" source="../../1bitplatformerpack/Sprite/PillarLargeBase.png"/>
+  </tile>
+  <tile id="610">
+   <image width="206" height="85" source="../../1bitplatformerpack/Sprite/PillarLargeBase-mask.png"/>
+  </tile>
+  <tile id="611">
+   <image width="83" height="280" source="../../1bitplatformerpack/Sprite/PillarLargeMiddle.png"/>
+  </tile>
+  <tile id="612">
+   <image width="90" height="280" source="../../1bitplatformerpack/Sprite/PillarLargeMiddle-mask.png"/>
+  </tile>
+  <tile id="613">
+   <image width="232" height="72" source="../../1bitplatformerpack/Sprite/PillarLargeTop.png"/>
+  </tile>
+  <tile id="614">
+   <image width="240" height="79" source="../../1bitplatformerpack/Sprite/PillarLargeTop-mask.png"/>
+  </tile>
+  <tile id="615">
+   <image width="225" height="144" source="../../1bitplatformerpack/Sprite/PillarTop.png"/>
+  </tile>
+  <tile id="616">
+   <image width="225" height="144" source="../../1bitplatformerpack/Sprite/PillarTop-mask.png"/>
+  </tile>
+  <tile id="617">
+   <image width="489" height="1536" source="../../1bitplatformerpack/Sprite/PineTree1.png"/>
+  </tile>
+  <tile id="618">
+   <image width="303" height="1121" source="../../1bitplatformerpack/Sprite/PineTree2.png"/>
+  </tile>
+  <tile id="619">
+   <image width="367" height="1067" source="../../1bitplatformerpack/Sprite/PineTree3.png"/>
+  </tile>
+  <tile id="620">
+   <image width="393" height="1361" source="../../1bitplatformerpack/Sprite/PineTree4.png"/>
+  </tile>
+  <tile id="621">
+   <image width="259" height="1143" source="../../1bitplatformerpack/Sprite/PineTree5.png"/>
+  </tile>
+  <tile id="622">
+   <image width="63" height="57" source="../../1bitplatformerpack/Sprite/PinkSymbol.png"/>
+  </tile>
+  <tile id="623">
+   <image width="41" height="21" source="../../1bitplatformerpack/Sprite/Pipe.png"/>
+  </tile>
+  <tile id="624">
+   <image width="246" height="202" source="../../1bitplatformerpack/Sprite/Pipe1.png"/>
+  </tile>
+  <tile id="625">
+   <image width="52" height="169" source="../../1bitplatformerpack/Sprite/Pipe2.png"/>
+  </tile>
+  <tile id="626">
+   <image width="27" height="207" source="../../1bitplatformerpack/Sprite/Pipe3.png"/>
+  </tile>
+  <tile id="627">
+   <image width="89" height="90" source="../../1bitplatformerpack/Sprite/Pipe4.png"/>
+  </tile>
+  <tile id="628">
+   <image width="121" height="49" source="../../1bitplatformerpack/Sprite/Pipe5.png"/>
+  </tile>
+  <tile id="629">
+   <image width="50" height="48" source="../../1bitplatformerpack/Sprite/Pipe6.png"/>
+  </tile>
+  <tile id="630">
+   <image width="173" height="44" source="../../1bitplatformerpack/Sprite/Pipe7.png"/>
+  </tile>
+  <tile id="631">
+   <image width="88" height="126" source="../../1bitplatformerpack/Sprite/Pipe8.png"/>
+  </tile>
+  <tile id="632">
+   <image width="28" height="266" source="../../1bitplatformerpack/Sprite/Pipe9.png"/>
+  </tile>
+  <tile id="633">
+   <image width="50" height="31" source="../../1bitplatformerpack/Sprite/Pipe-mask.png"/>
+  </tile>
+  <tile id="634">
+   <image width="600" height="170" source="../../1bitplatformerpack/Sprite/PointedRoof.png"/>
+  </tile>
+  <tile id="635">
+   <image width="303" height="568" source="../../1bitplatformerpack/Sprite/PointyRock1.png"/>
+  </tile>
+  <tile id="636">
+   <image width="174" height="498" source="../../1bitplatformerpack/Sprite/PointyRock2.png"/>
+  </tile>
+  <tile id="637">
+   <image width="139" height="529" source="../../1bitplatformerpack/Sprite/PointyRock3.png"/>
+  </tile>
+  <tile id="638">
+   <image width="270" height="397" source="../../1bitplatformerpack/Sprite/Portrait1.png"/>
+  </tile>
+  <tile id="639">
+   <image width="205" height="218" source="../../1bitplatformerpack/Sprite/Portrait2.png"/>
+  </tile>
+  <tile id="640">
+   <image width="171" height="302" source="../../1bitplatformerpack/Sprite/Portrait3.png"/>
+  </tile>
+  <tile id="641">
+   <image width="206" height="201" source="../../1bitplatformerpack/Sprite/Portrait4.png"/>
+  </tile>
+  <tile id="642">
+   <image width="420" height="181" source="../../1bitplatformerpack/Sprite/Portrait5.png"/>
+  </tile>
+  <tile id="643">
+   <image width="349" height="255" source="../../1bitplatformerpack/Sprite/Portrait6.png"/>
+  </tile>
+  <tile id="644">
+   <image width="167" height="162" source="../../1bitplatformerpack/Sprite/Portrait7.png"/>
+  </tile>
+  <tile id="645">
+   <image width="134" height="145" source="../../1bitplatformerpack/Sprite/Portrait8.png"/>
+  </tile>
+  <tile id="646">
+   <image width="218" height="300" source="../../1bitplatformerpack/Sprite/Portrait9.png"/>
+  </tile>
+  <tile id="647">
+   <image width="170" height="261" source="../../1bitplatformerpack/Sprite/PotPlant1.png"/>
+  </tile>
+  <tile id="648">
+   <image width="192" height="309" source="../../1bitplatformerpack/Sprite/PotPlant2.png"/>
+  </tile>
+  <tile id="649">
+   <image width="39" height="38" source="../../1bitplatformerpack/Sprite/PowerCellConnector.png"/>
+  </tile>
+  <tile id="650">
+   <image width="58" height="56" source="../../1bitplatformerpack/Sprite/PowerCellSource.png"/>
+  </tile>
+  <tile id="651">
+   <image width="226" height="239" source="../../1bitplatformerpack/Sprite/Pram.png"/>
+  </tile>
+  <tile id="652">
+   <image width="194" height="200" source="../../1bitplatformerpack/Sprite/Pram-mask.png"/>
+  </tile>
+  <tile id="653">
+   <image width="300" height="59" source="../../1bitplatformerpack/Sprite/Pressurepad.png"/>
+  </tile>
+  <tile id="654">
+   <image width="373" height="38" source="../../1bitplatformerpack/Sprite/PressurepadBase.png"/>
+  </tile>
+  <tile id="655">
+   <image width="386" height="48" source="../../1bitplatformerpack/Sprite/PressurepadBase-mask.png"/>
+  </tile>
+  <tile id="656">
+   <image width="58" height="62" source="../../1bitplatformerpack/Sprite/PurpleSymbol.png"/>
+  </tile>
+  <tile id="657">
+   <image width="428" height="305" source="../../1bitplatformerpack/Sprite/RectBricks1-mask.png"/>
+  </tile>
+  <tile id="658">
+   <image width="307" height="368" source="../../1bitplatformerpack/Sprite/RectBricks2-mask.png"/>
+  </tile>
+  <tile id="659">
+   <image width="430" height="308" source="../../1bitplatformerpack/Sprite/RectBricks3-mask.png"/>
+  </tile>
+  <tile id="660">
+   <image width="306" height="187" source="../../1bitplatformerpack/Sprite/RectBricks4-mask.png"/>
+  </tile>
+  <tile id="661">
+   <image width="87" height="48" source="../../1bitplatformerpack/Sprite/RedSymbol.png"/>
+  </tile>
+  <tile id="662">
+   <image width="52" height="73" source="../../1bitplatformerpack/Sprite/Ribcage.png"/>
+  </tile>
+  <tile id="663">
+   <image width="79" height="72" source="../../1bitplatformerpack/Sprite/RightArm #581090.png"/>
+  </tile>
+  <tile id="664">
+   <image width="58" height="84" source="../../1bitplatformerpack/Sprite/RightArm.png"/>
+  </tile>
+  <tile id="665">
+   <image width="55" height="15" source="../../1bitplatformerpack/Sprite/RightArmBottom #580630.png"/>
+  </tile>
+  <tile id="666">
+   <image width="25" height="49" source="../../1bitplatformerpack/Sprite/RightArmBottom.png"/>
+  </tile>
+  <tile id="667">
+   <image width="33" height="57" source="../../1bitplatformerpack/Sprite/RightArmBottomMask.png"/>
+  </tile>
+  <tile id="668">
+   <image width="87" height="80" source="../../1bitplatformerpack/Sprite/RightArmMask.png"/>
+  </tile>
+  <tile id="669">
+   <image width="42" height="62" source="../../1bitplatformerpack/Sprite/RightArmTop #580577.png"/>
+  </tile>
+  <tile id="670">
+   <image width="32" height="54" source="../../1bitplatformerpack/Sprite/RightArmTop.png"/>
+  </tile>
+  <tile id="671">
+   <image width="40" height="62" source="../../1bitplatformerpack/Sprite/RightArmTopMask.png"/>
+  </tile>
+  <tile id="672">
+   <image width="72" height="47" source="../../1bitplatformerpack/Sprite/RightBoot #581112.png"/>
+  </tile>
+  <tile id="673">
+   <image width="56" height="34" source="../../1bitplatformerpack/Sprite/RightBoot.png"/>
+  </tile>
+  <tile id="674">
+   <image width="80" height="55" source="../../1bitplatformerpack/Sprite/RightBootMask #581113.png"/>
+  </tile>
+  <tile id="675">
+   <image width="64" height="42" source="../../1bitplatformerpack/Sprite/RightBootMask.png"/>
+  </tile>
+  <tile id="676">
+   <image width="14" height="24" source="../../1bitplatformerpack/Sprite/RightEye.png"/>
+  </tile>
+  <tile id="677">
+   <image width="59" height="78" source="../../1bitplatformerpack/Sprite/RightFoot.png"/>
+  </tile>
+  <tile id="678">
+   <image width="18" height="27" source="../../1bitplatformerpack/Sprite/RightHand #580638.png"/>
+  </tile>
+  <tile id="679">
+   <image width="48" height="38" source="../../1bitplatformerpack/Sprite/RightHand #581111.png"/>
+  </tile>
+  <tile id="680">
+   <image width="34" height="52" source="../../1bitplatformerpack/Sprite/RightHand.png"/>
+  </tile>
+  <tile id="681">
+   <image width="56" height="46" source="../../1bitplatformerpack/Sprite/RightHandMask #581105.png"/>
+  </tile>
+  <tile id="682">
+   <image width="42" height="60" source="../../1bitplatformerpack/Sprite/RightHandMask.png"/>
+  </tile>
+  <tile id="683">
+   <image width="66" height="92" source="../../1bitplatformerpack/Sprite/RightHand-mask.png"/>
+  </tile>
+  <tile id="684">
+   <image width="31" height="127" source="../../1bitplatformerpack/Sprite/RightLeg #581277.png"/>
+  </tile>
+  <tile id="685">
+   <image width="27" height="42" source="../../1bitplatformerpack/Sprite/RightLeg.png"/>
+  </tile>
+  <tile id="686">
+   <image width="45" height="92" source="../../1bitplatformerpack/Sprite/RighttCoatTail.png"/>
+  </tile>
+  <tile id="687">
+   <image width="53" height="100" source="../../1bitplatformerpack/Sprite/RighttCoatTail-mask.png"/>
+  </tile>
+  <tile id="688">
+   <image width="87" height="89" source="../../1bitplatformerpack/Sprite/RightWheel.png"/>
+  </tile>
+  <tile id="689">
+   <image width="135" height="174" source="../../1bitplatformerpack/Sprite/RingsSmall.png"/>
+  </tile>
+  <tile id="690">
+   <image width="138" height="190" source="../../1bitplatformerpack/Sprite/RingsSmall2.png"/>
+  </tile>
+  <tile id="691">
+   <image width="249" height="219" source="../../1bitplatformerpack/Sprite/rock1.png"/>
+  </tile>
+  <tile id="692">
+   <image width="167" height="357" source="../../1bitplatformerpack/Sprite/rock2.png"/>
+  </tile>
+  <tile id="693">
+   <image width="170" height="196" source="../../1bitplatformerpack/Sprite/rock3.png"/>
+  </tile>
+  <tile id="694">
+   <image width="219" height="186" source="../../1bitplatformerpack/Sprite/rock4.png"/>
+  </tile>
+  <tile id="695">
+   <image width="203" height="189" source="../../1bitplatformerpack/Sprite/rock5.png"/>
+  </tile>
+  <tile id="696">
+   <image width="191" height="176" source="../../1bitplatformerpack/Sprite/rock6.png"/>
+  </tile>
+  <tile id="697">
+   <image width="103" height="103" source="../../1bitplatformerpack/Sprite/rock7.png"/>
+  </tile>
+  <tile id="698">
+   <image width="79" height="253" source="../../1bitplatformerpack/Sprite/rock8.png"/>
+  </tile>
+  <tile id="699">
+   <image width="108" height="95" source="../../1bitplatformerpack/Sprite/rock9.png"/>
+  </tile>
+  <tile id="700">
+   <image width="321" height="107" source="../../1bitplatformerpack/Sprite/rock10.png"/>
+  </tile>
+  <tile id="701">
+   <image width="148" height="147" source="../../1bitplatformerpack/Sprite/rock11.png"/>
+  </tile>
+  <tile id="702">
+   <image width="366" height="302" source="../../1bitplatformerpack/Sprite/rock12.png"/>
+  </tile>
+  <tile id="703">
+   <image width="328" height="250" source="../../1bitplatformerpack/Sprite/rock13.png"/>
+  </tile>
+  <tile id="704">
+   <image width="336" height="258" source="../../1bitplatformerpack/Sprite/rock13-mask.png"/>
+  </tile>
+  <tile id="705">
+   <image width="710" height="722" source="../../1bitplatformerpack/Sprite/rock14.png"/>
+  </tile>
+  <tile id="706">
+   <image width="719" height="730" source="../../1bitplatformerpack/Sprite/rock14-mask.png"/>
+  </tile>
+  <tile id="707">
+   <image width="845" height="980" source="../../1bitplatformerpack/Sprite/rock15.png"/>
+  </tile>
+  <tile id="708">
+   <image width="854" height="988" source="../../1bitplatformerpack/Sprite/rock15-mask.png"/>
+  </tile>
+  <tile id="709">
+   <image width="743" height="460" source="../../1bitplatformerpack/Sprite/rock16.png"/>
+  </tile>
+  <tile id="710">
+   <image width="751" height="468" source="../../1bitplatformerpack/Sprite/rock16-mask.png"/>
+  </tile>
+  <tile id="711">
+   <image width="421" height="767" source="../../1bitplatformerpack/Sprite/rock17.png"/>
+  </tile>
+  <tile id="712">
+   <image width="430" height="775" source="../../1bitplatformerpack/Sprite/rock17-mask.png"/>
+  </tile>
+  <tile id="713">
+   <image width="496" height="447" source="../../1bitplatformerpack/Sprite/rock18.png"/>
+  </tile>
+  <tile id="714">
+   <image width="503" height="456" source="../../1bitplatformerpack/Sprite/rock18-mask.png"/>
+  </tile>
+  <tile id="715">
+   <image width="162" height="247" source="../../1bitplatformerpack/Sprite/RockingChair.png"/>
+  </tile>
+  <tile id="716">
+   <image width="122" height="131" source="../../1bitplatformerpack/Sprite/RockPool2-mask.png"/>
+  </tile>
+  <tile id="717">
+   <image width="305" height="133" source="../../1bitplatformerpack/Sprite/RockPool3-mask.png"/>
+  </tile>
+  <tile id="718">
+   <image width="248" height="169" source="../../1bitplatformerpack/Sprite/RockPool-mask.png"/>
+  </tile>
+  <tile id="719">
+   <image width="293" height="14" source="../../1bitplatformerpack/Sprite/RoofDetailing.png"/>
+  </tile>
+  <tile id="720">
+   <image width="518" height="28" source="../../1bitplatformerpack/Sprite/RoofDetailing2.png"/>
+  </tile>
+  <tile id="721">
+   <image width="103" height="54" source="../../1bitplatformerpack/Sprite/RoundStone1Outline.png"/>
+  </tile>
+  <tile id="722">
+   <image width="99" height="59" source="../../1bitplatformerpack/Sprite/RoundStone2Outline.png"/>
+  </tile>
+  <tile id="723">
+   <image width="58" height="26" source="../../1bitplatformerpack/Sprite/RoundStone3Outline.png"/>
+  </tile>
+  <tile id="724">
+   <image width="48" height="25" source="../../1bitplatformerpack/Sprite/RoundStone4Outline.png"/>
+  </tile>
+  <tile id="725">
+   <image width="104" height="51" source="../../1bitplatformerpack/Sprite/RoundStone5Outline.png"/>
+  </tile>
+  <tile id="726">
+   <image width="81" height="49" source="../../1bitplatformerpack/Sprite/RoundStone6Outline.png"/>
+  </tile>
+  <tile id="727">
+   <image width="790" height="217" source="../../1bitplatformerpack/Sprite/RowBoatFront.png"/>
+  </tile>
+  <tile id="728">
+   <image width="650" height="169" source="../../1bitplatformerpack/Sprite/RowBoatSide.png"/>
+  </tile>
+  <tile id="729">
+   <image width="226" height="302" source="../../1bitplatformerpack/Sprite/Seahorse.png"/>
+  </tile>
+  <tile id="730">
+   <image width="273" height="518" source="../../1bitplatformerpack/Sprite/SeaHorseStatue.png"/>
+  </tile>
+  <tile id="731">
+   <image width="474" height="69" source="../../1bitplatformerpack/Sprite/Shelf1.png"/>
+  </tile>
+  <tile id="732">
+   <image width="25" height="45" source="../../1bitplatformerpack/Sprite/Shoe.png"/>
+  </tile>
+  <tile id="733">
+   <image width="22" height="14" source="../../1bitplatformerpack/Sprite/Shoulder.png"/>
+  </tile>
+  <tile id="734">
+   <image width="30" height="35" source="../../1bitplatformerpack/Sprite/SideBrick.png"/>
+  </tile>
+  <tile id="735">
+   <image width="107" height="352" source="../../1bitplatformerpack/Sprite/Signpost.png"/>
+  </tile>
+  <tile id="736">
+   <image width="148" height="89" source="../../1bitplatformerpack/Sprite/Signpost2.png"/>
+  </tile>
+  <tile id="737">
+   <image width="52" height="32" source="../../1bitplatformerpack/Sprite/SkirtLine-mask.png"/>
+  </tile>
+  <tile id="738">
+   <image width="52" height="31" source="../../1bitplatformerpack/Sprite/Skirt-mask.png"/>
+  </tile>
+  <tile id="739">
+   <image width="249" height="261" source="../../1bitplatformerpack/Sprite/SkullBoulder.png"/>
+  </tile>
+  <tile id="740">
+   <image width="22" height="24" source="../../1bitplatformerpack/Sprite/Sleeve-mask.png"/>
+  </tile>
+  <tile id="741">
+   <image width="35" height="34" source="../../1bitplatformerpack/Sprite/Slider-handle.png"/>
+  </tile>
+  <tile id="742">
+   <image width="468" height="15" source="../../1bitplatformerpack/Sprite/Slider-line.png"/>
+  </tile>
+  <tile id="743">
+   <image width="68" height="415" source="../../1bitplatformerpack/Sprite/SlidingDoor.png"/>
+  </tile>
+  <tile id="744">
+   <image width="137" height="42" source="../../1bitplatformerpack/Sprite/SlidingDoorBase.png"/>
+  </tile>
+  <tile id="745">
+   <image width="75" height="47" source="../../1bitplatformerpack/Sprite/Small1.png"/>
+  </tile>
+  <tile id="746">
+   <image width="33" height="19" source="../../1bitplatformerpack/Sprite/Small2.png"/>
+  </tile>
+  <tile id="747">
+   <image width="47" height="35" source="../../1bitplatformerpack/Sprite/Small3.png"/>
+  </tile>
+  <tile id="748">
+   <image width="45" height="41" source="../../1bitplatformerpack/Sprite/Small4.png"/>
+  </tile>
+  <tile id="749">
+   <image width="34" height="20" source="../../1bitplatformerpack/Sprite/Small5.png"/>
+  </tile>
+  <tile id="750">
+   <image width="65" height="34" source="../../1bitplatformerpack/Sprite/Small6.png"/>
+  </tile>
+  <tile id="751">
+   <image width="117" height="103" source="../../1bitplatformerpack/Sprite/SmallSideSign.png"/>
+  </tile>
+  <tile id="752">
+   <image width="790" height="773" source="../../1bitplatformerpack/Sprite/Smoke-bg.png"/>
+  </tile>
+  <tile id="753">
+   <image width="151" height="159" source="../../1bitplatformerpack/Sprite/SmokeLayer1-2.png"/>
+  </tile>
+  <tile id="754">
+   <image width="124" height="128" source="../../1bitplatformerpack/Sprite/SmokeLayer2-1.png"/>
+  </tile>
+  <tile id="755">
+   <image width="120" height="123" source="../../1bitplatformerpack/Sprite/SmokeLayer2-2.png"/>
+  </tile>
+  <tile id="756">
+   <image width="130" height="138" source="../../1bitplatformerpack/Sprite/SmokeLayer2-3.png"/>
+  </tile>
+  <tile id="757">
+   <image width="129" height="109" source="../../1bitplatformerpack/Sprite/SmokeLayer2-4.png"/>
+  </tile>
+  <tile id="758">
+   <image width="497" height="28" source="../../1bitplatformerpack/Sprite/Snow.png"/>
+  </tile>
+  <tile id="759">
+   <image width="112" height="22" source="../../1bitplatformerpack/Sprite/SnowSmall.png"/>
+  </tile>
+  <tile id="760">
+   <image width="130" height="118" source="../../1bitplatformerpack/Sprite/SnowStepsSmall.png"/>
+  </tile>
+  <tile id="761">
+   <image width="642" height="102" source="../../1bitplatformerpack/Sprite/SpikedRailings.png"/>
+  </tile>
+  <tile id="762">
+   <image width="416" height="55" source="../../1bitplatformerpack/Sprite/SpikesBottom1.png"/>
+  </tile>
+  <tile id="770">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/Square.png"/>
+  </tile>
+  <tile id="771">
+   <image width="200" height="200" source="../../1bitplatformerpack/Sprite/Square-mask.png"/>
+  </tile>
+  <tile id="772">
+   <image width="297" height="170" source="../../1bitplatformerpack/Sprite/SquareWindowOutside.png"/>
+  </tile>
+  <tile id="773">
+   <image width="207" height="84" source="../../1bitplatformerpack/Sprite/SquareWindowRow.png"/>
+  </tile>
+  <tile id="776">
+   <image width="59" height="295" source="../../1bitplatformerpack/Sprite/Stalagtite2.png"/>
+  </tile>
+  <tile id="777">
+   <image width="105" height="313" source="../../1bitplatformerpack/Sprite/Stalagtite3.png"/>
+  </tile>
+  <tile id="778">
+   <image width="221" height="651" source="../../1bitplatformerpack/Sprite/StalagtiteConnected.png"/>
+  </tile>
+  <tile id="779">
+   <image width="186" height="495" source="../../1bitplatformerpack/Sprite/Statue1.png"/>
+  </tile>
+  <tile id="780">
+   <image width="186" height="495" source="../../1bitplatformerpack/Sprite/Statue2.png"/>
+  </tile>
+  <tile id="781">
+   <image width="156" height="411" source="../../1bitplatformerpack/Sprite/StatueCat.png"/>
+  </tile>
+  <tile id="782">
+   <image width="352" height="575" source="../../1bitplatformerpack/Sprite/StatueChevreul.png"/>
+  </tile>
+  <tile id="783">
+   <image width="173" height="481" source="../../1bitplatformerpack/Sprite/StatueDog.png"/>
+  </tile>
+  <tile id="784">
+   <image width="352" height="587" source="../../1bitplatformerpack/Sprite/StatueGoethe.png"/>
+  </tile>
+  <tile id="785">
+   <image width="352" height="523" source="../../1bitplatformerpack/Sprite/StatueMaxwell.png"/>
+  </tile>
+  <tile id="786">
+   <image width="352" height="621" source="../../1bitplatformerpack/Sprite/StatueNewton.png"/>
+  </tile>
+  <tile id="787">
+   <image width="143" height="242" source="../../1bitplatformerpack/Sprite/StepsSmall.png"/>
+  </tile>
+  <tile id="788">
+   <image width="25" height="232" source="../../1bitplatformerpack/Sprite/Stick.png"/>
+  </tile>
+  <tile id="789">
+   <image width="33" height="240" source="../../1bitplatformerpack/Sprite/Stick-mask.png"/>
+  </tile>
+  <tile id="790">
+   <image width="253" height="124" source="../../1bitplatformerpack/Sprite/Table.png"/>
+  </tile>
+  <tile id="791">
+   <image width="261" height="132" source="../../1bitplatformerpack/Sprite/Table-mask.png"/>
+  </tile>
+  <tile id="799">
+   <image width="195" height="133" source="../../1bitplatformerpack/Sprite/Tech.png"/>
+  </tile>
+  <tile id="800">
+   <image width="168" height="152" source="../../1bitplatformerpack/Sprite/Temple.png"/>
+  </tile>
+  <tile id="801">
+   <image width="509" height="512" source="../../1bitplatformerpack/Sprite/Terrain.png"/>
+  </tile>
+  <tile id="802">
+   <image width="84" height="403" source="../../1bitplatformerpack/Sprite/TeslaCoil.png"/>
+  </tile>
+  <tile id="803">
+   <image width="86" height="375" source="../../1bitplatformerpack/Sprite/TeslaCoil2.png"/>
+  </tile>
+  <tile id="804">
+   <image width="256" height="17" source="../../1bitplatformerpack/Sprite/ThickHorizontalLine.png"/>
+  </tile>
+  <tile id="805">
+   <image width="31" height="34" source="../../1bitplatformerpack/Sprite/Thigh.png"/>
+  </tile>
+  <tile id="806">
+   <image width="256" height="14" source="../../1bitplatformerpack/Sprite/ThinHorizontalLine.png"/>
+  </tile>
+  <tile id="807">
+   <image width="234" height="249" source="../../1bitplatformerpack/Sprite/Thwomp.png"/>
+  </tile>
+  <tile id="808">
+   <image width="234" height="249" source="../../1bitplatformerpack/Sprite/ThwompLaser.png"/>
+  </tile>
+  <tile id="809">
+   <image width="9" height="10" source="../../1bitplatformerpack/Sprite/Toe.png"/>
+  </tile>
+  <tile id="810">
+   <image width="46" height="68" source="../../1bitplatformerpack/Sprite/ToolHammer.png"/>
+  </tile>
+  <tile id="811">
+   <image width="13" height="24" source="../../1bitplatformerpack/Sprite/ToolHanger.png"/>
+  </tile>
+  <tile id="812">
+   <image width="33" height="51" source="../../1bitplatformerpack/Sprite/ToolKey.png"/>
+  </tile>
+  <tile id="813">
+   <image width="40" height="62" source="../../1bitplatformerpack/Sprite/ToolPliers.png"/>
+  </tile>
+  <tile id="814">
+   <image width="378" height="35" source="../../1bitplatformerpack/Sprite/ToolRack.png"/>
+  </tile>
+  <tile id="815">
+   <image width="17" height="65" source="../../1bitplatformerpack/Sprite/ToolScrewdriver.png"/>
+  </tile>
+  <tile id="816">
+   <image width="31" height="72" source="../../1bitplatformerpack/Sprite/ToolSpanner.png"/>
+  </tile>
+  <tile id="817">
+   <image width="31" height="78" source="../../1bitplatformerpack/Sprite/ToolSpannerOne.png"/>
+  </tile>
+  <tile id="818">
+   <image width="51" height="91" source="../../1bitplatformerpack/Sprite/TopArmRight.png"/>
+  </tile>
+  <tile id="819">
+   <image width="59" height="99" source="../../1bitplatformerpack/Sprite/TopArmRight-mask.png"/>
+  </tile>
+  <tile id="820">
+   <image width="112" height="298" source="../../1bitplatformerpack/Sprite/Topiary1.png"/>
+  </tile>
+  <tile id="821">
+   <image width="172" height="298" source="../../1bitplatformerpack/Sprite/Topiary2.png"/>
+  </tile>
+  <tile id="822">
+   <image width="232" height="568" source="../../1bitplatformerpack/Sprite/Topiary3.png"/>
+  </tile>
+  <tile id="823">
+   <image width="272" height="569" source="../../1bitplatformerpack/Sprite/Topiary4.png"/>
+  </tile>
+  <tile id="824">
+   <image width="358" height="656" source="../../1bitplatformerpack/Sprite/Topiary5.png"/>
+  </tile>
+  <tile id="825">
+   <image width="68" height="198" source="../../1bitplatformerpack/Sprite/Torch4.png"/>
+  </tile>
+  <tile id="826">
+   <image width="76" height="206" source="../../1bitplatformerpack/Sprite/Torch4-mask.png"/>
+  </tile>
+  <tile id="827">
+   <image width="70" height="89" source="../../1bitplatformerpack/Sprite/Torso #580203.png"/>
+  </tile>
+  <tile id="828">
+   <image width="91" height="113" source="../../1bitplatformerpack/Sprite/Torso #581451.png"/>
+  </tile>
+  <tile id="829">
+   <image width="61" height="112" source="../../1bitplatformerpack/Sprite/Torso.png"/>
+  </tile>
+  <tile id="830">
+   <image width="78" height="97" source="../../1bitplatformerpack/Sprite/Torso-mask #580202.png"/>
+  </tile>
+  <tile id="831">
+   <image width="90" height="125" source="../../1bitplatformerpack/Sprite/Torso-mask.png"/>
+  </tile>
+  <tile id="832">
+   <image width="347" height="101" source="../../1bitplatformerpack/Sprite/TrailToCaves.png"/>
+  </tile>
+  <tile id="833">
+   <image width="120" height="206" source="../../1bitplatformerpack/Sprite/TrailToIsland.png"/>
+  </tile>
+  <tile id="834">
+   <image width="21" height="145" source="../../1bitplatformerpack/Sprite/TrailToTech.png"/>
+  </tile>
+  <tile id="835">
+   <image width="127" height="89" source="../../1bitplatformerpack/Sprite/TrailToTemple.png"/>
+  </tile>
+  <tile id="836">
+   <image width="157" height="180" source="../../1bitplatformerpack/Sprite/TrailToUniversity.png"/>
+  </tile>
+  <tile id="837">
+   <image width="137" height="26" source="../../1bitplatformerpack/Sprite/TrailToWater.png"/>
+  </tile>
+  <tile id="838">
+   <image width="74" height="17" source="../../1bitplatformerpack/Sprite/Tray.png"/>
+  </tile>
+  <tile id="839">
+   <image width="183" height="285" source="../../1bitplatformerpack/Sprite/Tree.png"/>
+  </tile>
+  <tile id="840">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/Triangle.png"/>
+  </tile>
+  <tile id="841">
+   <image width="45" height="48" source="../../1bitplatformerpack/Sprite/Trinket1.png"/>
+  </tile>
+  <tile id="842">
+   <image width="59" height="67" source="../../1bitplatformerpack/Sprite/Trinket2.png"/>
+  </tile>
+  <tile id="843">
+   <image width="61" height="56" source="../../1bitplatformerpack/Sprite/Trinket3.png"/>
+  </tile>
+  <tile id="844">
+   <image width="14" height="38" source="../../1bitplatformerpack/Sprite/Trinket4.png"/>
+  </tile>
+  <tile id="845">
+   <image width="56" height="57" source="../../1bitplatformerpack/Sprite/Trinket5.png"/>
+  </tile>
+  <tile id="846">
+   <image width="23" height="50" source="../../1bitplatformerpack/Sprite/Trinket6.png"/>
+  </tile>
+  <tile id="847">
+   <image width="14" height="28" source="../../1bitplatformerpack/Sprite/Trinket7.png"/>
+  </tile>
+  <tile id="848">
+   <image width="48" height="64" source="../../1bitplatformerpack/Sprite/Trinket8.png"/>
+  </tile>
+  <tile id="849">
+   <image width="23" height="62" source="../../1bitplatformerpack/Sprite/Trinket9.png"/>
+  </tile>
+  <tile id="850">
+   <image width="22" height="40" source="../../1bitplatformerpack/Sprite/Trinket10.png"/>
+  </tile>
+  <tile id="851">
+   <image width="64" height="68" source="../../1bitplatformerpack/Sprite/Trinket11.png"/>
+  </tile>
+  <tile id="852">
+   <image width="18" height="28" source="../../1bitplatformerpack/Sprite/Trinket12.png"/>
+  </tile>
+  <tile id="853">
+   <image width="89" height="60" source="../../1bitplatformerpack/Sprite/Trinket13.png"/>
+  </tile>
+  <tile id="854">
+   <image width="91" height="34" source="../../1bitplatformerpack/Sprite/Trinket14.png"/>
+  </tile>
+  <tile id="855">
+   <image width="24" height="19" source="../../1bitplatformerpack/Sprite/Trinket15.png"/>
+  </tile>
+  <tile id="856">
+   <image width="44" height="57" source="../../1bitplatformerpack/Sprite/Trinket16.png"/>
+  </tile>
+  <tile id="857">
+   <image width="64" height="62" source="../../1bitplatformerpack/Sprite/Trinket18.png"/>
+  </tile>
+  <tile id="858">
+   <image width="125" height="117" source="../../1bitplatformerpack/Sprite/Trophie1.png"/>
+  </tile>
+  <tile id="859">
+   <image width="132" height="112" source="../../1bitplatformerpack/Sprite/Trophie2.png"/>
+  </tile>
+  <tile id="860">
+   <image width="75" height="70" source="../../1bitplatformerpack/Sprite/Trophie3.png"/>
+  </tile>
+  <tile id="861">
+   <image width="91" height="107" source="../../1bitplatformerpack/Sprite/Trophie4.png"/>
+  </tile>
+  <tile id="862">
+   <image width="45" height="48" source="../../1bitplatformerpack/Sprite/Trophie5.png"/>
+  </tile>
+  <tile id="863">
+   <image width="84" height="114" source="../../1bitplatformerpack/Sprite/Trophie6.png"/>
+  </tile>
+  <tile id="864">
+   <image width="35" height="41" source="../../1bitplatformerpack/Sprite/Trophie7.png"/>
+  </tile>
+  <tile id="865">
+   <image width="55" height="52" source="../../1bitplatformerpack/Sprite/Trophie8.png"/>
+  </tile>
+  <tile id="866">
+   <image width="42" height="125" source="../../1bitplatformerpack/Sprite/Trophie9.png"/>
+  </tile>
+  <tile id="867">
+   <image width="68" height="91" source="../../1bitplatformerpack/Sprite/Trophie10.png"/>
+  </tile>
+  <tile id="868">
+   <image width="90" height="114" source="../../1bitplatformerpack/Sprite/Trophie11.png"/>
+  </tile>
+  <tile id="869">
+   <image width="49" height="112" source="../../1bitplatformerpack/Sprite/Trophie12.png"/>
+  </tile>
+  <tile id="870">
+   <image width="67" height="93" source="../../1bitplatformerpack/Sprite/Trophie13.png"/>
+  </tile>
+  <tile id="871">
+   <image width="504" height="569" source="../../1bitplatformerpack/Sprite/TrophyCabinet.png"/>
+  </tile>
+  <tile id="872">
+   <image width="19" height="6" source="../../1bitplatformerpack/Sprite/TrouserLine-mask.png"/>
+  </tile>
+  <tile id="873">
+   <image width="106" height="53" source="../../1bitplatformerpack/Sprite/Typewriter.png"/>
+  </tile>
+  <tile id="874">
+   <image width="114" height="61" source="../../1bitplatformerpack/Sprite/Typewriter-mask.png"/>
+  </tile>
+  <tile id="875">
+   <image width="58" height="43" source="../../1bitplatformerpack/Sprite/TypewriterPaper.png"/>
+  </tile>
+  <tile id="876">
+   <image width="28" height="28" source="../../1bitplatformerpack/Sprite/UIMask.png"/>
+  </tile>
+  <tile id="877">
+   <image width="32" height="32" source="../../1bitplatformerpack/Sprite/UISprite.png"/>
+  </tile>
+  <tile id="878">
+   <image width="510" height="256" source="../../1bitplatformerpack/Sprite/UniClockArchMask.png"/>
+  </tile>
+  <tile id="879">
+   <image width="348" height="348" source="../../1bitplatformerpack/Sprite/UniClockMask.png"/>
+  </tile>
+  <tile id="880">
+   <image width="322" height="383" source="../../1bitplatformerpack/Sprite/UniSign.png"/>
+  </tile>
+  <tile id="881">
+   <image width="340" height="141" source="../../1bitplatformerpack/Sprite/University.png"/>
+  </tile>
+  <tile id="882">
+   <image width="350" height="162" source="../../1bitplatformerpack/Sprite/UniversityRailings.png"/>
+  </tile>
+  <tile id="883">
+   <image width="358" height="170" source="../../1bitplatformerpack/Sprite/UniversityRailings-mask.png"/>
+  </tile>
+  <tile id="884">
+   <image width="604" height="134" source="../../1bitplatformerpack/Sprite/UniversityRoofing.png"/>
+  </tile>
+  <tile id="885">
+   <image width="613" height="120" source="../../1bitplatformerpack/Sprite/UniversityRoofingMask.png"/>
+  </tile>
+  <tile id="886">
+   <image width="69" height="274" source="../../1bitplatformerpack/Sprite/UniversityWindow.png"/>
+  </tile>
+  <tile id="887">
+   <image width="132" height="129" source="../../1bitplatformerpack/Sprite/UniversityWindowArch.png"/>
+  </tile>
+  <tile id="888">
+   <image width="166" height="422" source="../../1bitplatformerpack/Sprite/UniversityWindowBig.png"/>
+  </tile>
+  <tile id="889">
+   <image width="73" height="278" source="../../1bitplatformerpack/Sprite/UniversityWindowFill.png"/>
+  </tile>
+  <tile id="890">
+   <image width="28" height="39" source="../../1bitplatformerpack/Sprite/UpperArm.png"/>
+  </tile>
+  <tile id="891">
+   <image width="47" height="37" source="../../1bitplatformerpack/Sprite/UpperLeg #580282.png"/>
+  </tile>
+  <tile id="892">
+   <image width="20" height="39" source="../../1bitplatformerpack/Sprite/UpperLeg.png"/>
+  </tile>
+  <tile id="893">
+   <image width="55" height="45" source="../../1bitplatformerpack/Sprite/UpperLeg-mask.png"/>
+  </tile>
+  <tile id="894">
+   <image width="92" height="39" source="../../1bitplatformerpack/Sprite/UpperLegs.png"/>
+  </tile>
+  <tile id="895">
+   <image width="52" height="62" source="../../1bitplatformerpack/Sprite/Vase1.png"/>
+  </tile>
+  <tile id="896">
+   <image width="84" height="163" source="../../1bitplatformerpack/Sprite/Vase2.png"/>
+  </tile>
+  <tile id="897">
+   <image width="49" height="36" source="../../1bitplatformerpack/Sprite/Vase3.png"/>
+  </tile>
+  <tile id="898">
+   <image width="108" height="172" source="../../1bitplatformerpack/Sprite/Vase4.png"/>
+  </tile>
+  <tile id="899">
+   <image width="57" height="56" source="../../1bitplatformerpack/Sprite/Vase5.png"/>
+  </tile>
+  <tile id="900">
+   <image width="54" height="77" source="../../1bitplatformerpack/Sprite/Vase6.png"/>
+  </tile>
+  <tile id="901">
+   <image width="45" height="42" source="../../1bitplatformerpack/Sprite/Vase7.png"/>
+  </tile>
+  <tile id="902">
+   <image width="54" height="59" source="../../1bitplatformerpack/Sprite/Vase8.png"/>
+  </tile>
+  <tile id="903">
+   <image width="48" height="79" source="../../1bitplatformerpack/Sprite/Vase9.png"/>
+  </tile>
+  <tile id="904">
+   <image width="83" height="85" source="../../1bitplatformerpack/Sprite/Vase10.png"/>
+  </tile>
+  <tile id="905">
+   <image width="74" height="189" source="../../1bitplatformerpack/Sprite/Vase11.png"/>
+  </tile>
+  <tile id="906">
+   <image width="66" height="84" source="../../1bitplatformerpack/Sprite/Vase12.png"/>
+  </tile>
+  <tile id="907">
+   <image width="104" height="106" source="../../1bitplatformerpack/Sprite/Vase13.png"/>
+  </tile>
+  <tile id="908">
+   <image width="113" height="57" source="../../1bitplatformerpack/Sprite/Vase14.png"/>
+  </tile>
+  <tile id="909">
+   <image width="204" height="144" source="../../1bitplatformerpack/Sprite/Village.png"/>
+  </tile>
+  <tile id="910">
+   <image width="14" height="38" source="../../1bitplatformerpack/Sprite/VineLeafFill.png"/>
+  </tile>
+  <tile id="911">
+   <image width="16" height="35" source="../../1bitplatformerpack/Sprite/VineLeafOutline.png"/>
+  </tile>
+  <tile id="912">
+   <image width="630" height="231" source="../../1bitplatformerpack/Sprite/VineMask1.png"/>
+  </tile>
+  <tile id="913">
+   <image width="712" height="154" source="../../1bitplatformerpack/Sprite/VineMask2.png"/>
+  </tile>
+  <tile id="914">
+   <image width="407" height="187" source="../../1bitplatformerpack/Sprite/VineMask3.png"/>
+  </tile>
+  <tile id="915">
+   <image width="89" height="523" source="../../1bitplatformerpack/Sprite/VineMask4.png"/>
+  </tile>
+  <tile id="920">
+   <image width="68" height="70" source="../../1bitplatformerpack/Sprite/Waist #580198.png"/>
+  </tile>
+  <tile id="921">
+   <image width="59" height="50" source="../../1bitplatformerpack/Sprite/Waist.png"/>
+  </tile>
+  <tile id="922">
+   <image width="76" height="78" source="../../1bitplatformerpack/Sprite/Waist-mask #580228.png"/>
+  </tile>
+  <tile id="923">
+   <image width="100" height="21" source="../../1bitplatformerpack/Sprite/Waist-mask #581295.png"/>
+  </tile>
+  <tile id="924">
+   <image width="63" height="35" source="../../1bitplatformerpack/Sprite/Waist-mask.png"/>
+  </tile>
+  <tile id="925">
+   <image width="71" height="59" source="../../1bitplatformerpack/Sprite/WallBracket.png"/>
+  </tile>
+  <tile id="926">
+   <image width="50" height="56" source="../../1bitplatformerpack/Sprite/WallBracket2.png"/>
+  </tile>
+  <tile id="927">
+   <image width="66" height="64" source="../../1bitplatformerpack/Sprite/WallBracket3.png"/>
+  </tile>
+  <tile id="928">
+   <image width="114" height="148" source="../../1bitplatformerpack/Sprite/Water.png"/>
+  </tile>
+  <tile id="929">
+   <image width="206" height="293" source="../../1bitplatformerpack/Sprite/WaterGargoyle2.png"/>
+  </tile>
+  <tile id="930">
+   <image width="210" height="301" source="../../1bitplatformerpack/Sprite/WaterGargoyle2-mask.png"/>
+  </tile>
+  <tile id="931">
+   <image width="160" height="268" source="../../1bitplatformerpack/Sprite/WaterGargoyle3.png"/>
+  </tile>
+  <tile id="932">
+   <image width="168" height="276" source="../../1bitplatformerpack/Sprite/WaterGargoyle3-mask.png"/>
+  </tile>
+  <tile id="933">
+   <image width="74" height="125" source="../../1bitplatformerpack/Sprite/WaterPot.png"/>
+  </tile>
+  <tile id="937">
+   <image width="591" height="591" source="../../1bitplatformerpack/Sprite/WaterWomanStatue.png"/>
+  </tile>
+  <tile id="938">
+   <image width="175" height="146" source="../../1bitplatformerpack/Sprite/WeatherVane.png"/>
+  </tile>
+  <tile id="939">
+   <image width="159" height="208" source="../../1bitplatformerpack/Sprite/Well.png"/>
+  </tile>
+  <tile id="940">
+   <image width="41" height="28" source="../../1bitplatformerpack/Sprite/white-eyes.png"/>
+  </tile>
+  <tile id="941">
+   <image width="90" height="48" source="../../1bitplatformerpack/Sprite/WingClosed.png"/>
+  </tile>
+  <tile id="942">
+   <image width="123" height="61" source="../../1bitplatformerpack/Sprite/WingOpen.png"/>
+  </tile>
+  <tile id="943">
+   <image width="24" height="25" source="../../1bitplatformerpack/Sprite/WireFrayedEnd.png"/>
+  </tile>
+  <tile id="954">
+   <image width="43" height="46" source="../../1bitplatformerpack/Sprite/WireScenerySingleBrickFill-mask.png"/>
+  </tile>
+  <tile id="955">
+   <image width="44" height="45" source="../../1bitplatformerpack/Sprite/WireScenerySingleBrick-mask.png"/>
+  </tile>
+  <tile id="956">
+   <image width="247" height="246" source="../../1bitplatformerpack/Sprite/Wolfhead #579860.png"/>
+  </tile>
+  <tile id="957">
+   <image width="457" height="249" source="../../1bitplatformerpack/Sprite/WolfHead.png"/>
+  </tile>
+  <tile id="958">
+   <image width="114" height="181" source="../../1bitplatformerpack/Sprite/WoodBurner.png"/>
+  </tile>
+  <tile id="959">
+   <image width="80" height="334" source="../../1bitplatformerpack/Sprite/WoodBurnerPipe.png"/>
+  </tile>
+  <tile id="960">
+   <image width="488" height="49" source="../../1bitplatformerpack/Sprite/WoodenBeam.png"/>
+  </tile>
+  <tile id="961">
+   <image width="98" height="36" source="../../1bitplatformerpack/Sprite/WoodLadderBottom.png"/>
+  </tile>
+  <tile id="962">
+   <image width="93" height="54" source="../../1bitplatformerpack/Sprite/WoodLadderTop.png"/>
+  </tile>
+  <tile id="963">
+   <image width="859" height="79" source="../../1bitplatformerpack/Sprite/WoodMaskTile.png"/>
+  </tile>
+  <tile id="964">
+   <image width="356" height="122" source="../../1bitplatformerpack/Sprite/Workbench.png"/>
+  </tile>
+  <tile id="965">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/X.png"/>
+  </tile>
+  <tile id="966">
+   <image width="42" height="41" source="../../1bitplatformerpack/Sprite/Y.png"/>
+  </tile>
+  <tile id="967">
+   <image width="62" height="61" source="../../1bitplatformerpack/Sprite/YellowSymbol.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="969" source="../../../HueTileset2.tsx"/>
+ <tileset firstgid="969" source="../../../HueTileset.tsx"/>
+ <tileset firstgid="1961" source="../../../../../../../../../../Desktop/Hue Levels/HueTileset.tsx"/>
+ <layer id="1" name="Background" width="30" height="30">
+  <data encoding="csv">
+   <chunk x="-64" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1026,0,0,0,0,0,0,0,2018,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0
+</chunk>
+   <chunk x="-48" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2018,2018,0,0,0,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2018,2018,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-32" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-16" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,0,0,0,0,0,0,1026,0,0,0,0,0,0,0,
+1026,1026,0,0,0,0,0,1026,0,0,0,0,0,0,0,0,
+1026,1026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="-64" width="16" height="16">
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0
+</chunk>
+   <chunk x="96" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="-48" width="16" height="16">
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0
+</chunk>
+   <chunk x="16" y="-48" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="-48" width="16" height="16">
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="-32" width="16" height="16">
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0
+</chunk>
+   <chunk x="0" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,776,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,58,0,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,0,0,0,0,2147484424,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,58,58,0,0,0,0,0,0,
+0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="-16" width="16" height="16">
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,0,0,
+0,0,0,0,0,0,1026,1026,1026,1026,1026,1026,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+776,0,0,0,0,0,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,58,0,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,58,0,58,0,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,58,0,0,0,0,0,58,0,0,0,0,0,58
+</chunk>
+   <chunk x="32" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,58,0,0,0,0,0,58,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,58,0,0,0,0,0,0,58,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,0
+</chunk>
+   <chunk x="48" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2147484424,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,
+0,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,2147484424,0,0,0,0,
+58,0,0,0,0,0,58,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1026,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1026,1026,
+0,0,0,0,0,0,1026,0,0,0,0,0,0,0,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-48" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+0,0,0,0,776,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="0" width="16" height="16">
+58,0,0,0,0,0,0,0,58,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,58,0,0,0,58,58,58,58,58,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="0" width="16" height="16">
+0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="0" width="16" height="16">
+0,0,0,0,0,0,58,0,0,0,0,58,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,58,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2018,2018,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,0,58,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,1026,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="0" width="16" height="16">
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+58,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1026,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1026,0,0,0,0,0,0,0,1026,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <layer id="5" name="Decorations" width="30" height="30" visible="0" locked="1">
+  <data encoding="csv">
+   <chunk x="16" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1073743728,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+3221227376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3221227376,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,3221227376,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-48" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3221227207,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3758098288,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,3758098288,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-32" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,3221226808,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,3221227209,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-16" y="-64" width="16" height="16">
+0,0,0,3221227235,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,3221227209,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,3221227209,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3221227210,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3221227209,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1733,0,0,0,1733,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="-48" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,1906,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="-48" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610614071,0
+</chunk>
+   <chunk x="80" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1610614283,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-32" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1073743558,0,0,0,0,0,0,0,0,0,0,0,0,3221227206,0,0
+</chunk>
+   <chunk x="64" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1765,0,0,0,0,1547,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1610614283,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,1764,0,1764,0,0,2684356324,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <layer id="6" name="Colour" width="30" height="30" visible="0" locked="1">
+  <data encoding="csv">
+   <chunk x="-48" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,3221227421,0,
+1610614684,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-16" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1948,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1073743772,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2147485597,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1073743772,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="-80" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1073743772,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="-64" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,3221227420,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="-48" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,536872861,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1610614685,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,1073743772,0,0,0
+</chunk>
+   <chunk x="16" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1949,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="-32" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,536872860,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="0" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,3221227420,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="16" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,3221227420,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="32" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,1948,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-64" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,1949,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-32" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2684356508,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="-16" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2684356509,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="48" y="0" width="16" height="16">
+0,0,0,0,0,0,0,3221227420,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="64" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2147485596,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="96" y="0" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+2684356509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+ <layer id="3" name="Door" width="30" height="30" visible="0" locked="1">
+  <data encoding="csv">
+   <chunk x="-48" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,276,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+   <chunk x="80" y="-16" width="16" height="16">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,276,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</chunk>
+  </data>
+ </layer>
+</map>

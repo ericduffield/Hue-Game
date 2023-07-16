@@ -1,0 +1,40 @@
+@startuml
+[*] -right-> PlayerIdleState
+
+state walking <<choice>>
+state idle <<choice>>
+
+PlayerIdleState -> walking
+walking --> PlayerWalkingState : Press 'A' or 'D'
+PlayerWalkingState -up-> idle
+
+
+state jumping <<choice>>
+PlayerIdleState -down-> jumping
+PlayerWalkingState -down-> jumping
+jumping --> PlayerJumpingState : Press 'SPACEBAR'
+
+PlayerJumpingState --> PlayerFallingState
+PlayerFallingState --> walking
+PlayerFallingState -up-> idle
+idle -up-> PlayerIdleState : Not Pressing 'A' or 'D'
+
+
+
+PlayerWalkingState -left-> PlayerPullingState : Press & Hold 'SHIFT' && Block to pull
+PlayerWalkingState --> PlayerPushingState : Block to push
+
+PlayerPushingState --> walking
+PlayerPushingState --> idle
+PlayerPullingState --> walking
+PlayerPullingState -up-> idle
+
+state dying <<choice>>
+PlayerIdleState -down-> dying 
+PlayerWalkingState -down-> dying
+PlayerJumpingState -down-> dying
+PlayerFallingState -down-> dying
+dying --> PlayerDyingState : Player Dies
+
+PlayerDyingState -right-> [*]
+@enduml

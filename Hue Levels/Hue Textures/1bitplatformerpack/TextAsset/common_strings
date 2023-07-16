@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rooting>
+	<text key="ALL_CHARS_STRING" en="₻₼₽₾₿⃀⃁⃂⃃⃄⃅⃆⃇⃈⃉⃊⃋⃌⃍⃎⃏⃒⃓⃘⃙⃚⃐⃑⃔⃕⃖⃗⃛⃜⃝⃞⃟⃠⃡⃢⃣⃤⃥⃦⃪⃫⃨⃬⃭⃮⃯⃧⃩⃰⃱⃲⃳⃴⃵⃶⃷⃸⃺⃻⃼⃹™" fr="₻₼₽₾₿⃀⃁⃂⃃⃄⃅⃆⃇⃈⃉⃊⃋⃌⃍⃎⃏⃒⃓⃘⃙⃚⃐⃑⃔⃕⃖⃗⃛⃜⃝⃞⃟⃠⃡⃢⃣⃤⃥⃦⃪⃫⃨⃬⃭⃮⃯⃧⃩⃰⃱⃲⃳⃴⃵⃶⃷⃸⃺⃻⃼⃹™" ru="₻₼₽₾₿⃀⃁⃂⃃⃄⃅⃆⃇⃈⃉⃊⃋⃌⃍⃎⃏⃒⃓⃘⃙⃚⃐⃑⃔⃕⃖⃗⃛⃜⃝⃞⃟⃠⃡⃢⃣⃤⃥⃦⃪⃫⃨⃬⃭⃮⃯⃧⃩⃰⃱⃲⃳⃴⃵⃶⃷⃸⃺⃻⃼⃹™" de="₻₼₽₾₿⃀⃁⃂⃃⃄⃅⃆⃇⃈⃉⃊⃋⃌⃍⃎⃏⃒⃓⃘⃙⃚⃐⃑⃔⃕⃖⃗⃛⃜⃝⃞⃟⃠⃡⃢⃣⃤⃥⃦⃪⃫⃨⃬⃭⃮⃯⃧⃩⃰⃱⃲⃳⃴⃵⃶⃷⃸⃺⃻⃼⃹™" es="₻₼₽₾₿⃀⃁⃂⃃⃄⃅⃆⃇⃈⃉⃊⃋⃌⃍⃎⃏⃒⃓⃘⃙⃚⃐⃑⃔⃕⃖⃗⃛⃜⃝⃞⃟⃠⃡⃢⃣⃤⃥⃦⃪⃫⃨⃬⃭⃮⃯⃧⃩⃰⃱⃲⃳⃴⃵⃶⃷⃸⃺⃻⃼⃹™" da="₻₼₽₾₿⃀⃁⃂⃃⃄⃅⃆⃇⃈⃉⃊⃋⃌⃍⃎⃏⃒⃓⃘⃙⃚⃐⃑⃔⃕⃖⃗⃛⃜⃝⃞⃟⃠⃡⃢⃣⃤⃥⃦⃪⃫⃨⃬⃭⃮⃯⃧⃩⃰⃱⃲⃳⃴⃵⃶⃷⃸⃺⃻⃼⃹™"/>
+	<text key="XboxControllerMessage" en="Controller disconnected.&#xA;To retry, please connect any controller&#xA;and sign into the previous profile,&#xA;or select menu to return to the main menu&#xA;and lose any unsaved progress." fr="Manette débranchée.&#xA;Pour continuer, veuillez brancher une manette et vous connecter au profil précédent, ou sélectionnez menu pour retourner au menu principal en perdant tout progression non sauvegardée." ru="Контроллер отключен.&#xA;Чтобы повторить, подключите контроллер&#xA;и войдите в предыдущий профиль&#xA;или нажмите «меню», чтобы вернуться в главное меню,&#xA;при этом все несохраненные данные будут утеряны." de="Verbindung zum controller unterbrochen. Verbinde einen controller, melde dich mit dem vorigen profil an und drücke dann neuer versuch, oder kehre mit menü ins hauptmenü zurück. Dann verlierst du nicht gespeicherten fortschritt." es="Mando desconectado.&#xA;Para reintentar, conecta un mando e inicia sesión en el perfil anterior o selecciona menú para volver al menú principal, aunque en este caso perderás cualquier progreso no guardado." da="Controller frakoblet.&#xA;For at forsøge igen, så tilslut venligst en controller og log ind på den forrige profil, eller vælg menu for at vende tilbage til hovedmenuen og miste alle fremskridt, der ikke er gemt."/>
+	<text key="XboxProfileMessage" en="Profile status has changed.&#xA;Please sign into the previous profile&#xA;and select retry to continue,&#xA;or select menu to return to the main menu&#xA;and lose any unsaved progress" fr="Le statut du profil a changé. Veuillez vous connecter au profil précédent et sélectionner réessayer pour continuer, ou sélectionnez menu pour retourner au menu principal en perdant toute progression non sauvegardée" ru="Статус профиля изменен.&#xA;Выполните вход в предыдущий профиль&#xA;и выберите «повторить попытку», чтобы продолжить,&#xA;или нажмите «меню», чтобы вернуться в главное меню,&#xA;при этом все несохраненные данные будут утеряны." de="Der profilstatus wurde geändert. Bitte melde dich mit dem vorherigen profil an und versuche es erneut, um fortzufahren, oder wähle menü, um zum hauptmenü zurückzukehren und nicht gespeicherten fortschritt zu verlieren." es="El estado del perfil ha cambiado. Inicia sesión en el perfil anterior y selecciona reintentar para continuar o selecciona menú para volver al menú principal y perder cualquier  progreso no guardado." da="Profilstatus har ændret sig.&#xA;Log venligst ind på den tidligere profil og vælg forsøg igen for at fortsætte, eller vælg menu for at ende tilbage til hovedmenuen og miste alle fremskridt, der ikke er gemt."/>
+	<text key="PS4NetworkErrorContinue_ps" en="₻ BACK" fr="₻ Retour" ru="₻ Назад" de="₻ Zurück" es="₻ Atrás" da="₻ Back"/>
+	<text key="PSNage_ps" en="You cannot use PlayStation™Network features in this application due to age restrictions." fr="Tu ne peux pas utiliser les fonctions PlayStation™Network de cette application à cause de sa restriction d'âge." ru="Возможности PlayStation™Network отключены в данном приложении из-за возрастных ограничений." de="Du kannst die PlayStation™Network-Funktionen dieser Anwendung wegen Altersbeschränkungen nicht verwenden." es="No puedes usar las funciones de PlayStation™Network en esta aplicación a causa de restricciones de edad." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="error_patch_ps" en="You must update the application to use network features." fr="Tu dois mettre à jour l'application pour utiliser les fonctions réseau." ru="Для использования сетевых возможностей необходимо обновить приложение." de="Du musst die Anwendung aktualisieren, um Netzwerkfunktionen zu nutzen." es="Tienes que actualizar la aplicación para usar las funciones de red." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSyncDesc_ps" en="Sync progress with the cloud." fr="Synchroniser la progression avec le cloud." ru="Выполнение синхронизации с облаком." de="Fortschritt der Cloud-Synchronisierung" es="Sincroniza el progreso con la nube." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSyncDisconnect_ps" en="(DISCONNECTED FROM CLOUD)" fr="(Deconnecté du cloud)" ru="(Отключено от Облака)" de="(Nicht mit der cloud verbunden)" es="(Desconectado de la nube)" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSynced_ps" en="Synced" fr="Synchronisé" ru="Синхронизация выполнена" de="Synchronisiert." es="Sincronizado" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSyncFailed_ps" en="Cross-Save failed." fr="Cross-Save échoué." ru="Ошибка Cross-Save." de="Cross-Save ist fehlgeschlagen." es="La función Cross-Save ha fallado." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSyncing_ps" en="Syncing..." fr="Synchronisation..." ru="Синхронизация..." de="Synchronisiere ..." es="Sincronizando..." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSyncUnavailable_ps" en="You have been signed out from PlayStation™Network. Cross-Save is unavailable." fr="Tu as été déconnecté du PlayStation™Network. Le Cross-Save n'est pas disponible." ru="Выполнен выход из PlayStation™Network. Cross-Save недоступно." de="Du wurdest bei PlayStation™Network abgemeldet. Cross-Save ist nicht verfügbar." es="Te has desconectado de PlayStation™Network. La función Cross-Save no está disponible." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudSyncUnavailableSignIn_ps" en="Please sign in to PlayStation™Network to access Cross-Save." fr="Connecte-toi au PlayStation™Network pour accéder au Cross-Save." ru="Выполни вход в PlayStation™Network для доступа к Cross-Save." de="Bitte melde dich bei PlayStation™Network an, um Cross-Save zu verwenden." es="Inicia sesión en PlayStation™Network para acceder a la función Cross-Save." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="crossSave_which_ps" en="WHICH SAVEGAME WOULD YOU LIKE TO USE?" fr="Quelle sauvegarde voulez-vous utiliser ?" ru="Какую из сохраненных игр вы хотите загрузить?" de="Welchen spielstand willst du verwenden?" es="¿Qué partida quieres usar?" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="crossSave_which_local_ps" en="LOCAL" fr="Locale" ru="Местная" de="Lokal" es="Local" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="crossSave_which_cloud_ps" en="CLOUD" fr="Cloud" ru="На Облаке" de="Cloud" es="Nube" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cross_save_sure_1_ps" en="ARE YOU SURE? THIS WILL OVERWRITE THE CURRENT CLOUD SAVE!" fr="Êtes-vous sûre(e) ? Cela écrasera la sauvegarde cloud actuelle !" ru="Вы уверены? В таком случае сотрется игра, сохраненная на облаке в данный момент!" de="Bist du sicher? Dein aktueller cloud-spielstand wird überschrieben!" es="¿Seguro? ¡Sobrescribirás la partida actual de la nube!" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cross_save_sure_2_ps" en="ARE YOU SURE? THIS WILL OVERWRITE YOUR LOCAL SAVED GAME!" fr="Êtes-vous sûre(e) ? Cela écrasera votre sauvegarde locale actuelle !" ru="Вы уверены? В таком случае сотрется игра, сохраненная на вашем устройстве!" de="Bist du sicher? Dein lokaler spielstand wird überschrieben!" es="¿Seguro? ¡sobrescribirás la partida local actual!" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cross_save_upload_ps" en="ATTEMPTING TO UPLOAD SAVE..." fr="Tentative d'envoi de la sauvegarde..." ru="Выполняется загрузка сохраненной игры на облако..." de="Versuche lokalen spielstand in die cloud zu laden." es="Intentando subir la partida..." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cross_save_download_ps" en="ATTEMPTING TO DOWNLOAD CLOUD SAVE..." fr="Tentative de téléchargement de la sauvegarde cloud..." ru="Выполняется загрузка сохраненной на облаке игры..." de="Versuche den cloud-spielstand zu laden ..." es="Intentando descargar la partida de la nube..." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudsync_savedone_ps" en="CLOUD SAVE UPLOADED SUCCESSFULLY." fr="La sauvegarde cloud a bien été envoyée." ru="Игра успешно сохранена на облаке." de="Speichern in der cloud erfolgreich." es="La partida se ha subido a la nube correctamente." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="cloudsync_loaddone_ps" en="CLOUD SAVE DOWNLOADED SUCCESSFULLY." fr="Sauvegarde cloud téléchargée avec succès." ru="Игра успешно загружена на облако." de="Cloud-spielstand erfoglreich heruntergeladen." es="La partida se ha descargado de la nube correctamente." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="UI_QUEUED" en="*QUEUED TO SUBMIT" fr="*En attente de soumission" ru="*В очереди на отправку" de="*Zur absendung eingereiht" es="*En cola para envío" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="controls_page_unassigned" en="Unassigned" fr="Non définie" ru="Неназначено" de="Nicht zugewiesen" es="Sin asignar" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="controls_page_assign" en="Assign" fr="Définir" ru="Назначить" de="Zuweisen" es="Asignar" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="controls_page_dontleave" en="You cannot leave this page until all inputs are assigned." fr="Vous devez définir toutes les commandes &#xA;pour pouvoir quitter cet écran." ru="Вы не можете покинуть эту страницу &#xA;пока не будут назначены все элементы ввода." de="Du kannst die Seite erst verlassen, wenn alle &#xA;Befehle zugewiesen sind." es="No puedes salir de esta página hasta que &#xA;todos los controles estén asignados." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="OPTIONS_SCREENSIZE_ps" en="SCREEN SIZE" fr="Taille de l’écran" ru="Настроить Размер Экрана" de="Bildschirmgrösse" es="Tamaño de la pantalla" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="MAINMENU_SCREENSIZE_1_ps" en="USE UP + DOWN TO ADJUST SCREEN SIZE" fr="Appuyer sur touche haut et touche bas pour ajuster la taille de l’écran" ru="Используйте клавиши вверх + вниз, чтобы настроить размер экрана" de="Passe die bildschirmgrösse mit oben-taste + unten-taste an" es="Usa arriba y abajo para ajustar el tamaño de la pantalla" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="MAINMENU_SCREENSIZE_2_ps" en="AND PRESS ⃊ TO ACCEPT OR&#xA;₻ TO CANCEL" fr="et appuyer sur ⃊ pour accepter ou&#xA;sur ₻ pour annuler" ru="и нажмите ⃊, чтобы применить изменения,&#xA;или ₻, чтобы отменить их" de="und drücke ⃊ zum bestätigen oder ₻&#xA;zum abbrechen." es="Y pulsa ⃊ para aceptar o ₻ para&#xA;cancelar." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="Back_WiiU" en="⃾ BACK" fr="⃾ Retour" ru="⃾ Назад" de="⃾ Zurück" es="⃾ Volver" da="⃾ Tilbage"/>
+	<text key="Back_Xb1" en="⃾ BACK" fr="⃾ Retour" ru="⃾ Назад" de="⃾ Zurück" es="⃾ Volver" da="⃾ Tilbage"/>
+	<text key="Back_PS" en="₻ BACK" fr="₻ Retour" ru="₻ Назад" de="₻ Zurück" es="₻ Volver" da="₻ Tilbage"/>
+	<text key="play_PS" en="⃊ play" fr="⃊ Jouer" ru="⃊ Играть" de="⃊ Spielen" es="⃊ Jugar" da="⃊ Spil"/>
+	<text key="play_Xb1" en="⃜ play" fr="⃜ Jouer" ru="⃜ Играть" de="⃜ Spielen" es="⃜ Jugar" da="⃜ Spil"/>
+	<text key="play_WiiU" en="⃜ play" fr="⃜ Jouer" ru="⃜ Играть" de="⃜ Spielen" es="⃜ Jugar" da="⃜ Spril"/>
+	<text key="Confirm_wiiu" en="⃽ Confirm" fr="⃽ Confirmer" ru="⃽ Подтвердить" de="⃽ Bestätigen" es="⃽ Confirmar" da="⃽ Bekræft"/>
+	<text key="Confirm_xb1" en="⃽ Confirm" fr="⃽ Confirmer" ru="⃽ Подтвердить" de="⃽ Bestätigen" es="⃽ Confirmar" da="⃽ Bekræft"/>
+	<text key="Confirm_PS" en="⃊ Confirm" fr="⃊ Confirmer" ru="⃊ Подтвердить" de="⃊ Bestätigen" es="⃽ Confirmar" da="⃊ Bekræft"/>
+	<text key="Confirm_PC" en="Confirm" fr="Confirmer" ru="Подтвердить" de="Bestätigen" es="Confirmar" da="Bekræft"/>
+	<text key="Arrow" en="»" fr="»" ru="»" de="»" es="»" da="»"/>
+	<text key="Glyph_Vita_rear_touch" en="rear touch pad" fr="pavé tactile arrière" ru="Задняя сенсорная панель" de="Rückseiten-Touchpad" es="panel táctil trasero" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="Glyph_PS_CIRCLE" en="₻" fr="₻" ru="₻" de="₻" es="₻" da="₻"/>
+	<text key="Glyph_PS_L_stick" en="⃂" fr="⃂" ru="⃂" de="⃂" es="⃂" da="⃂"/>
+	<text key="Glyph_PS_R_stick" en="₿" fr="₿" ru="₿" de="₿" es="₿" da="₿"/>
+	<text key="Glyph_PS_SQUARE" en="⃁" fr="⃁" ru="⃁" de="⃁" es="⃁" da="⃁"/>
+	<text key="Glyph_PS_TRIANGLE" en="⃉" fr="⃉" ru="⃉" de="⃉" es="⃉" da="⃉"/>
+	<text key="Glyph_PS_X" en="⃊" fr="⃊" ru="⃊" de="⃊" es="⃊" da="⃊"/>
+	<text key="Glyph_PS3_L1" en="₼" fr="₼" ru="₼" de="₼" es="₼" da="₼"/>
+	<text key="Glyph_PS3_L2" en="₽" fr="₽" ru="₽" de="₽" es="₽" da="₽"/>
+	<text key="Glyph_PS3_R1" en="₾" fr="₾" ru="₾" de="₾" es="₾" da="₾"/>
+	<text key="Glyph_PS3_R2" en="⃅" fr="⃅" ru="⃅" de="⃅" es="⃅" da="⃅"/>
+	<text key="Glyph_PS3_SELECT" en="⃀" fr="⃀" ru="⃀" de="⃀" es="⃀" da="⃀"/>
+	<text key="Glyph_PS3_START" en="⃈" fr="⃈" ru="⃈" de="⃈" es="⃈" da="⃈"/>
+	<text key="Glyph_PS4_dpad" en="⃐" fr="⃐" ru="⃐" de="⃐" es="⃐" da="⃐"/>
+	<text key="Glyph_ps4_L1" en="ℂ" fr="ℂ" ru="ℂ" de="ℂ" es="ℂ" da="ℂ"/>
+	<text key="Glyph_ps4_L2" en="℞" fr="℞" ru="℞" de="℞" es="℞" da="℞"/>
+	<text key="Glyph_PS4_L3" en="⃓" fr="⃓" ru="⃓" de="⃓" es="⃓" da="⃓"/>
+	<text key="Glyph_PS4_OPTIONS" en="⃒" fr="⃒" ru="⃒" de="⃒" es="⃒" da="⃒"/>
+	<text key="Glyph_ps4_R1" en="ℝ" fr="ℝ" ru="ℝ" de="ℝ" es="ℝ" da="ℝ"/>
+	<text key="Glyph_ps4_R2" en="℟" fr="℟" ru="℟" de="℟" es="℟" da="℟"/>
+	<text key="Glyph_PS4_R3" en="⃔" fr="⃔" ru="⃔" de="⃔" es="⃔" da="⃔"/>
+	<text key="Glyph_PS4_SHARE" en="⃑" fr="⃑" ru="⃑" de="⃑" es="⃑" da="⃑"/>
+	<text key="Glyph_PS4_touchpad" en="⃇" fr="⃇" ru="⃇" de="⃇" es="⃇" da="⃇"/>
+	<text key="Glyph_Vita_L" en="⃍" fr="⃍" ru="⃍" de="⃍" es="⃍" da="⃍"/>
+	<text key="Glyph_Vita_R" en="⃎" fr="⃎" ru="⃎" de="⃎" es="⃎" da="⃎"/>
+	<text key="Glyph_Vita_SELECT" en="⃌" fr="⃌" ru="⃌" de="⃌" es="⃌" da="⃌"/>
+	<text key="Glyph_Vita_START" en="⃋" fr="⃋" ru="⃋" de="⃋" es="⃋" da="⃋"/>
+	<text key="Glyph_Vita_touchscreen" en="⃆" fr="⃆" ru="⃆" de="⃆" es="⃆" da="⃆"/>
+	<text key="Glyph_Wii_classic_a" en="⃶" fr="⃶" ru="⃶" de="⃶" es="⃶" da="⃶"/>
+	<text key="Glyph_Wii_classic_b" en="⃵" fr="⃵" ru="⃵" de="⃵" es="⃵" da="⃵"/>
+	<text key="Glyph_Wii_classic_L_bumper" en="⃹" fr="⃹" ru="⃹" de="⃹" es="⃹" da="⃹"/>
+	<text key="Glyph_Wii_classic_l_stick" en="⃷" fr="⃷" ru="⃷" de="⃷" es="⃷" da="⃷"/>
+	<text key="Glyph_Wii_classic_R_bumper" en="⃺" fr="⃺" ru="⃺" de="⃺" es="⃺" da="⃺"/>
+	<text key="Glyph_Wii_classic_r_stick" en="⃸" fr="⃸" ru="⃸" de="⃸" es="⃸" da="⃸"/>
+	<text key="Glyph_Wii_classic_x" en="⃳" fr="⃳" ru="⃳" de="⃳" es="⃳" da="⃳"/>
+	<text key="Glyph_Wii_classic_y" en="⃴" fr="⃴" ru="⃴" de="⃴" es="⃴" da="⃴"/>
+	<text key="Glyph_Wii_classic_ZL_trigger" en="⃻" fr="⃻" ru="⃻" de="⃻" es="⃻" da="⃻"/>
+	<text key="Glyph_Wii_classic_ZR_trigger" en="⃼" fr="⃼" ru="⃼" de="⃼" es="⃼" da="⃼"/>
+	<text key="Glyph_Wii_Remote_1" en="⃮" fr="⃮" ru="⃮" de="⃮" es="⃮" da="⃮"/>
+	<text key="Glyph_Wii_Remote_2" en="⃯" fr="⃯" ru="⃯" de="⃯" es="⃯" da="⃯"/>
+	<text key="Glyph_Wii_Remote_B" en="⃭" fr="⃭" ru="⃭" de="⃭" es="⃭" da="⃭"/>
+	<text key="Glyph_Wii_Remote_c" en="⃲" fr="⃲" ru="⃲" de="⃲" es="⃲" da="⃲"/>
+	<text key="Glyph_Wii_Remote_stick" en="⃰" fr="⃰" ru="⃰" de="⃰" es="⃰" da="⃰"/>
+	<text key="Glyph_Wii_Remote_z" en="⃱" fr="⃱" ru="⃱" de="⃱" es="⃱" da="⃱"/>
+	<text key="Glyph_WiiU_A" en="⃜" fr="⃜" ru="⃜" de="⃜" es="⃜" da="⃜"/>
+	<text key="Glyph_WiiU_B" en="⃝" fr="⃝" ru="⃝" de="⃝" es="⃝" da="⃝"/>
+	<text key="Glyph_WiiU_Gamepad_L_bumper" en="⃢" fr="⃢" ru="⃢" de="⃢" es="⃢" da="⃢"/>
+	<text key="Glyph_WiiU_Gamepad_L_R_bumpers" en="⃦" fr="⃦" ru="⃦" de="⃦" es="⃦" da="⃦"/>
+	<text key="Glyph_WiiU_Gamepad_R_bumper" en="⃣" fr="⃣" ru="⃣" de="⃣" es="⃣" da="⃣"/>
+	<text key="Glyph_WiiU_Gamepad_ZL_trigger" en="⃤" fr="⃤" ru="⃤" de="⃤" es="⃤" da="⃤"/>
+	<text key="Glyph_WiiU_Gamepad_ZR_trigger" en="⃥" fr="⃥" ru="⃥" de="⃥" es="⃥" da="⃥"/>
+	<text key="Glyph_WiiU_HOME" en="⃗" fr="⃗" ru="⃗" de="⃗" es="⃗" da="⃗"/>
+	<text key="Glyph_WiiU_L_stick" en="⃠" fr="⃠" ru="⃠" de="⃠" es="⃠" da="⃠"/>
+	<text key="Glyph_WiiU_L3" en="⃞" fr="⃞" ru="⃞" de="⃞" es="⃞" da="⃞"/>
+	<text key="Glyph_WiiU_L3_words" en="Press the ⃠" fr="Press the ⃠" ru="Нажмите ⃠" de="Press the ⃠" es="Press the ⃠" da="Tryk her ⃠"/>
+	<text key="Glyph_WiiU_POWER" en="⃖" fr="⃖" ru="⃖" de="⃖" es="⃖" da="⃖"/>
+	<text key="Glyph_WiiU_Pro_L_bumper" en="⃨" fr="⃨" ru="⃨" de="⃨" es="⃨" da="⃨"/>
+	<text key="Glyph_WiiU_Pro_L_R_bumpers" en="⃬" fr="⃬" ru="⃬" de="⃬" es="⃬" da="⃬"/>
+	<text key="Glyph_WiiU_Pro_R_bumper" en="⃩" fr="⃩" ru="⃩" de="⃩" es="⃩" da="⃩"/>
+	<text key="Glyph_WiiU_Pro_ZL_trigger" en="⃪" fr="⃪" ru="⃪" de="⃪" es="⃪" da="⃪"/>
+	<text key="Glyph_WiiU_Pro_ZR_trigger" en="⃫" fr="⃫" ru="⃫" de="⃫" es="⃫" da="⃫"/>
+	<text key="Glyph_WiiU_R_stick" en="⃡" fr="⃡" ru="⃡" de="⃡" es="⃡" da="⃡"/>
+	<text key="Glyph_WiiU_R3" en="⃟" fr="⃟" ru="⃟" de="⃟" es="⃟" da="⃟"/>
+	<text key="Glyph_WiiU_R3_words" en="Press the ⃡" fr="Press the ⃡" ru="Нажмите ⃡" de="Press the ⃡" es="Press the ⃡" da="Tryk her ⃡"/>
+	<text key="Glyph_WiiU_SELECT" en="⃘" fr="⃘" ru="⃘" de="⃘" es="⃘" da="⃘"/>
+	<text key="Glyph_WiiU_START" en="⃙" fr="⃙" ru="⃙" de="⃙" es="⃙" da="⃙"/>
+	<text key="Glyph_WiiU_X" en="⃚" fr="⃚" ru="⃚" de="⃚" es="⃚" da="⃚"/>
+	<text key="Glyph_WiiU_Y" en="⃛" fr="⃛" ru="⃛" de="⃛" es="⃛" da="⃛"/>
+	<text key="Glyph_xb1_A" en="⃽" fr="⃽" ru="⃽" de="⃽" es="⃽" da="⃽"/>
+	<text key="Glyph_xb1_B" en="⃾" fr="⃾" ru="⃾" de="⃾" es="⃾" da="⃾"/>
+	<text key="Glyph_xb1_dpad" en="⃿" fr="⃿" ru="⃿" de="⃿" es="⃿" da="⃿"/>
+	<text key="Glyph_xb1_Dpad_down" en="ℊ" fr="ℊ" ru="ℊ" de="ℊ" es="ℊ" da="ℊ"/>
+	<text key="Glyph_xb1_Dpad_left" en="ℋ" fr="ℋ" ru="ℋ" de="ℋ" es="ℋ" da="ℋ"/>
+	<text key="Glyph_xb1_Dpad_right" en="ℌ" fr="ℌ" ru="ℌ" de="ℌ" es="ℌ" da="ℌ"/>
+	<text key="Glyph_xb1_Dpad_up" en="℉" fr="℉" ru="℉" de="℉" es="℉" da="℉"/>
+	<text key="Glyph_xb1_home" en="℁" fr="℁" ru="℁" de="℁" es="℁" da="℁"/>
+	<text key="Glyph_xb1_L_stick" en="℃" fr="℃" ru="℃" de="℃" es="℃" da="℃"/>
+	<text key="Glyph_xb1_L_stick_down_unused" en="ℎ" fr="ℎ" ru="ℎ" de="ℎ" es="ℎ" da="ℎ"/>
+	<text key="Glyph_xb1_L_stick_left_unused" en="ℏ" fr="ℏ" ru="ℏ" de="ℏ" es="ℏ" da="ℏ"/>
+	<text key="Glyph_xb1_L_stick_right_unused" en="ℐ" fr="ℐ" ru="ℐ" de="ℐ" es="ℐ" da="ℐ"/>
+	<text key="Glyph_xb1_L_stick_up_unused" en="ℍ" fr="ℍ" ru="ℍ" de="ℍ" es="ℍ" da="ℍ"/>
+	<text key="Glyph_xb1_L3" en="№" fr="№" ru="№" de="№" es="№" da="№"/>
+	<text key="Glyph_xb1_L3_down" en="ℕ" fr="ℕ" ru="ℕ" de="ℕ" es="ℕ" da="ℕ"/>
+	<text key="Glyph_xb1_LB" en="ℂ" fr="ℂ" ru="ℂ" de="ℂ" es="ℂ" da="ℂ"/>
+	<text key="Glyph_xb1_LT" en="ℙ" fr="ℙ" ru="ℙ" de="ℙ" es="ℙ" da="ℙ"/>
+	<text key="Glyph_xb1_menu" en="℆" fr="℆" ru="℆" de="℆" es="℆" da="℆"/>
+	<text key="Glyph_xb1_options" en="ℛ" fr="ℛ" ru="ℛ" de="ℛ" es="ℛ" da="ℛ"/>
+	<text key="Glyph_xb1_R_stick" en="℄" fr="℄" ru="℄" de="℄" es="℄" da="℄"/>
+	<text key="Glyph_xb1_R_stick_down_unused" en="ℒ" fr="ℒ" ru="ℒ" de="ℒ" es="ℒ" da="ℒ"/>
+	<text key="Glyph_xb1_R_stick_left_unused" en="ℓ" fr="ℓ" ru="ℓ" de="ℓ" es="ℓ" da="ℓ"/>
+	<text key="Glyph_xb1_R_stick_right_unused" en="℔" fr="℔" ru="℔" de="℔" es="℔" da="℔"/>
+	<text key="Glyph_xb1_R_stick_up_unused" en="ℑ" fr="ℑ" ru="ℑ" de="ℑ" es="ℑ" da="ℑ"/>
+	<text key="Glyph_xb1_R3" en="℘" fr="℘" ru="℘" de="℘" es="℘" da="℘"/>
+	<text key="Glyph_xb1_R3_down" en="℗" fr="℗" ru="℗" de="℗" es="℗" da="℗"/>
+	<text key="Glyph_xb1_RB" en="℅" fr="℅" ru="℅" de="℅" es="℅" da="℅"/>
+	<text key="Glyph_xb1_RT" en="ℚ" fr="ℚ" ru="ℚ" de="ℚ" es="ℚ" da="ℚ"/>
+	<text key="Glyph_xb1_X" en="℈" fr="℈" ru="℈" de="℈" es="℈" da="℈"/>
+	<text key="Glyph_xb1_Y" en="ℇ" fr="ℇ" ru="ℇ" de="ℇ" es="ℇ" da="ℇ"/>
+	<text key="Glyph_pc_esc" en="℠" fr="℠" ru="℠" de="℠" es="℠" da="℠"/>
+	<text key="Glyph_pc_f1" en="℡" fr="℡" ru="℡" de="℡" es="℡" da="℡"/>
+	<text key="Glyph_pc_f2" en="™" fr="™" ru="™" de="™" es="™" da="™"/>
+	<text key="Glyph_pc_f3" en="℣" fr="℣" ru="℣" de="℣" es="℣" da="℣"/>
+	<text key="Glyph_pc_f4" en="ℤ" fr="ℤ" ru="ℤ" de="ℤ" es="ℤ" da="ℤ"/>
+	<text key="Glyph_pc_f5" en="℥" fr="℥" ru="℥" de="℥" es="℥" da="℥"/>
+	<text key="Glyph_pc_f6" en="Ω" fr="Ω" ru="Ω" de="Ω" es="Ω" da="Ω"/>
+	<text key="Glyph_pc_f7" en="℧" fr="℧" ru="℧" de="℧" es="℧" da="℧"/>
+	<text key="Glyph_pc_f8" en="ℨ" fr="ℨ" ru="ℨ" de="ℨ" es="ℨ" da="ℨ"/>
+	<text key="Glyph_pc_f9" en="℩" fr="℩" ru="℩" de="℩" es="℩" da="℩"/>
+	<text key="Glyph_pc_f10" en="K" fr="K" ru="K" de="K" es="K" da="K"/>
+	<text key="Glyph_pc_f11" en="Å" fr="Å" ru="Å" de="Å" es="Å" da="Å"/>
+	<text key="Glyph_pc_f12" en="ℬ" fr="ℬ" ru="ℬ" de="ℬ" es="ℬ" da="ℬ"/>
+	<text key="Glyph_pc_~" en="ℭ" fr="ℭ" ru="ℭ" de="ℭ" es="ℭ" da="ℭ"/>
+	<text key="Glyph_pc_1" en="℮" fr="℮" ru="℮" de="℮" es="℮" da="℮"/>
+	<text key="Glyph_pc_2" en="ℯ" fr="ℯ" ru="ℯ" de="ℯ" es="ℯ" da="ℯ"/>
+	<text key="Glyph_pc_3" en="ℰ" fr="ℰ" ru="ℰ" de="ℰ" es="ℰ" da="ℰ"/>
+	<text key="Glyph_pc_4" en="ℱ" fr="ℱ" ru="ℱ" de="ℱ" es="ℱ" da="ℱ"/>
+	<text key="Glyph_pc_5" en="Ⅎ" fr="Ⅎ" ru="Ⅎ" de="Ⅎ" es="Ⅎ" da="Ⅎ"/>
+	<text key="Glyph_pc_6" en="ℳ" fr="ℳ" ru="ℳ" de="ℳ" es="ℳ" da="ℳ"/>
+	<text key="Glyph_pc_7" en="ℴ" fr="ℴ" ru="ℴ" de="ℴ" es="ℴ" da="ℴ"/>
+	<text key="Glyph_pc_8" en="ℵ" fr="ℵ" ru="ℵ" de="ℵ" es="ℵ" da="ℵ"/>
+	<text key="Glyph_pc_9" en="ℶ" fr="ℶ" ru="ℶ" de="ℶ" es="ℶ" da="ℶ"/>
+	<text key="Glyph_pc_0" en="ℷ" fr="ℷ" ru="ℷ" de="ℷ" es="ℷ" da="ℷ"/>
+	<text key="Glyph_pc_a" en="ℸ" fr="ℸ" ru="ℸ" de="ℸ" es="ℸ" da="ℸ"/>
+	<text key="Glyph_pc_b" en="ℹ" fr="ℹ" ru="ℹ" de="ℹ" es="ℹ" da="ℹ"/>
+	<text key="Glyph_pc_c" en="℺" fr="℺" ru="℺" de="℺" es="℺" da="℺"/>
+	<text key="Glyph_pc_d" en="℻" fr="℻" ru="℻" de="℻" es="℻" da="℻"/>
+	<text key="Glyph_pc_e" en="ℼ" fr="ℼ" ru="ℼ" de="ℼ" es="ℼ" da="ℼ"/>
+	<text key="Glyph_pc_f" en="ℽ" fr="ℽ" ru="ℽ" de="ℽ" es="ℽ" da="ℽ"/>
+	<text key="Glyph_pc_g" en="ℾ" fr="ℾ" ru="ℾ" de="ℾ" es="ℾ" da="ℾ"/>
+	<text key="Glyph_pc_h" en="ℿ" fr="ℿ" ru="ℿ" de="ℿ" es="ℿ" da="ℿ"/>
+	<text key="Glyph_pc_i" en="⅀" fr="⅀" ru="⅀" de="⅀" es="⅀" da="⅀"/>
+	<text key="Glyph_pc_j" en="⅁" fr="⅁" ru="⅁" de="⅁" es="⅁" da="⅁"/>
+	<text key="Glyph_pc_k" en="⅂" fr="⅂" ru="⅂" de="⅂" es="⅂" da="⅂"/>
+	<text key="Glyph_pc_l" en="⅃" fr="⅃" ru="⅃" de="⅃" es="⅃" da="⅃"/>
+	<text key="Glyph_pc_m" en="⅄" fr="⅄" ru="⅄" de="⅄" es="⅄" da="⅄"/>
+	<text key="Glyph_pc_n" en="ⅅ" fr="ⅅ" ru="ⅅ" de="ⅅ" es="ⅅ" da="ⅅ"/>
+	<text key="Glyph_pc_o" en="ⅆ" fr="ⅆ" ru="ⅆ" de="ⅆ" es="ⅆ" da="ⅆ"/>
+	<text key="Glyph_pc_p" en="ⅇ" fr="ⅇ" ru="ⅇ" de="ⅇ" es="ⅇ" da="ⅇ"/>
+	<text key="Glyph_pc_q" en="ⅈ" fr="ⅈ" ru="ⅈ" de="ⅈ" es="ⅈ" da="ⅈ"/>
+	<text key="Glyph_pc_r" en="ⅉ" fr="ⅉ" ru="ⅉ" de="ⅉ" es="ⅉ" da="ⅉ"/>
+	<text key="Glyph_pc_s" en="⅊" fr="⅊" ru="⅊" de="⅊" es="⅊" da="⅊"/>
+	<text key="Glyph_pc_t" en="⅋" fr="⅋" ru="⅋" de="⅋" es="⅋" da="⅋"/>
+	<text key="Glyph_pc_u" en="⅌" fr="⅌" ru="⅌" de="⅌" es="⅌" da="⅌"/>
+	<text key="Glyph_pc_v" en="⅍" fr="⅍" ru="⅍" de="⅍" es="⅍" da="⅍"/>
+	<text key="Glyph_pc_w" en="ⅎ" fr="ⅎ" ru="ⅎ" de="ⅎ" es="ⅎ" da="ⅎ"/>
+	<text key="Glyph_pc_x" en="⅏" fr="⅏" ru="⅏" de="⅏" es="⅏" da="⅏"/>
+	<text key="Glyph_pc_y" en="⅐" fr="⅐" ru="⅐" de="⅐" es="⅐" da="⅐"/>
+	<text key="Glyph_pc_z" en="⅑" fr="⅑" ru="⅑" de="⅑" es="⅑" da="⅑"/>
+	<text key="Glyph_pc_-" en="⅒" fr="⅒" ru="⅒" de="⅒" es="⅒" da="⅒"/>
+	<text key="Glyph_pc_=" en="⅓" fr="⅓" ru="⅓" de="⅓" es="⅓" da="⅓"/>
+	<text key="Glyph_pc_+" en="⅔" fr="⅔" ru="⅔" de="⅔" es="⅔" da="⅔"/>
+	<text key="Glyph_pc_*" en="⅕" fr="⅕" ru="⅕" de="⅕" es="⅕" da="⅕"/>
+	<text key="Glyph_pc_forwardslash" en="⅖" fr="⅖" ru="⅖" de="⅖" es="⅖" da="⅖"/>
+	<text key="Glyph_pc_backslash" en="⅗" fr="⅗" ru="⅗" de="⅗" es="⅗" da="⅗"/>
+	<text key="Glyph_pc_." en="⅘" fr="⅘" ru="⅘" de="⅘" es="⅘" da="⅘"/>
+	<text key="Glyph_pc_," en="⅙" fr="⅙" ru="⅙" de="⅙" es="⅙" da="⅙"/>
+	<text key="Glyph_pc_'" en="⅚" fr="⅚" ru="⅚" de="⅚" es="⅚" da="⅚"/>
+	<text key="Glyph_pc_;" en="⅛" fr="⅛" ru="⅛" de="⅛" es="⅛" da="⅛"/>
+	<text key="Glyph_pc_[" en="⅜" fr="⅜" ru="⅜" de="⅜" es="⅜" da="⅜"/>
+	<text key="Glyph_pc_]" en="⅝" fr="⅝" ru="⅝" de="⅝" es="⅝" da="⅝"/>
+	<text key="Glyph_pc_#" en="⅞" fr="⅞" ru="⅞" de="⅞" es="⅞" da="⅞"/>
+	<text key="Glyph_pc_backspace" en="⅟" fr="⅟" ru="⅟" de="⅟" es="⅟" da="⅟"/>
+	<text key="Glyph_pc_enter" en="Ⅰ" fr="Ⅰ" ru="Ⅰ" de="Ⅰ" es="Ⅰ" da="Ⅰ"/>
+	<text key="Glyph_pc_tab" en="Ⅱ" fr="Ⅱ" ru="Ⅱ" de="Ⅱ" es="Ⅱ" da="Ⅱ"/>
+	<text key="Glyph_pc_shift" en="Ⅲ" fr="Ⅲ" ru="Ⅲ" de="Ⅲ" es="Ⅲ" da="Ⅲ"/>
+	<text key="Glyph_pc_ctrl" en="Ⅳ" fr="Ⅳ" ru="Ⅳ" de="Ⅳ" es="Ⅳ" da="Ⅳ"/>
+	<text key="Glyph_pc_alt" en="Ⅴ" fr="Ⅴ" ru="Ⅴ" de="Ⅴ" es="Ⅴ" da="Ⅴ"/>
+	<text key="Glyph_pc_space" en="Ⅵ" fr="Ⅵ" ru="Ⅵ" de="Ⅵ" es="Ⅵ" da="Ⅵ"/>
+	<text key="Glyph_pc_altgr" en="Ⅶ" fr="Ⅶ" ru="Ⅶ" de="Ⅶ" es="Ⅶ" da="Ⅶ"/>
+	<text key="Glyph_pc_insert" en="Ⅷ" fr="Ⅷ" ru="Ⅷ" de="Ⅷ" es="Ⅷ" da="Ⅷ"/>
+	<text key="Glyph_pc_del" en="Ⅸ" fr="Ⅸ" ru="Ⅸ" de="Ⅸ" es="Ⅸ" da="Ⅸ"/>
+	<text key="Glyph_pc_home" en="Ⅹ" fr="Ⅹ" ru="Ⅹ" de="Ⅹ" es="Ⅹ" da="Ⅹ"/>
+	<text key="Glyph_pc_end" en="Ⅺ" fr="Ⅺ" ru="Ⅺ" de="Ⅺ" es="Ⅺ" da="Ⅺ"/>
+	<text key="Glyph_pc_pgup" en="Ⅻ" fr="Ⅻ" ru="Ⅻ" de="Ⅻ" es="Ⅻ" da="Ⅻ"/>
+	<text key="Glyph_pc_pgdown" en="Ⅼ" fr="Ⅼ" ru="Ⅼ" de="Ⅼ" es="Ⅼ" da="Ⅼ"/>
+	<text key="Glyph_pc_up" en="Ⅽ" fr="Ⅽ" ru="Ⅽ" de="Ⅽ" es="Ⅽ" da="Ⅽ"/>
+	<text key="Glyph_pc_down" en="Ⅾ" fr="Ⅾ" ru="Ⅾ" de="Ⅾ" es="Ⅾ" da="Ⅾ"/>
+	<text key="Glyph_pc_left" en="Ⅿ" fr="Ⅿ" ru="Ⅿ" de="Ⅿ" es="Ⅿ" da="Ⅿ"/>
+	<text key="Glyph_pc_right" en="ⅰ" fr="ⅰ" ru="ⅰ" de="ⅰ" es="ⅰ" da="ⅰ"/>
+	<text key="Glyph_pc_lmb" en="ⅱ" fr="ⅱ" ru="ⅱ" de="ⅱ" es="ⅱ" da="ⅱ"/>
+	<text key="Glyph_pc_rmb" en="ⅲ" fr="ⅲ" ru="ⅲ" de="ⅲ" es="ⅲ" da="ⅲ"/>
+	<text key="Glyph_pc_mmb" en="ⅳ" fr="ⅳ" ru="ⅳ" de="ⅳ" es="ⅳ" da="ⅳ"/>
+	<text key="Glyph_pc_scrollwheel" en="ⅴ" fr="ⅴ" ru="ⅴ" de="ⅴ" es="ⅴ" da="ⅴ"/>
+	<text key="Glyph_PS_R_stick_up" en="ↄ" fr="ↄ" ru="ↄ" de="ↄ" es="ↄ" da="ↄ"/>
+	<text key="Glyph_PS_R_stick_down" en="ↅ" fr="ↅ" ru="ↅ" de="ↅ" es="ↅ" da="ↅ"/>
+	<text key="Glyph_PS_R_stick_left" en="ↆ" fr="ↆ" ru="ↆ" de="ↆ" es="ↆ" da="ↆ"/>
+	<text key="Glyph_PS_R_stick_right" en="ↇ" fr="ↇ" ru="ↇ" de="ↇ" es="ↇ" da="ↇ"/>
+	<text key="Glyph_PS_R_stick_northwest" en="ↈ" fr="ↈ" ru="ↈ" de="ↈ" es="ↈ" da="ↈ"/>
+	<text key="Glyph_PS_R_stick_northeast" en="↉" fr="↉" ru="↉" de="↉" es="↉" da="↉"/>
+	<text key="Glyph_PS_R_stick_southwest" en="↊" fr="↊" ru="↊" de="↊" es="↊" da="↊"/>
+	<text key="Glyph_PS_R_stick_southeast" en="↋" fr="↋" ru="↋" de="↋" es="↋" da="↋"/>
+	<text key="Glyph_WiiU_R_stick_up" en="↌" fr="↌" ru="↌" de="↌" es="↌" da="↌"/>
+	<text key="Glyph_WiiU_R_stick_down" en="↍" fr="↍" ru="↍" de="↍" es="↍" da="↍"/>
+	<text key="Glyph_WiiU_R_stick_left" en="↎" fr="↎" ru="↎" de="↎" es="↎" da="↎"/>
+	<text key="Glyph_WiiU_R_stick_right" en="↏" fr="↏" ru="↏" de="↏" es="↏" da="↏"/>
+	<text key="Glyph_WiiU_R_stick_northwest" en="←" fr="←" ru="←" de="←" es="←" da="←"/>
+	<text key="Glyph_WiiU_R_stick_northeast" en="↑" fr="↑" ru="↑" de="↑" es="↑" da="↑"/>
+	<text key="Glyph_WiiU_R_stick_southwest" en="→" fr="→" ru="→" de="→" es="→" da="→"/>
+	<text key="Glyph_WiiU_R_stick_southeast" en="↓" fr="↓" ru="↓" de="↓" es="↓" da="↓"/>
+	<text key="Glyph_xb1_R_stick_up" en="↔" fr="↔" ru="↔" de="↔" es="↔" da="↔"/>
+	<text key="Glyph_xb1_R_stick_down" en="↕" fr="↕" ru="↕" de="↕" es="↕" da="↕"/>
+	<text key="Glyph_xb1_R_stick_left" en="↖" fr="↖" ru="↖" de="↖" es="↖" da="↖"/>
+	<text key="Glyph_xb1_R_stick_right" en="↗" fr="↗" ru="↗" de="↗" es="↗" da="↗"/>
+	<text key="Glyph_xb1_R_stick_northwest" en="↘" fr="↘" ru="↘" de="↘" es="↘" da="↘"/>
+	<text key="Glyph_xb1_R_stick_northeast" en="↙" fr="↙" ru="↙" de="↙" es="↙" da="↙"/>
+	<text key="Glyph_xb1_R_stick_southwest" en="↚" fr="↚" ru="↚" de="↚" es="↚" da="↚"/>
+	<text key="Glyph_xb1_R_stick_southeast" en="↛" fr="↛" ru="↛" de="↛" es="↛" da="↛"/>
+	<text key="WiiU_EUR_Gamepad_Error" en="Unable to communicate with&#xA;the Wii U GamePad.&#xA;Please check the GamePad screen.&#xA;&#xA;If the GamePad battery has run low,&#xA;please recharge it." fr="La connexion avec le&#xA;Wii U GamePad a échoué.&#xA;Regardez l'écran du Wii U GamePad.&#xA;&#xA;Si la batterie du Wii U GamePad&#xA;est faible, rechargez-la." ru="Нет связи с Wii U GamePad.&#xA;Проверьте экран GamePad.&#xA;&#xA;Если батарея GamePad разрядилась,&#xA;подзарядите ее." de="Die Kommunikation mit dem Wii U&#xA;GamePad ist fehlgeschlagen.&#xA;Bitte sieh auf den Bildschirm des&#xA;GamePads.&#xA;Sollte die Batterieladung des GamePads&#xA;nachlassen, lade es bitte wieder auf." es="No se ha podido establecer la&#xA;comunicación con el Wii U GamePad.&#xA;Mira la pantalla del Wii U GamePad.&#xA;&#xA;Si la batería está baja, ponla a cargar." da="Kunne ikke kommunikere med&#xA;Wii U GamePad.&#xA;Tjek venligst GamePad-skærmen.&#xA;&#xA;Hvis GamePad-batterierne er lave,&#xA;så genoplad dem venligst."/>
+	<text key="WiiU_USA_Gamepad_Error" en="Unable to communicate with the&#xA;Wii U GamePad. Please check&#xA;the Wii U GamePad screen.&#xA;&#xA;If the Wii U GamePad battery has&#xA;run low, please recharge it." fr="La connexion avec le&#xA;Wii U GamePad a échoué.&#xA;Regardez l'écran du Wii U GamePad.&#xA;&#xA;Si la batterie du Wii U GamePad&#xA;est faible, rechargez-la." ru="N/A" de="N/A" es="No se ha podido establecer la&#xA;comunicación con el Wii U GamePad.&#xA;Mira la pantalla del Wii U GamePad.&#xA;&#xA;Si la batería del Wii U GamePad&#xA;se está agotando, ponla a cargar." da="Kunne ikke kommunikere med&#xA;Wii U GamePad. Tjek venligst&#xA;Wii U GamePad-skærmen.&#xA;&#xA;Hvis Wii U GamePad-batterierne er lave,&#xA;så genoplad dem venligst."/>
+	<text key="WiiU_EUR_ProController_Error" en="Communications with the controller&#xA;have been interrupted.&#xA;&#xA;Please press any button except the&#xA;POWER Button. If there is no response,&#xA;replace or recharge the batteries as&#xA;appropriate and try again." fr="La connexion avec la manette&#xA;a été interrompue.&#xA;&#xA;Appuyez sur un bouton (sauf le&#xA;bouton POWER). Si le problème&#xA;persiste, changez les piles ou&#xA;rechargez la batterie, puis réessayez." ru="Связь с контроллером прервана.&#xA;&#xA;Нажмите любую кнопку, кроме кнопки&#xA;POWER. При отсутствии реакции&#xA;замените или подзарядите батареи&#xA;надлежащим образом и повторите&#xA;попытку." de="Die Verbindung zum Controller&#xA;wurde unterbrochen.&#xA;Drücke einen beliebigen Knopf oder&#xA;eine beliebige Taste außer dem&#xA;POWER-Schalter.&#xA;Reagiert der Controller immer noch&#xA;nicht, tausche die Batterien aus oder&#xA;lade sie auf und versuche es erneut." es="Se ha interrumpido la comunicación&#xA;con el mando.&#xA;&#xA;Pulsa cualquier botón excepto&#xA;el botón Power. Si el mando&#xA;no responde, recarga o sustituye&#xA;las pilas e inténtalo de nuevo." da="Kommunikation med controlleren&#xA;er blevet afbrudt.&#xA;&#xA;Tryk venligst på enhver knap,&#xA;pånær POWER-knappen. Hvis der ikke er noget svar,&#xA;så udskift eller genoplad batterierne&#xA;efter behov og forsøg igen."/>
+	<text key="WiiU_USA_ProController_Error" en="Communications with the controller have&#xA;been interrupted.&#xA;Please press any button other than the&#xA;POWER Button. If there is no response,&#xA;replace or recharge the batteries as&#xA;appropriate and try again." fr="La connexion avec la manette&#xA;a été interrompue.&#xA;&#xA;Appuyez sur un bouton (sauf le&#xA;bouton POWER). Si le problème&#xA;persiste, changez les piles ou&#xA;rechargez la batterie, puis réessayez." ru="N/A" de="N/A" es="Se ha interrumpido la comunicación&#xA;con el control.&#xA;&#xA;Oprime cualquier botón excepto&#xA;el botón Power. Si el control&#xA;no responde, recarga o sustituye&#xA;las pilas e inténtalo de nuevo." da="Kommunikation med controlleren er&#xA;blevet afbrudt.&#xA;Tryk venligst på enhver anden knap&#xA;end POWER-knappen. Hvis der ikke er noget svar,&#xA;så udskift eller genoplad batterierne&#xA;efter behov og forsøg igen."/>
+	<text key="cloudsync_connecting_ps" en="Connecting to the cloud..." fr="Connexion au cloud..." ru="Подключение к облаку ..." de="Mit der Cloud verbinden ..." es="Conectando cloud..." da="Opretter forbindelse til skyen..."/>
+	<text key="CHANGE PROFILE_SHORT" en="PROFILE" fr="Profil" ru="Профиль" de="Profil " es="Perfil" da="PROFIL"/>
+	<text key="CHANGE PROFILE" en="CHANGE PROFILE" fr="Changer de Profil" ru="Изменить Профиль" de="Profil Wechseln" es="Cambiar perfil." da="ÆNDR PROFIL"/>
+	<text key="helpXbox" en="HELP" fr="Aide" ru="Справка" de="Hilfe" es="Ayuda" da="HJÆLP"/>
+	<text key="Manual_Connect_AllPlatforms" en="Your scores will be saved locally and will be uploaded when you connect to PlayStation™Network and view Leaderboards." fr="Tes scores sont sauvegardés localement et envoyés dès que tu te connectes au PlayStation™Network et accèdes au classement." ru="Твои результаты будут сохранены на устройстве и загружены, когда ты подключишься к PlayStation™Network и откроешь списки лидеров." de="Deine Punktzahlen werden lokal gespeichert und hochgeladen, sobald du dich mit PlayStation™Network verbindest und Bestenlisten ansiehst." es="La puntuación se guardará localmente y se subirá cuando te conectes a PlayStation™Network y consultes las tablas de clasificación." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="reservedCharset" en="!\&quot;#$%&amp;'()*,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\_abcdefghijklmnopqrstuvwxyzÁáÉéÍíÑñÓóÚú®" fr="!\&quot;#$%&amp;'()*,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\_abcdefghijklmnopqrstuvwxyzÁáÉéÍíÑñÓóÚú®" ru="!\&quot;#$%&amp;'()*,-./0123456789:;&lt;=&gt;?@АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ\\_абвгдеёжзийклмнопрстуфхцчшщъыьэюя®" de="!\&quot;#$%&amp;'()*,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\_abcdefghijklmnopqrstuvwxyzÁáÉéÍíÑñÓóÚú®" es="!\&quot;#$%&amp;'()*,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\_abcdefghijklmnopqrstuvwxyzÁáÉéÍíÑñÓóÚú®" da="!\&quot;#$%&amp;'()*,-./0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ\\_abcdefghijklmnopqrstuvwxyzÁáÉéÍíÑñÓóÚú®"/>
+	<text key="Back_WiiU_Xb1" en="⃾ BACK" fr="⃾ Retour" ru="⃾ Назад" de="⃾ Zurück" es="⃾ Atrás" da="⃾ Tilbage"/>
+	<text key="Back_PS" en="₻ BACK" fr="₻ Retour" ru="⃾ Назад" de="₻ Zurück" es="₻ Atrás" da="₻ Tilbage"/>
+	<text key="XboxErrorUserChanged" en="Profile has changed.&#xA;Returning to main menu.&#xA;&#xA;Press ⃽ to continue." fr="Le profil a été modifié.&#xA;Retour au menu principal.&#xA;&#xA;Appuie sur ⃽ pour continuer." ru="Профиль изменен.&#xA;Ты возвращаешься к главному меню.&#xA;&#xA;Нажми ⃽, чтобы продолжить." de="Das Profil hat sich geändert.&#xA;Kehre zum Hauptmenü zurück.&#xA;&#xA;Drücke ⃽, um fortzufahren." es="El perfil ha cambiado.&#xA;Volviendo al menú principal...&#xA;&#xA;Pulsa ⃽ para continuar." da="Profil har ændret sig.&#xA;Vender tilbage til hovedmenuen.&#xA;&#xA;Tryk ⃽ for at fortsætte."/>
+	<text key="XboxAccountPicker" en="CHANGE PROFILE" fr="Changer Profil" ru="Изменить Профиль" de="Profil Wechseln" es="Cambiar Perfil" da="Ændr Profil"/>
+	<text key="SaveOwnedByOtherUser_PS3" en="Save data is owned by a different user and cannot be used. Saving and trophies have been disabled. To re-enable these features, please delete the current save via the XMB™ menu." fr="Les données sauvegardées appartiennent à un autre utilisateur et ne peuvent être utilisées. Les sauvegardes et les trophées ont été désactivés. Pour les réactiver, veuillez effacer la sauvegarde en cours via le menu XMB™." ru="Сохраненные данные принадлежат другому пользователю и не могут быть использованы. Функции сохранения и трофеев отключены. Удалите текущую сохраненную игру, чтобы включить эти функции заново. Сделать это можно в меню XMB™." de="Die gespeicherten Daten gehören einem anderen Anwender und können nicht verwendet werden. Speichern und Trophäen wurden deaktiviert. Um diese Merkmale wieder zu aktivieren, löschen Sie bitte den derzeitigen Speicherstand über die XMB™-Menü." es="Los datos guardados pertenecen a un usuario diferente y no pueden ser usados. La opción de guardar y los trofeos han sido desactivados. Para volver a activar estas opciones, elimina los actuales datos guardados a través del menú XMB™." da="Gemt data ejes af en anden bruger og kan ikke anvendes. Gemning af trofæer er slået fra. For at genaktivere disse funktioner, så slet venligst dit nuværende gemte spil via XMB™-menuen."/>
+	<text key="XboxPressAToStart" en="Press ⃽ to start" fr="Appuie sur ⃽ pour démarrer" ru="Нажми ⃽, чтобы начать." de="Drücke ⃽, um zu starten" es="Pulsa ⃽ para empezar." da="Tryk ⃽ for at starte"/>
+	<text key="SonyPressXToStart" en="Press ⃊ to start" fr="Appuie sur ⃊ pour démarrer" ru="Нажми ⃊, чтобы начать." de="Drücke ⃊, um zu starten" es="Pulsa ⃊ para empezar." da="Tryk ⃊ for at starte"/>
+	<text key="crossSave_ps" en="CROSS-SAVE" fr="CROSS-SAVE" ru="CROSS-SAVE" de="CROSS-SAVE" es="CROSS-SAVE" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="YES" en="YES" fr="Oui" ru="Да" de="Ja" es="Sí" da="Ja"/>
+	<text key="NO" en="NO" fr="Non" ru="Нет" de="Nein" es="No" da="Nej"/>
+	<text key="Select" en="Select" fr="Sélectionner" ru="выбрать" de="Auswählen" es="Seleccionar" da="Vælg"/>
+	<text key="In Game" en="In Game" fr="Dans le jeu" ru="в игре" de="Im Spiel" es="En el juego" da="I spillet"/>
+	<text key="In Menu" en="In Menu" fr="Au menu principal" ru="в меню" de="Im Hauptmenü" es="En el menú principal" da="I menuen"/>
+	<text key="leaderboard_downloading" en="FETCHING DATA" fr="Récupération des données" ru="Получение Данных" de="Daten werden abgerufen" es="Obteniendo datos..." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_failed_age_ps" en="You cannot use PlayStation™Network features in this application due to age restrictions." fr="Tu ne peux pas utiliser les fonctions PlayStation™Network de cette application à cause de sa restriction d'âge." ru="Возможности PlayStation™Network отключены в данном приложении из-за возрастных ограничений." de="Du kannst die PlayStation™Network-Funktionen dieser Anwendung wegen Altersbeschränkungen nicht verwenden." es="No puedes usar las funciones de PlayStation™Network en esta aplicación a causa de restricciones de edad." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_failed_patch_ps" en="You must update the application to use network features." fr="Tu dois mettre à jour l'application pour utiliser les fonctions réseau." ru="Для использования сетевых возможностей необходимо обновить приложение." de="Du musst die Anwendung aktualisieren, um Netzwerkfunktionen zu nutzen." es="Tienes que actualizar la aplicación para usar las funciones de red." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_failed_sign_in_ps" en="Please sign in to PlayStation™Network to view leaderboards." fr="Connecte-toi au PlayStation™Network pour accéder au classement." ru="Выполни вход в PlayStation™Network для доступа к спискам лидеров" de="Bitte melde dich bei PlayStation™Network an, um Bestenlisten einzusehen." es="Inicia sesión en PlayStation™Network para ver las tablas de clasificación." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_failed_connection" en="Title is offline or is disconnected." fr="Le jeu est hors-ligne ou déconnecté." ru="Устройство отключено от сети Интернет или отсоединено." de="Das Spiel ist offline oder die Verbindung wurde unterbrochen." es="El juego está desconectado." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_failed_connection_ps" en="You have been signed out from PlayStation™Network. Please connect to PlayStation™Network to view Leaderboards." fr="Tu as été déconnecté du PlayStation™Network. Connecte-toi au PlayStation™Network pour accéder au classement." ru="Выполнен выход из PlayStation™Network. Подключись к PlayStation™Network для доступа к спискам лидеров." de="Du wurdest bei PlayStation™Network abgemeldet. Bitte verbinde dich mit PlayStation™Network, um Bestenlisten einzusehen." es="Te has desconectado de PlayStation™Network. Conéctate a PlayStation™Network para ver las tablas de clasificación." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_failed_unknown" en="Failed to get rankings." fr="Échec de la récupération du classement." ru="Не удалось получить данные званий." de="Liste konnte nicht abgerufen werden." es="Error al acceder a la clasificación." da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="leaderboard_empty" en="Leaderboard empty" fr="Le classement des meilleurs joueurs est vide" ru="спискам лидеров пуст" de="Rangliste leer" es="¡Marcadores vacíos!" da="&lt;&lt;MISSING TRANSLATION&gt;&gt;"/>
+	<text key="SaveGameSubTitle" en="SaveData" fr="Sauvegarde" ru="SaveData" de="Speicherdaten" es="Partida guardada" da="Gem data"/>
+	<text key="player_one_progress_ps" en="Progress towards Trophies will only be tracked for player 1" fr="La progression des trophées ne sera suivie que pour le joueur 1" ru="Прогресс по кубкам будет отслеживаться только для игрока 1" de="Trophäenfortschritt wird nur für Spieler 1 verfolgt." es="El progreso en trofeos solo se rastreará para el jugador 1" da="Fremskridt ift. Trofæer vil kun spores for spiller 1"/>
+	<text key="player_one_progress_xb1" en="Progress towards Achievements and Stats will only be tracked for player 1" fr="La progression des succès et statistiques ne sera suivie que pour le joueur 1" ru="Прогресс по достижениям и статистике будет отслеживаться только для игрока 1" de="Fortschritt für Erfolge und Statistiken wird nur für Spieler 1 verfolgt." es="El progreso en logros y estadísticas solo se rastreará para el jugador 1" da="Fremskridt ift. Bedrifter og Statistik vil kun spores for spiller 1"/>
+	<text key="m_controls_Curve" en="Curve" fr="Incurver" ru="Подкручивание" de="Anschneiden" es="Efecto" da="Skruebold"/>
+	<text key="m_controls_Dodge" en="Dodge" fr="Esquiver" ru="Уклонение" de="Ausweichen" es="Esquivar" da="Undvig"/>
+	<text key="m_controls_Down" en="Down" fr="Bas" ru="Вниз" de="Nach Unten" es="Abajo" da="Ned"/>
+	<text key="m_controls_Keyboard" en="Keyboard Controls" fr="Contrôles Clavier" ru="Управление Клавиатурой" de="Tastatursteuerung" es="Controles Teclado" da="Keyboard Styring"/>
+	<text key="m_controls_Left" en="Left" fr="Gauche" ru="Влево" de="Links" es="Izquierda" da="Venstre"/>
+	<text key="m_controls_PressKey" en="Press a key to assign it to {0}." fr="" ru="" de="" es="" da="Tryk på en tast for at tildele den til {0}."/>
+	<text key="m_controls_Right" en="Right" fr="Droite" ru="Вправо" de="Rechts" es="Derecha" da="Højre"/>
+	<text key="m_controls_Up" en="Up" fr="Haut" ru="Вверх" de="Oben" es="Arriba" da="Op"/>
+</rooting>

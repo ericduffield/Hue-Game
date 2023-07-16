@@ -1,0 +1,48 @@
+{
+    "maps": [
+        {
+            "fileName": "Hue Textures/Levels/1/level1.tmx",
+            "height": 5120,
+            "width": 5120,
+            "x": -2752,
+            "y": -12096
+        },
+        {
+            "fileName": "Hue Textures/Levels/2/level2.tmx",
+            "height": 2048,
+            "width": 4096,
+            "x": 4544,
+            "y": -7424
+        },
+        {
+            "fileName": "Hue Textures/Levels/3/level3.tmx",
+            "height": 3072,
+            "width": 4608,
+            "x": 4512,
+            "y": -3520
+        },
+        {
+            "fileName": "Hue Textures/Levels/4/level4.tmx",
+            "height": 3584,
+            "width": 4608,
+            "x": 9120,
+            "y": -6912
+        },
+        {
+            "fileName": "Hue Textures/Levels/Dialog/Dialog.tmx",
+            "height": 5632,
+            "width": 13824,
+            "x": 992,
+            "y": 2240
+        },
+        {
+            "fileName": "Hue Textures/Levels/New Colour/newColourLevel.tmx",
+            "height": 3072,
+            "width": 5632,
+            "x": 10624,
+            "y": -3072
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

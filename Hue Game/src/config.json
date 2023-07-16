@@ -1,0 +1,63 @@
+{
+	"images": [
+		{
+			"name": "character-idle",
+			"path": "./assets/images/sprites/idle.png",
+			"width": 480,
+			"height": 48
+		},
+		{
+			"name": "character-walking",
+			"path": "./assets/images/sprites/walking.png",
+			"width": 768,
+			"height": 48
+		},
+		{
+			"name": "floor",
+			"path": "./assets/images/floor.png",
+			"width": 1215,
+			"height": 28
+		},
+		{
+			"name": "title-screen-image",
+			"path": "./assets/images/title_screen_image.png",
+			"width": 1280,
+			"height": 720
+		},
+		{
+			"name": "overlay",
+			"path": "./assets/images/Overlay.png",
+			"width": 1024,
+			"height": 683
+		},
+		{
+			"name": "rain",
+			"path": "./assets/images/Rain.png",
+			"width": 512,
+			"height": 512
+		},
+		{
+			"name": "glow",
+			"path": "./assets/images/Glow.png",
+			"width": 524,
+			"height": 512
+		},
+		{
+			"name": "particle-background",
+			"path": "./assets/images/ParticleBackground.png",
+			"width": 512,
+			"height": 512
+		}
+		
+	],
+	"fonts": [
+		{
+			"name": "Hue",
+			"path": "./assets/fonts/mozzartsketchregular.woff2"
+		}
+
+	],
+	"sounds": [
+		
+	]
+}

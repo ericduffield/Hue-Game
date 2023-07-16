@@ -1,0 +1,94 @@
+@startuml
+TitleScreenState "1" -- "1" GameState
+TitleScreenState : enter()
+TitleScreenState : exit()
+TitleScreenState : update()
+TitleScreenState : render()
+
+GameState : player
+GameState : enter()
+GameState : exit()
+GameState : update()
+GameState : render()
+
+
+GameState "1" -- "1" Player
+Player : dimensions
+Player : position
+Player : sprites
+Player : state machine
+Player : colours
+Player : update()
+Player : render()
+
+Entity <|-- Player
+Entity : dimensions
+Entity : position
+Entity : sprites
+
+GameState "1" -- "*" Npc
+Npc : voiceLines
+Npc : dimensions
+Npc : position
+Npc : sprites
+
+GameState "1" -- "*" Level
+Level : entities
+Level : backgroundColour
+Level : objects
+
+GameState "1" -- "1" LevelMaker
+LevelMaker : generateLevel()
+Level <|-- StoryLevel
+Level : update()
+Level : render()
+StoryLevel : npcs
+StoryLevel : voiceLines
+
+PuzzleLevel : thing
+
+interface   IImplementsColour 
+IImplementsColour : color
+IImplementsColour <|-- Block
+IImplementsColour <|-- Brick
+IImplementsColour <|-- Level
+
+Level <|-- PuzzleLevel
+
+
+
+
+abstract        GameObjectFactory
+GameObjectFactory : createObject()
+
+GameObject <|-- Door
+GameObject : update()
+GameObject : render()
+
+Door : update()
+Door : render()
+Door : enter()
+
+
+GameObject <|-- Brick
+Brick : update()
+Brick : render()
+
+GameObject <|-- Block
+Block : update()
+Block : render()
+
+Block <|-- BreakingBlock
+BreakingBlock : update()
+BreakingBlock : render()
+
+Block <|-- RollingBlock
+RollingBlock : update()
+RollingBlock : render()
+
+Block <|-- FloorBlock
+FloorBlock : update()
+FloorBlock : render()
+
+
+@enduml

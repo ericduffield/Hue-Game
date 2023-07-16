@@ -1,0 +1,117 @@
+@startuml
+TitleScreenState --|> State
+State : enter()
+State : exit()
+State : update()
+State : render()
+
+TitleScreenState "1" -- "1" PlayState 
+TitleScreenState : enter()
+TitleScreenState : exit()
+TitleScreenState : update()
+TitleScreenState : render()
+
+PlayState --|> State
+PlayState : enter()
+PlayState : exit()
+PlayState : update()
+PlayState : render()
+
+Player --|> GameEntity
+Player : dimensions
+Player : position
+Player : sprites
+Player : state machine
+Player : colours
+Player : update()
+Player : render()
+
+Message --|> GameEntity
+Message : position
+Message : sprite
+
+PlayState "1" -- "*" Level
+Level "1" -- "0..*" GameEntity
+Level : entities
+Level --> IColourable
+Level : objects
+
+IColourable --|> Colour
+Player "1" -- "0..*" Colour
+Colour : colour
+
+PlayState "1" -- "1" LevelMaker
+LevelMaker : generateLevel()
+Level : update()
+Level : render()
+
+abstract        GameEntityFactory 
+GameEntityFactory : createEntity()
+
+PlayState "1" -- "1" GameEntityFactory
+
+GameEntity : body
+GameEntity : update(dt)
+GameEntity : render()
+GameEntity : clone(body)
+GameEntity : isBodyOfType(body, type)
+GameEntity : generateSprites(mesurements)
+
+GameEntity <|-- Rectangle
+Rectangle : position
+Rectangle : dimensions
+Rectangle : options
+Rectangle : update(dt)
+Rectangle : render()
+
+Rectangle <|-- Spike
+Spike : position
+Spike : dimensions
+Spike : options
+Spike : update(dt)
+Spike : render()
+
+interface IColourable
+IColourable : Colour
+IColourable : changeColour(Color)
+WoodBlock --> IColourable
+BrickBlock --> IColourable
+Rock --> IColourable
+
+BackgroundBlock --|> Block
+BackgroundBlock : position
+
+Rectangle <|-- Block
+Block : position
+Block : dimensions
+Block : options
+Block : update(dt)
+Block : render()
+
+Block <|-- WoodBlock
+WoodBlock : position
+WoodBlock : size
+WoodBlock : angle
+WoodBlock : update()
+WoodBlock : generateBlockSprites()
+
+Block <|-- BrickBlock
+BrickBlock : position
+BrickBlock : size
+BrickBlock : angle
+BrickBlock : update()
+BrickBlock : generateBlockSprites()
+
+GameEntity <|-- Circle
+Circle : position
+Circle : radius
+Circle : options
+Circle : update(dt)
+Circle : render()
+
+Circle <|-- Rock
+Rock : position
+Rock : radius
+Rock : update(dt)
+Rock : GenerateCircleSprites()
+@enduml

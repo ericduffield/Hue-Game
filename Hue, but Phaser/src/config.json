@@ -1,0 +1,156 @@
+{
+    "images": [
+        {
+			"name": "title_screen_image",
+			"path": "../assets/images/title_screen_image.png",
+			"width": 1280,
+			"height": 720
+		},
+        {
+			"name": "character-idle",
+			"path": "../assets/images/player/idle.png",
+			"width": 7800,
+			"height": 650
+		},
+		{
+			"name": "character-walking",
+			"path": "../assets/images/player/walking.png",
+			"width": 7800,
+			"height": 650
+		},
+        {
+            "name": "level1",
+            "path": "../assets/images/level1-background.png",
+            "width": 4396,
+            "height": 4396
+        },
+        {
+            "name": "level2",
+            "path": "../assets/images/level2-background.png",
+            "width": 4096,
+            "height": 1536
+        },
+        {
+            "name": "level3",
+            "path": "../assets/images/level3-background.png",
+            "width": 4096,
+            "height": 3072
+        },
+        {
+            "name": "level4",
+            "path": "../assets/images/level4-background.png",
+            "width": 3584,
+            "height": 2560
+        },
+        {
+            "name": "level5",
+            "path": "../assets/images/level5-background.png",
+            "width": 3584,
+            "height": 3072
+        },
+        {
+            "name": "level6",
+            "path": "../assets/images/level6-background.png",
+            "width": 4096,
+            "height": 2560
+        },
+        {
+            "name": "level7",
+            "path": "../assets/images/level7-background.png",
+            "width": 5632,
+            "height": 2048
+        },
+        {
+            "name": "level8",
+            "path": "../assets/images/level8-background.png",
+            "width": 3584,
+            "height": 4608
+        },
+        {
+            "name": "level9",
+            "path": "../assets/images/level9-background.png",
+            "width": 3072,
+            "height": 4096
+        },
+        {
+            "name": "brick", 
+            "path": "../assets/images/Brick.png",
+            "width": 230,
+            "height": 250
+        },
+        {
+            "name": "brickNarrow", 
+            "path": "../assets/images/BrickNarrow.png",
+            "width": 320,
+            "height": 63
+        },
+        {
+            "name": "crate", 
+            "path": "../assets/images/Crate.png",
+            "width": 235,
+            "height": 247
+        },
+        {
+            "name": "crateLarge", 
+            "path": "../assets/images/CrateLarge.png",
+            "width": 531,
+            "height": 554
+        },
+        {
+            "name": "crateTall", 
+            "path": "../assets/images/CrateTall.png",
+            "width": 235,
+            "height": 488
+        },
+        {
+            "name": "crateTaller", 
+            "path": "../assets/images/CrateTaller.png",
+            "width": 228,
+            "height": 794
+        },
+        {
+            "name": "door", 
+            "path": "../assets/images/Door.png",
+            "width": 168,
+            "height": 307
+        },
+        {
+            "name": "rock", 
+            "path": "../assets/images/Rock.png",
+            "width": 253,
+            "height": 266
+        },
+        {
+            "name": "spike", 
+            "path": "../assets/images/SpikesTiled.png",
+            "width": 256,
+            "height": 128
+        },
+        {
+            "name": "levelNewColor", 
+            "path": "../assets/images/levelNewColor-background.png",
+            "width": 6144,
+            "height": 3072
+        },
+        {
+            "name": "color-chunk", 
+            "path": "../assets/images/ColorChunk.png",
+            "width": 209,
+            "height": 108
+        },
+        {
+            "name": "ladder",
+            "path": "../assets/images/Ladder.png",
+            "width": 96,
+            "height": 506
+        }
+    ],
+	"fonts": [
+		{
+			"name": "Hue",
+			"path": "./assets/fonts/mozzartsketchregular.woff2"
+		}
+
+	]
+
+}

@@ -1,0 +1,169 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Hue Textures/Levels/11/level11.tmx",
+    "automapping.whileDrawing": false,
+    "expandedProjectPaths": [
+        "Hue Textures/Levels/9",
+        ".",
+        "Hue Textures/Levels",
+        "Hue Textures",
+        "Hue Textures/Levels/10"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/Liam/Desktop/Hue Levels/HueTileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.0625
+        },
+        "Hue Textures/Levels/1/level1.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2336,
+                "y": 2404
+            }
+        },
+        "Hue Textures/Levels/10/level10.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4096,
+                "y": -1532
+            }
+        },
+        "Hue Textures/Levels/10/level10.tmx#HueTileset": {
+            "dynamicWrapping": true
+        },
+        "Hue Textures/Levels/11/level11.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 6096,
+                "y": 360
+            }
+        },
+        "Hue Textures/Levels/2/level2.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3984,
+                "y": 1184
+            }
+        },
+        "Hue Textures/Levels/3/level3.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1264,
+                "y": 744
+            }
+        },
+        "Hue Textures/Levels/4/level4.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4120,
+                "y": -360
+            }
+        },
+        "Hue Textures/Levels/5/level5.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3648,
+                "y": 1280
+            }
+        },
+        "Hue Textures/Levels/6/level6.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4440,
+                "y": -200
+            }
+        },
+        "Hue Textures/Levels/7/level7.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 4680,
+                "y": 720
+            }
+        },
+        "Hue Textures/Levels/8/level8.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1304,
+                "y": 2252
+            }
+        },
+        "Hue Textures/Levels/9/level9.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 4608,
+                "y": -1028
+            }
+        },
+        "Hue Textures/Levels/Dialog/Dialog.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4040,
+                "y": -2636
+            }
+        },
+        "Hue Textures/Levels/New Colour/newColourLevel.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 312,
+                "y": 2112
+            }
+        },
+        "Hue Textures/Levels/New Colour/newColourLevel.tmx#HueTileset": {
+            "scaleInDock": 1
+        },
+        "Hue11.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "HueTileset.tsx": {
+            "dynamicWrapping": true
+        },
+        "bw_tiles.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 3
+        }
+    },
+    "last.imagePath": "C:/Users/Liam/OneDrive/School/Semester 5/Game Prog/Project/project-hue-game/Hue Levels/Hue Textures/1bitplatformerpack/Sprite",
+    "last.worldFilePath": "C:/Users/Liam/Desktop",
+    "loadedWorlds": [
+        "C:/Users/Liam/OneDrive/School/Semester 5/Game Prog/Project/project-hue-game/Hue Levels/w.world"
+    ],
+    "map.fixedSize": false,
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "Hue Textures/Levels/9/level9.tmx",
+        "Hue Textures/Levels/10/level10.tmx",
+        "Hue Textures/Levels/11/level11.tmx"
+    ],
+    "project": "Hue Tiled.tiled-project",
+    "recentFiles": [
+        "Hue Textures/Levels/9/level9.tmx",
+        "Hue Textures/Levels/10/level10.tmx",
+        "Hue Textures/Levels/11/level11.tmx",
+        "Hue11.tsx",
+        "bw_tiles.tsx"
+    ],
+    "resizeMap.removeObjects": false,
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
